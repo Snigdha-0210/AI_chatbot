@@ -16,9 +16,12 @@ A production-ready AI SaaS platform designed for college students, featuring a C
 - **Interactive Dashboard**: Displays latest ATS scores, AI chat interaction counts, and recent user activity.
 - **AI Career Coach Chat**: ChatGPT-style persistent chat interface with full history, responsive sidebar, and custom routes (`/chat/[id]`).
 - **ATS Resume Scanner**: PDF parser backend that checks resumes, highlights missing keywords, assesses strengths and weaknesses, and logs scan history.
+- **Resume Bullet Optimizer**: AI-driven tool to rewrite weak resume bullet points into strong, results-focused, and ATS-optimized statements.
+- **Career & Skill Roadmaps**: Generates personalized learning paths with skills, project suggestions, and a structured roadmap/timeline.
+- **Interview Preparation Guide**: Creates customized technical and behavioral interview practice questions for target roles.
 - **Robust Security**: Built-in rules for Firestore (`firestore.rules`) and Firebase Storage (`storage.rules`) to guarantee user-scoped data privacy.
 - **Modern UX**: Predefined skeleton loaders, toast notifications, responsive design, and empty states.
-- **Protected Routes**: Middleware routing security for pages like `/dashboard`, `/chat`, `/chat/[id]`, and `/ats`.
+- **Protected Routes**: Middleware routing security for pages like `/dashboard`, `/chat`, `/chat/[id]`, `/ats`, `/resume-tools`, `/roadmap`, and `/interview-prep`.
 
 ---
 
@@ -29,12 +32,16 @@ app/
   api/chat/          # POST - career coach logic & chat history database log
   api/ats/           # POST - PDF parser and AI ATS evaluator
   api/users/ensure/  # POST - creates/syncs Firestore user records on login
-  dashboard/         # Dashboard dashboard interface
-  chat/              # Main chat page & history navigator
-  ats/               # ATS Resume Scanner interface
+  (app)/
+    dashboard/       # Dashboard dashboard interface
+    chat/            # Main chat page & history navigator
+    ats/             # ATS Resume Scanner interface
+    interview-prep/  # Interview preparation question helper
+    resume-tools/    # Resume bullet rewriter & optimizer
+    roadmap/         # Skill roadmap builder
   login/             # Google Authentication landing route
   page.tsx           # Main marketing/landing page (fully styled)
-components/          # Shared components (Sidebar, Chat, ATS, Dashboard)
+components/          # Shared components (Sidebar, Chat, ATS, Dashboard, Tools)
 lib/
   firebase.ts        # Client Firebase initialization (auth, firestore, storage)
   openai.ts          # Server-side OpenAI configurations
@@ -48,8 +55,8 @@ types/               # Shared TypeScript schemas and interfaces
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/Snigdha-0210/campuscopilot-ai.git
-cd campuscopilot-ai
+git clone https://github.com/Snigdha-0210/AI_chatbot.git
+cd AI_chatbot
 npm install
 ```
 
