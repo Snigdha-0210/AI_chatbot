@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { collection, addDoc, serverTimestamp } from "firebase/firestore";
-import { db } from "@/lib/firebase";
-import { COLLECTIONS } from "@/utils/constants";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import type { BulletImproverDoc } from "@/types";
 
 export const runtime = "nodejs";
@@ -156,6 +154,9 @@ export async function POST(req: NextRequest) {
 
     if (suggestions.length === 0) suggestions.push("Great bullet point! It contains strong action verbs, technical keywords, and measurable impact.");
 
+    const { db } = await import("@/lib/firebase");
+    const { collection, addDoc, serverTimestamp } = await import("firebase/firestore");
+
     const docData = {
       userId,
       originalBullet: bullet,
@@ -167,8 +168,6 @@ export async function POST(req: NextRequest) {
       createdAt: serverTimestamp(),
     };
 
-    // Save to Firestore
-    // Note: ensure we have a 'bullet_improvements' collection in constants if we want, or just use literal
     const newDocRef = await addDoc(collection(db, "bullet_improvements"), docData);
 
     const data: BulletImproverDoc = {

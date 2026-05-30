@@ -1,9 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendOtpEmail } from "@/lib/email";
 import crypto from "crypto";
-import { db } from "@/lib/firebase";
-import { collection, addDoc, query, where, getDocs } from "firebase/firestore";
-
 export const runtime = "nodejs";
 
 export async function POST(req: NextRequest) {
@@ -13,6 +10,9 @@ export async function POST(req: NextRequest) {
     if (!email || !email.includes("@")) {
       return NextResponse.json({ success: false, error: "Valid email is required" }, { status: 400 });
     }
+
+    const { db } = await import("@/lib/firebase");
+    const { collection, addDoc, query, where, getDocs } = await import("firebase/firestore");
 
     const otpsRef = collection(db, "email_otps");
 

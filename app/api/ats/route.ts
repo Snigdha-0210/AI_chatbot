@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { collection, addDoc, serverTimestamp } from "firebase/firestore";
-import { db } from "@/lib/firebase";
 import { COLLECTIONS } from "@/utils/constants";
 import pdf from "pdf-parse";
 import mammoth from "mammoth";
@@ -269,6 +267,9 @@ export async function POST(req: NextRequest) {
     };
 
     // Save to Firestore
+    const { db } = await import("@/lib/firebase");
+    const { collection, addDoc, serverTimestamp } = await import("firebase/firestore");
+
     const newDocRef = await addDoc(collection(db, COLLECTIONS.resumes), {
       userId,
       score: totalScore,

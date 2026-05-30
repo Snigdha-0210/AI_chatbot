@@ -1,7 +1,4 @@
 import { NextResponse } from "next/server";
-import { db } from "@/lib/firebase";
-import { collection, query, where, getDocs, updateDoc } from "firebase/firestore";
-
 export const runtime = "nodejs";
 
 export async function POST(req: Request) {
@@ -11,6 +8,9 @@ export async function POST(req: Request) {
     if (!email || !otp) {
       return NextResponse.json({ success: false, error: "Email and OTP are required" }, { status: 400 });
     }
+
+    const { db } = await import("@/lib/firebase");
+    const { collection, query, where, getDocs, updateDoc } = await import("firebase/firestore");
 
     const otpsRef = collection(db, "email_otps");
     
