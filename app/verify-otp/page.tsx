@@ -155,7 +155,7 @@ export default function VerifyOtpPage() {
         </div>
         <h1 className="text-center text-2xl font-bold text-on-surface">Verify your email</h1>
         <p className="mt-2 text-center text-sm text-on-surface-variant">
-          We've sent a 6-digit verification code to <strong>{user.email}</strong>
+          We&apos;ve sent a 6-digit verification code to <strong>{user.email}</strong>
         </p>
 
         {error && <div className="mt-6 rounded-lg bg-red-500/20 p-3 text-sm text-red-200 text-center">{error}</div>}

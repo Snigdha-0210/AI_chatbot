@@ -25,12 +25,14 @@ export function usePlacementProgress(roleId: string | null) {
         const init: PlacementProgressDoc = {
           id: `${user!.uid}_${roleId}`,
           userId: user!.uid,
-          roleId,
+          roleId: roleId as string,
           solvedCodingIds: [],
           completedTopics: [],
           currentStreak: 0,
           lastActiveDate: null,
           overallPlacementReadiness: 0,
+          internshipReadiness: 0,
+          placementReadiness: 0,
           updatedAt: new Date()
         };
         await setDoc(docRef, init);

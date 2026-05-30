@@ -25,7 +25,7 @@ export function useInterviewProgress(roleId: string | null, level: string | null
         const init: InterviewPrepDoc = {
           id: `${user!.uid}_${roleId}_${level}`,
           userId: user!.uid,
-          roleId,
+          roleId: roleId as string,
           level: level as any,
           practicedQuestionIds: [],
           mockHistory: [],
