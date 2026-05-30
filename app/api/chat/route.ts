@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { getAdminDb } from "@/utils/firebase-admin";
 import { COLLECTIONS } from "@/utils/constants";
 import { saveChat } from "@/utils/firestore-server";
 

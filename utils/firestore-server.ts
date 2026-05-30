@@ -1,7 +1,5 @@
 import { COLLECTIONS } from "@/utils/constants";
 import { generateChatTitle } from "@/utils/chat-title";
-import { db, auth } from "@/lib/firebase";
-import { collection, doc, getDoc, setDoc, updateDoc, addDoc, serverTimestamp } from "firebase/firestore";
 import type {
   AiResultContent,
   AiResultType,
@@ -10,6 +8,9 @@ import type {
 } from "@/types";
 
 export async function upsertUser(uid: string): Promise<void> {
+  const { db } = await import("@/lib/firebase");
+  const { doc, getDoc, setDoc, updateDoc, serverTimestamp } = await import("firebase/firestore");
+
   const ref = doc(db, COLLECTIONS.users, uid);
   const snap = await getDoc(ref);
 
@@ -32,6 +33,9 @@ export async function saveChat(
   newMessageText?: string
 ): Promise<string> {
   if (chatId) {
+    const { db } = await import("@/lib/firebase");
+    const { doc, getDoc, updateDoc, serverTimestamp } = await import("firebase/firestore");
+
     const ref = doc(db, COLLECTIONS.chats, chatId);
     const snap = await getDoc(ref);
     if (!snap.exists() || snap.data()?.userId !== userId) {
@@ -49,6 +53,9 @@ export async function saveChat(
     newMessageText ?? firstUser?.content ?? "New chat"
   );
 
+  const { db } = await import("@/lib/firebase");
+  const { collection, addDoc, serverTimestamp } = await import("firebase/firestore");
+
   const newDocRef = await addDoc(collection(db, COLLECTIONS.chats), {
     userId,
     title,
@@ -65,6 +72,9 @@ export async function saveResume(
   feedback: AtsAnalysis,
   meta: { fileName: string; storagePath: string }
 ): Promise<string> {
+  const { db } = await import("@/lib/firebase");
+  const { collection, addDoc, serverTimestamp } = await import("firebase/firestore");
+
   const newDocRef = await addDoc(collection(db, COLLECTIONS.resumes), {
     userId,
     score,
@@ -87,6 +97,9 @@ export async function saveAiResult(
   label: string,
   content: AiResultContent
 ): Promise<string> {
+  const { db } = await import("@/lib/firebase");
+  const { collection, addDoc, serverTimestamp } = await import("firebase/firestore");
+
   const newDocRef = await addDoc(collection(db, COLLECTIONS.aiResults), {
     userId,
     type,
