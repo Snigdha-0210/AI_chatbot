@@ -1,0 +1,83 @@
+[
+  {
+    "projectName": "Customer Churn Predictor",
+    "description": "Predict if a customer will leave.",
+    "businessUseCase": "A robust solution designed to streamline operations and solve core business problems related to Customer Churn Predictor.",
+    "architectureDiagramDesc": "Client -> Load Balancer -> API Gateway -> Microservices (Auth, Core, Notification) -> Database / Cache (Redis)",
+    "techStack": [
+      "React/Next.js",
+      "Node.js/Spring Boot",
+      "PostgreSQL/MongoDB",
+      "Redis",
+      "Docker",
+      "AWS/GCP"
+    ],
+    "expectedFeatures": [
+      "Authentication (JWT)",
+      "Role Based Access Control",
+      "Rate Limiting",
+      "Data Caching",
+      "Responsive UI"
+    ],
+    "deploymentStrategy": "Containerized deployment using Docker, orchestrated with Kubernetes or ECS. CI/CD pipelines via GitHub Actions deploying to AWS.",
+    "scalabilityDiscussion": "Horizontal scaling of stateless API servers. Read replicas for the database. Caching heavy read queries using Redis.",
+    "databaseDesign": "Normalized schema for core transactional data, heavily indexed on foreign keys. NoSQL fallback for unstructured logs.",
+    "apiDesign": "RESTful architecture with standard HTTP methods, paginated responses, and API versioning (e.g., /v1/).",
+    "securityConsiderations": "Input validation (prevent SQLi/XSS), secure cookie flags, HTTPS enforcement, and bcrypt for password hashing.",
+    "performanceOptimizations": "Lazy loading components, CDN for static assets, debouncing API calls, and caching DB queries.",
+    "testingStrategy": "Unit tests with Jest, integration tests for critical API paths, and end-to-end tests using Cypress.",
+    "futureImprovements": "Implement real-time features using WebSockets, add machine learning for recommendations, and transition to a fully serverless architecture.",
+    "questions": {
+      "basic": [
+        "What does Customer Churn Predictor do?",
+        "Which tech stack did you choose and why?",
+        "How long did it take to build?"
+      ],
+      "intermediate": [
+        "How did you handle state management?",
+        "How is authentication implemented?",
+        "How do you handle errors and retries?"
+      ],
+      "advanced": [
+        "Explain a memory leak you encountered.",
+        "How would you migrate the database with zero downtime?",
+        "How do you handle race conditions?"
+      ],
+      "systemDesign": [
+        "Draw the architecture if we had 1 Million users.",
+        "Where are the single points of failure?",
+        "How do you partition the database?"
+      ],
+      "optimization": [
+        "How did you reduce API latency?",
+        "What caching strategies did you use?",
+        "How do you optimize bundle size?"
+      ],
+      "deployment": [
+        "Explain your CI/CD pipeline.",
+        "Why Docker?",
+        "How do you manage environment variables safely?"
+      ],
+      "security": [
+        "How do you prevent XSS?",
+        "How is data encrypted at rest?",
+        "Explain your JWT strategy."
+      ],
+      "database": [
+        "Why SQL over NoSQL (or vice versa)?",
+        "How are your tables indexed?",
+        "Write a complex JOIN query for this app."
+      ],
+      "architecture": [
+        "Why monolithic vs microservices for this?",
+        "How do services communicate?",
+        "Explain your API gateway."
+      ],
+      "behavioral": [
+        "What was the hardest bug you fixed?",
+        "How did you resolve conflicts?",
+        "What would you do differently?"
+      ]
+    }
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "roleId": "embedded_systems",
+  "subjectName": "Foundations",
+  "topicName": "Digital Logic",
+  "topicOverview": "An in-depth deep dive into Digital Logic. Mastering this is critical for passing technical interviews for Embedded Systems Engineer roles.",
+  "whyItMatters": "Digital Logic is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Gates",
+    "Flip-Flops",
+    "Registers"
+  ],
+  "examples": [
+    "Implementing Digital Logic in a real-world scenario",
+    "Handling edge cases in Digital Logic"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Digital Logic.",
+    "Fix the bug in the given Digital Logic snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Digital Logic to a 5-year-old.",
+    "What are the pros and cons of Digital Logic?",
+    "How does Digital Logic handle memory management?"
+  ],
+  "miniProjects": [
+    "Digital Logic Implementation",
+    "Advanced Digital Logic Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Digital Logic into a microservice",
+    "Scale Digital Logic for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Digital Logic Documentation",
+      "url": "https://www.google.com/search?q=Digital%20Logic+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Digital Logic Crash Course",
+      "url": "https://youtube.com/results?search_query=Digital%20Logic+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Digital Logic Interview Questions",
+      "url": "https://www.google.com/search?q=Digital%20Logic+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Digital Logic",
+    "How Amazon asks about Digital Logic"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

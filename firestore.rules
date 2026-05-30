@@ -28,5 +28,9 @@ service cloud.firestore {
       allow read: if isOwner(resource.data.userId);
       allow write: if false;
     }
+
+    match /email_otps/{otpId} {
+      allow read, write: if true;
+    }
   }
 }

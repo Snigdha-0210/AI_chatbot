@@ -10,7 +10,7 @@ import {
   getDocs,
   Timestamp,
 } from "firebase/firestore";
-import { getFirebaseDb } from "@/lib/firebase";
+import { db } from "@/lib/firebase";
 import { COLLECTIONS } from "@/utils/constants";
 import type {
   ActivityItem,
@@ -66,7 +66,7 @@ export async function fetchChatDoc(
   chatId: string,
   userId: string
 ): Promise<ChatDoc | null> {
-  const snap = await getDoc(doc(getFirebaseDb(), COLLECTIONS.chats, chatId));
+  const snap = await getDoc(doc(db, COLLECTIONS.chats, chatId));
   if (!snap.exists()) return null;
   const data = snap.data();
   if (data.userId !== userId) return null;
@@ -78,13 +78,14 @@ export async function fetchAllChats(
   max = 50
 ): Promise<ChatDoc[]> {
   const q = query(
-    collection(getFirebaseDb(), COLLECTIONS.chats),
+    collection(db, COLLECTIONS.chats),
     where("userId", "==", userId),
-    orderBy("updatedAt", "desc"),
     limit(max)
   );
   const snap = await getDocs(q);
-  return snap.docs.map((d) => mapChatDoc(d.id, d.data()));
+  const docs = snap.docs.map((d) => mapChatDoc(d.id, d.data()));
+  // Sort descending locally to bypass Firebase composite index requirements
+  return docs.sort((a, b) => (b.updatedAt?.getTime() ?? 0) - (a.updatedAt?.getTime() ?? 0));
 }
 
 export async function fetchRecentChats(
@@ -96,7 +97,7 @@ export async function fetchRecentChats(
 
 export async function fetchChatCount(userId: string): Promise<number> {
   const q = query(
-    collection(getFirebaseDb(), COLLECTIONS.chats),
+    collection(db, COLLECTIONS.chats),
     where("userId", "==", userId)
   );
   const snap = await getCountFromServer(q);
@@ -107,14 +108,14 @@ export async function fetchLatestResumeScore(
   userId: string
 ): Promise<number | null> {
   const q = query(
-    collection(getFirebaseDb(), COLLECTIONS.resumes),
-    where("userId", "==", userId),
-    orderBy("createdAt", "desc"),
-    limit(1)
+    collection(db, COLLECTIONS.resumes),
+    where("userId", "==", userId)
   );
   const snap = await getDocs(q);
   if (snap.empty) return null;
-  const score = snap.docs[0]!.data().score;
+  const docs = snap.docs.map(d => ({ score: d.data().score, createdAt: toDate(d.data().createdAt)?.getTime() ?? 0 }));
+  docs.sort((a, b) => b.createdAt - a.createdAt);
+  const score = docs[0]!.score;
   return typeof score === "number" ? score : null;
 }
 
@@ -123,13 +124,13 @@ export async function fetchAllResumes(
   max = 30
 ): Promise<ResumeDoc[]> {
   const q = query(
-    collection(getFirebaseDb(), COLLECTIONS.resumes),
+    collection(db, COLLECTIONS.resumes),
     where("userId", "==", userId),
-    orderBy("createdAt", "desc"),
     limit(max)
   );
   const snap = await getDocs(q);
-  return snap.docs.map((d) => mapResumeDoc(d.id, d.data()));
+  const docs = snap.docs.map((d) => mapResumeDoc(d.id, d.data()));
+  return docs.sort((a, b) => (b.createdAt?.getTime() ?? 0) - (a.createdAt?.getTime() ?? 0));
 }
 
 export async function fetchResumeById(
@@ -137,7 +138,7 @@ export async function fetchResumeById(
   userId: string
 ): Promise<ResumeDoc | null> {
   const snap = await getDoc(
-    doc(getFirebaseDb(), COLLECTIONS.resumes, resumeId)
+    doc(db, COLLECTIONS.resumes, resumeId)
   );
   if (!snap.exists()) return null;
   const data = snap.data();
@@ -151,14 +152,14 @@ export async function fetchAiResults(
   max = 30
 ): Promise<AiResultDoc[]> {
   const q = query(
-    collection(getFirebaseDb(), COLLECTIONS.aiResults),
+    collection(db, COLLECTIONS.aiResults),
     where("userId", "==", userId),
     where("type", "==", type),
-    orderBy("createdAt", "desc"),
     limit(max)
   );
   const snap = await getDocs(q);
-  return snap.docs.map((d) => mapAiResultDoc(d.id, d.data()));
+  const docs = snap.docs.map((d) => mapAiResultDoc(d.id, d.data()));
+  return docs.sort((a, b) => (b.createdAt?.getTime() ?? 0) - (a.createdAt?.getTime() ?? 0));
 }
 
 export async function fetchAiResultById(
@@ -166,7 +167,7 @@ export async function fetchAiResultById(
   userId: string
 ): Promise<AiResultDoc | null> {
   const snap = await getDoc(
-    doc(getFirebaseDb(), COLLECTIONS.aiResults, id)
+    doc(db, COLLECTIONS.aiResults, id)
   );
   if (!snap.exists()) return null;
   const data = snap.data();

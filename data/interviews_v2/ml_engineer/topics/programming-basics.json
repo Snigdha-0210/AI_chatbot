@@ -1,0 +1,57 @@
+{
+  "roleId": "ml_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Programming Basics",
+  "topicOverview": "An in-depth deep dive into Programming Basics. Mastering this is critical for passing technical interviews for Ml Engineer roles.",
+  "whyItMatters": "Programming Basics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Variables",
+    "Loops",
+    "Functions",
+    "OOP"
+  ],
+  "examples": [
+    "Implementing Programming Basics in a real-world scenario",
+    "Handling edge cases in Programming Basics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Programming Basics.",
+    "Fix the bug in the given Programming Basics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Programming Basics to a 5-year-old.",
+    "What are the pros and cons of Programming Basics?",
+    "How does Programming Basics handle memory management?"
+  ],
+  "miniProjects": [
+    "CLI Tool",
+    "Advanced Programming Basics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Programming Basics into a microservice",
+    "Scale Programming Basics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Programming Basics Documentation",
+      "url": "https://www.google.com/search?q=Programming%20Basics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Programming Basics Crash Course",
+      "url": "https://youtube.com/results?search_query=Programming%20Basics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Programming Basics Interview Questions",
+      "url": "https://www.google.com/search?q=Programming%20Basics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Programming Basics",
+    "How Amazon asks about Programming Basics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

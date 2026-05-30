@@ -1,0 +1,55 @@
+{
+  "roleId": "iot_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "ESP32",
+  "topicOverview": "An in-depth deep dive into ESP32. Mastering this is critical for passing technical interviews for IoT Engineer roles.",
+  "whyItMatters": "ESP32 is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Wi-Fi",
+    "Bluetooth"
+  ],
+  "examples": [
+    "Implementing ESP32 in a real-world scenario",
+    "Handling edge cases in ESP32"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating ESP32.",
+    "Fix the bug in the given ESP32 snippet."
+  ],
+  "interviewQuestions": [
+    "Explain ESP32 to a 5-year-old.",
+    "What are the pros and cons of ESP32?",
+    "How does ESP32 handle memory management?"
+  ],
+  "miniProjects": [
+    "ESP32 Implementation",
+    "Advanced ESP32 Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate ESP32 into a microservice",
+    "Scale ESP32 for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "ESP32 Documentation",
+      "url": "https://www.google.com/search?q=ESP32+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "ESP32 Crash Course",
+      "url": "https://youtube.com/results?search_query=ESP32+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "ESP32 Interview Questions",
+      "url": "https://www.google.com/search?q=ESP32+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests ESP32",
+    "How Amazon asks about ESP32"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

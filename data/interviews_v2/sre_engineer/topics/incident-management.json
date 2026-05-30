@@ -1,0 +1,55 @@
+{
+  "roleId": "sre_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Incident Management",
+  "topicOverview": "An in-depth deep dive into Incident Management. Mastering this is critical for passing technical interviews for SRE Engineer roles.",
+  "whyItMatters": "Incident Management is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Runbooks",
+    "Postmortems"
+  ],
+  "examples": [
+    "Implementing Incident Management in a real-world scenario",
+    "Handling edge cases in Incident Management"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Incident Management.",
+    "Fix the bug in the given Incident Management snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Incident Management to a 5-year-old.",
+    "What are the pros and cons of Incident Management?",
+    "How does Incident Management handle memory management?"
+  ],
+  "miniProjects": [
+    "Incident Management Implementation",
+    "Advanced Incident Management Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Incident Management into a microservice",
+    "Scale Incident Management for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Incident Management Documentation",
+      "url": "https://www.google.com/search?q=Incident%20Management+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Incident Management Crash Course",
+      "url": "https://youtube.com/results?search_query=Incident%20Management+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Incident Management Interview Questions",
+      "url": "https://www.google.com/search?q=Incident%20Management+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Incident Management",
+    "How Amazon asks about Incident Management"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,57 @@
+{
+  "roleId": "cybersecurity",
+  "subjectName": "Offensive & Defensive Security",
+  "topicName": "Penetration Testing",
+  "topicOverview": "An in-depth deep dive into Penetration Testing. Mastering this is critical for passing technical interviews for Cybersecurity Analyst roles.",
+  "whyItMatters": "Penetration Testing is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Reconnaissance",
+    "Exploitation",
+    "Post-Exploitation",
+    "Burp Suite"
+  ],
+  "examples": [
+    "Implementing Penetration Testing in a real-world scenario",
+    "Handling edge cases in Penetration Testing"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Penetration Testing.",
+    "Fix the bug in the given Penetration Testing snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Penetration Testing to a 5-year-old.",
+    "What are the pros and cons of Penetration Testing?",
+    "How does Penetration Testing handle memory management?"
+  ],
+  "miniProjects": [
+    "HackTheBox Walkthrough",
+    "Advanced Penetration Testing Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Penetration Testing into a microservice",
+    "Scale Penetration Testing for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Penetration Testing Documentation",
+      "url": "https://www.google.com/search?q=Penetration%20Testing+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Penetration Testing Crash Course",
+      "url": "https://youtube.com/results?search_query=Penetration%20Testing+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Penetration Testing Interview Questions",
+      "url": "https://www.google.com/search?q=Penetration%20Testing+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Penetration Testing",
+    "How Amazon asks about Penetration Testing"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

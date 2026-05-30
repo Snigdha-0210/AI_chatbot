@@ -1,0 +1,55 @@
+{
+  "roleId": "database_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Stored Procedures",
+  "topicOverview": "An in-depth deep dive into Stored Procedures. Mastering this is critical for passing technical interviews for Database Engineer roles.",
+  "whyItMatters": "Stored Procedures is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Triggers",
+    "Functions"
+  ],
+  "examples": [
+    "Implementing Stored Procedures in a real-world scenario",
+    "Handling edge cases in Stored Procedures"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Stored Procedures.",
+    "Fix the bug in the given Stored Procedures snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Stored Procedures to a 5-year-old.",
+    "What are the pros and cons of Stored Procedures?",
+    "How does Stored Procedures handle memory management?"
+  ],
+  "miniProjects": [
+    "Stored Procedures Implementation",
+    "Advanced Stored Procedures Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Stored Procedures into a microservice",
+    "Scale Stored Procedures for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Stored Procedures Documentation",
+      "url": "https://www.google.com/search?q=Stored%20Procedures+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Stored Procedures Crash Course",
+      "url": "https://youtube.com/results?search_query=Stored%20Procedures+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Stored Procedures Interview Questions",
+      "url": "https://www.google.com/search?q=Stored%20Procedures+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Stored Procedures",
+    "How Amazon asks about Stored Procedures"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

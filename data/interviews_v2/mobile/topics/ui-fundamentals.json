@@ -1,0 +1,57 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Foundations",
+  "topicName": "UI Fundamentals",
+  "topicOverview": "An in-depth deep dive into UI Fundamentals. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "UI Fundamentals is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Layouts (Row/Column)",
+    "Containers",
+    "Styling",
+    "Responsiveness"
+  ],
+  "examples": [
+    "Implementing UI Fundamentals in a real-world scenario",
+    "Handling edge cases in UI Fundamentals"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating UI Fundamentals.",
+    "Fix the bug in the given UI Fundamentals snippet."
+  ],
+  "interviewQuestions": [
+    "Explain UI Fundamentals to a 5-year-old.",
+    "What are the pros and cons of UI Fundamentals?",
+    "How does UI Fundamentals handle memory management?"
+  ],
+  "miniProjects": [
+    "Profile Screen",
+    "Advanced UI Fundamentals Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate UI Fundamentals into a microservice",
+    "Scale UI Fundamentals for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "UI Fundamentals Documentation",
+      "url": "https://www.google.com/search?q=UI%20Fundamentals+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "UI Fundamentals Crash Course",
+      "url": "https://youtube.com/results?search_query=UI%20Fundamentals+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "UI Fundamentals Interview Questions",
+      "url": "https://www.google.com/search?q=UI%20Fundamentals+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests UI Fundamentals",
+    "How Amazon asks about UI Fundamentals"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "15 Hours"
+}

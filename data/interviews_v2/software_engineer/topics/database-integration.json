@@ -1,0 +1,56 @@
+{
+  "roleId": "software_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Database Integration",
+  "topicOverview": "An in-depth deep dive into Database Integration. Mastering this is critical for passing technical interviews for Software Engineer roles.",
+  "whyItMatters": "Database Integration is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "SQL",
+    "NoSQL",
+    "ORMs"
+  ],
+  "examples": [
+    "Implementing Database Integration in a real-world scenario",
+    "Handling edge cases in Database Integration"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Database Integration.",
+    "Fix the bug in the given Database Integration snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Database Integration to a 5-year-old.",
+    "What are the pros and cons of Database Integration?",
+    "How does Database Integration handle memory management?"
+  ],
+  "miniProjects": [
+    "CRUD App",
+    "Advanced Database Integration Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Database Integration into a microservice",
+    "Scale Database Integration for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Database Integration Documentation",
+      "url": "https://www.google.com/search?q=Database%20Integration+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Database Integration Crash Course",
+      "url": "https://youtube.com/results?search_query=Database%20Integration+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Database Integration Interview Questions",
+      "url": "https://www.google.com/search?q=Database%20Integration+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Database Integration",
+    "How Amazon asks about Database Integration"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

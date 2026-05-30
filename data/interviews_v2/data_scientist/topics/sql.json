@@ -1,0 +1,57 @@
+{
+  "roleId": "data_scientist",
+  "subjectName": "Foundations",
+  "topicName": "SQL",
+  "topicOverview": "An in-depth deep dive into SQL. Mastering this is critical for passing technical interviews for Data Scientist roles.",
+  "whyItMatters": "SQL is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Selects",
+    "Joins",
+    "Aggregations",
+    "Window Functions"
+  ],
+  "examples": [
+    "Implementing SQL in a real-world scenario",
+    "Handling edge cases in SQL"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating SQL.",
+    "Fix the bug in the given SQL snippet."
+  ],
+  "interviewQuestions": [
+    "Explain SQL to a 5-year-old.",
+    "What are the pros and cons of SQL?",
+    "How does SQL handle memory management?"
+  ],
+  "miniProjects": [
+    "Store Database Queries",
+    "Advanced SQL Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate SQL into a microservice",
+    "Scale SQL for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "SQL Official Docs",
+      "url": "https://www.w3schools.com/sql/",
+      "type": "docs"
+    },
+    {
+      "title": "Full SQL Course",
+      "url": "https://www.youtube.com/watch?v=HXV3zeJZ1EQ",
+      "type": "video"
+    },
+    {
+      "title": "SQL Practice Labs",
+      "url": "https://leetcode.com/study-plan/sql/",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests SQL",
+    "How Amazon asks about SQL"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "25 Hours"
+}

@@ -1,0 +1,57 @@
+{
+  "roleId": "cybersecurity",
+  "subjectName": "Foundations",
+  "topicName": "Linux Fundamentals",
+  "topicOverview": "An in-depth deep dive into Linux Fundamentals. Mastering this is critical for passing technical interviews for Cybersecurity Analyst roles.",
+  "whyItMatters": "Linux Fundamentals is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "CLI",
+    "Permissions",
+    "Bash Scripting",
+    "Cron Jobs"
+  ],
+  "examples": [
+    "Implementing Linux Fundamentals in a real-world scenario",
+    "Handling edge cases in Linux Fundamentals"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Linux Fundamentals.",
+    "Fix the bug in the given Linux Fundamentals snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Linux Fundamentals to a 5-year-old.",
+    "What are the pros and cons of Linux Fundamentals?",
+    "How does Linux Fundamentals handle memory management?"
+  ],
+  "miniProjects": [
+    "Automated Backup Script",
+    "Advanced Linux Fundamentals Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Linux Fundamentals into a microservice",
+    "Scale Linux Fundamentals for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Linux Fundamentals Documentation",
+      "url": "https://www.google.com/search?q=Linux%20Fundamentals+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Linux Fundamentals Crash Course",
+      "url": "https://youtube.com/results?search_query=Linux%20Fundamentals+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Linux Fundamentals Interview Questions",
+      "url": "https://www.google.com/search?q=Linux%20Fundamentals+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Linux Fundamentals",
+    "How Amazon asks about Linux Fundamentals"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

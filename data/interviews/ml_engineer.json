@@ -1,0 +1,543 @@
+{
+  "roleId": "ml_engineer",
+  "title": "Ml Engineer Interview Prep",
+  "technicalQuestions": [
+    {
+      "id": "t_ml_engineer_1",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Programming Basics",
+      "question": "Can you explain the core concepts of Programming Basics and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Variables",
+        "Loops",
+        "Functions",
+        "OOP"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_2",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Programming Basics",
+      "question": "How does Variables work in the context of Programming Basics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_3",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Programming Basics",
+      "question": "How does Loops work in the context of Programming Basics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_4",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Programming Basics",
+      "question": "How does Functions work in the context of Programming Basics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_5",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Programming Basics",
+      "question": "How does OOP work in the context of Programming Basics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_6",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Version Control",
+      "question": "Can you explain the core concepts of Version Control and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Git",
+        "GitHub",
+        "Branching",
+        "PRs"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_7",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Version Control",
+      "question": "How does Git work in the context of Version Control?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_8",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Version Control",
+      "question": "How does GitHub work in the context of Version Control?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_9",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Version Control",
+      "question": "How does Branching work in the context of Version Control?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_10",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Version Control",
+      "question": "How does PRs work in the context of Version Control?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_11",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Framework Architecture",
+      "question": "Can you explain the core concepts of Framework Architecture and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Components",
+        "Routing",
+        "State",
+        "APIs"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_12",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Framework Architecture",
+      "question": "How does Components work in the context of Framework Architecture?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_13",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Framework Architecture",
+      "question": "How does Routing work in the context of Framework Architecture?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_14",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Framework Architecture",
+      "question": "How does State work in the context of Framework Architecture?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_15",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Framework Architecture",
+      "question": "How does APIs work in the context of Framework Architecture?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_16",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Database Integration",
+      "question": "Can you explain the core concepts of Database Integration and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "SQL",
+        "NoSQL",
+        "ORMs"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_17",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Database Integration",
+      "question": "How does SQL work in the context of Database Integration?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_18",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Database Integration",
+      "question": "How does NoSQL work in the context of Database Integration?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_19",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Database Integration",
+      "question": "How does ORMs work in the context of Database Integration?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_20",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Deployment & CI/CD",
+      "question": "Can you explain the core concepts of Deployment & CI/CD and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Docker",
+        "Actions",
+        "Cloud Hosting"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_21",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Deployment & CI/CD",
+      "question": "How does Docker work in the context of Deployment & CI/CD?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_22",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Deployment & CI/CD",
+      "question": "How does Actions work in the context of Deployment & CI/CD?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_ml_engineer_23",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Deployment & CI/CD",
+      "question": "How does Cloud Hosting work in the context of Deployment & CI/CD?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    }
+  ],
+  "behavioralQuestions": [
+    {
+      "id": "b1",
+      "type": "behavioral",
+      "difficulty": "Easy",
+      "category": "General",
+      "question": "Tell me about yourself.",
+      "expectedKeyPoints": [
+        "Past experience",
+        "Current role/study",
+        "Future goals aligned with company"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Teamwork",
+      "question": "Describe a time you had a conflict with a team member.",
+      "expectedKeyPoints": [
+        "Situation",
+        "Action taken to resolve",
+        "Compromise",
+        "Positive outcome"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Leadership",
+      "question": "Tell me about a time you took the lead on a project.",
+      "expectedKeyPoints": [
+        "Initiative",
+        "Delegation",
+        "Result"
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "behavioral",
+      "difficulty": "Hard",
+      "category": "Failure",
+      "question": "Describe a project that failed. What did you learn?",
+      "expectedKeyPoints": [
+        "Accountability",
+        "Analysis of failure",
+        "Lessons applied later"
+      ]
+    }
+  ],
+  "codingQuestions": [
+    {
+      "id": "c1",
+      "type": "coding",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "question": "Two Sum: Find indices of two numbers that add up to target.",
+      "expectedKeyPoints": [
+        "Hash Map",
+        "O(N) Time",
+        "O(N) Space"
+      ]
+    },
+    {
+      "id": "c2",
+      "type": "coding",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "question": "Longest Substring Without Repeating Characters.",
+      "expectedKeyPoints": [
+        "Sliding Window",
+        "Set",
+        "O(N) Time"
+      ]
+    },
+    {
+      "id": "c3",
+      "type": "coding",
+      "difficulty": "Hard",
+      "category": "Graphs",
+      "question": "Word Ladder: Find shortest transformation sequence.",
+      "expectedKeyPoints": [
+        "BFS",
+        "Queue",
+        "O(M^2 * N)"
+      ]
+    }
+  ],
+  "companyTracks": [
+    {
+      "company": "Google",
+      "pattern": "3-4 Technical Coding Rounds (Data Structures focus), 1 System Design, 1 Googlyness (Behavioral)",
+      "expectedSkills": [
+        "Data Structures",
+        "Algorithms",
+        "System Design"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "c1",
+          "type": "coding",
+          "difficulty": "Easy",
+          "category": "Arrays",
+          "question": "Two Sum: Find indices of two numbers that add up to target.",
+          "expectedKeyPoints": [
+            "Hash Map",
+            "O(N) Time",
+            "O(N) Space"
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "coding",
+          "difficulty": "Medium",
+          "category": "Strings",
+          "question": "Longest Substring Without Repeating Characters.",
+          "expectedKeyPoints": [
+            "Sliding Window",
+            "Set",
+            "O(N) Time"
+          ]
+        },
+        {
+          "id": "c3",
+          "type": "coding",
+          "difficulty": "Hard",
+          "category": "Graphs",
+          "question": "Word Ladder: Find shortest transformation sequence.",
+          "expectedKeyPoints": [
+            "BFS",
+            "Queue",
+            "O(M^2 * N)"
+          ]
+        },
+        {
+          "id": "b1",
+          "type": "behavioral",
+          "difficulty": "Easy",
+          "category": "General",
+          "question": "Tell me about yourself.",
+          "expectedKeyPoints": [
+            "Past experience",
+            "Current role/study",
+            "Future goals aligned with company"
+          ]
+        },
+        {
+          "id": "b2",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Teamwork",
+          "question": "Describe a time you had a conflict with a team member.",
+          "expectedKeyPoints": [
+            "Situation",
+            "Action taken to resolve",
+            "Compromise",
+            "Positive outcome"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "pattern": "3 Technical Rounds (Coding + Domain), 1 Hiring Manager (Behavioral)",
+      "expectedSkills": [
+        "JavaScript",
+        "Python",
+        "SQL",
+        "Git"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "t_ml_engineer_1",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Programming Basics",
+          "question": "Can you explain the core concepts of Programming Basics and how it is used in modern applications?",
+          "expectedKeyPoints": [
+            "Variables",
+            "Loops",
+            "Functions",
+            "OOP"
+          ]
+        },
+        {
+          "id": "t_ml_engineer_2",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Programming Basics",
+          "question": "How does Variables work in the context of Programming Basics?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "t_ml_engineer_3",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Programming Basics",
+          "question": "How does Loops work in the context of Programming Basics?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "b3",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Leadership",
+          "question": "Tell me about a time you took the lead on a project.",
+          "expectedKeyPoints": [
+            "Initiative",
+            "Delegation",
+            "Result"
+          ]
+        },
+        {
+          "id": "b4",
+          "type": "behavioral",
+          "difficulty": "Hard",
+          "category": "Failure",
+          "question": "Describe a project that failed. What did you learn?",
+          "expectedKeyPoints": [
+            "Accountability",
+            "Analysis of failure",
+            "Lessons applied later"
+          ]
+        }
+      ]
+    }
+  ],
+  "cheatSheets": [
+    {
+      "skill": "Programming Basics",
+      "content": "# Programming Basics Cheat Sheet\n\n**Category:** Core\n\n**Key Subtopics:**\n- Variables\n- Loops\n- Functions\n- OOP\n\n**Common Interview Themes:**\n- Be prepared to discuss how Programming Basics integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Version Control",
+      "content": "# Version Control Cheat Sheet\n\n**Category:** Tools\n\n**Key Subtopics:**\n- Git\n- GitHub\n- Branching\n- PRs\n\n**Common Interview Themes:**\n- Be prepared to discuss how Version Control integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Framework Architecture",
+      "content": "# Framework Architecture Cheat Sheet\n\n**Category:** Core\n\n**Key Subtopics:**\n- Components\n- Routing\n- State\n- APIs\n\n**Common Interview Themes:**\n- Be prepared to discuss how Framework Architecture integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Database Integration",
+      "content": "# Database Integration Cheat Sheet\n\n**Category:** Data\n\n**Key Subtopics:**\n- SQL\n- NoSQL\n- ORMs\n\n**Common Interview Themes:**\n- Be prepared to discuss how Database Integration integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Deployment & CI/CD",
+      "content": "# Deployment & CI/CD Cheat Sheet\n\n**Category:** DevOps\n\n**Key Subtopics:**\n- Docker\n- Actions\n- Cloud Hosting\n\n**Common Interview Themes:**\n- Be prepared to discuss how Deployment & CI/CD integrates with your overall stack.\n- Focus on performance and edge cases."
+    }
+  ]
+}

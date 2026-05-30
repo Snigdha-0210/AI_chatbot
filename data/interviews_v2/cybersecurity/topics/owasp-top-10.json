@@ -1,0 +1,57 @@
+{
+  "roleId": "cybersecurity",
+  "subjectName": "Security Fundamentals",
+  "topicName": "OWASP Top 10",
+  "topicOverview": "An in-depth deep dive into OWASP Top 10. Mastering this is critical for passing technical interviews for Cybersecurity Analyst roles.",
+  "whyItMatters": "OWASP Top 10 is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "SQLi",
+    "XSS",
+    "CSRF",
+    "Broken Auth"
+  ],
+  "examples": [
+    "Implementing OWASP Top 10 in a real-world scenario",
+    "Handling edge cases in OWASP Top 10"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating OWASP Top 10.",
+    "Fix the bug in the given OWASP Top 10 snippet."
+  ],
+  "interviewQuestions": [
+    "Explain OWASP Top 10 to a 5-year-old.",
+    "What are the pros and cons of OWASP Top 10?",
+    "How does OWASP Top 10 handle memory management?"
+  ],
+  "miniProjects": [
+    "Vulnerable App Exploitation",
+    "Advanced OWASP Top 10 Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate OWASP Top 10 into a microservice",
+    "Scale OWASP Top 10 for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "OWASP Top 10 Documentation",
+      "url": "https://www.google.com/search?q=OWASP%20Top%2010+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "OWASP Top 10 Crash Course",
+      "url": "https://youtube.com/results?search_query=OWASP%20Top%2010+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "OWASP Top 10 Interview Questions",
+      "url": "https://www.google.com/search?q=OWASP%20Top%2010+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests OWASP Top 10",
+    "How Amazon asks about OWASP Top 10"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

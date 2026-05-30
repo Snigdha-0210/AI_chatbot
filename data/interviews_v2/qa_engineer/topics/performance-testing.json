@@ -1,0 +1,55 @@
+{
+  "roleId": "qa_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Performance Testing",
+  "topicOverview": "An in-depth deep dive into Performance Testing. Mastering this is critical for passing technical interviews for QA Engineer roles.",
+  "whyItMatters": "Performance Testing is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "JMeter",
+    "Gatling"
+  ],
+  "examples": [
+    "Implementing Performance Testing in a real-world scenario",
+    "Handling edge cases in Performance Testing"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Performance Testing.",
+    "Fix the bug in the given Performance Testing snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Performance Testing to a 5-year-old.",
+    "What are the pros and cons of Performance Testing?",
+    "How does Performance Testing handle memory management?"
+  ],
+  "miniProjects": [
+    "Performance Testing Implementation",
+    "Advanced Performance Testing Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Performance Testing into a microservice",
+    "Scale Performance Testing for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Performance Testing Documentation",
+      "url": "https://www.google.com/search?q=Performance%20Testing+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Performance Testing Crash Course",
+      "url": "https://youtube.com/results?search_query=Performance%20Testing+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Performance Testing Interview Questions",
+      "url": "https://www.google.com/search?q=Performance%20Testing+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Performance Testing",
+    "How Amazon asks about Performance Testing"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,55 @@
+{
+  "roleId": "database_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Indexing",
+  "topicOverview": "An in-depth deep dive into Indexing. Mastering this is critical for passing technical interviews for Database Engineer roles.",
+  "whyItMatters": "Indexing is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "B-Trees",
+    "Hash Indexes"
+  ],
+  "examples": [
+    "Implementing Indexing in a real-world scenario",
+    "Handling edge cases in Indexing"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Indexing.",
+    "Fix the bug in the given Indexing snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Indexing to a 5-year-old.",
+    "What are the pros and cons of Indexing?",
+    "How does Indexing handle memory management?"
+  ],
+  "miniProjects": [
+    "Indexing Implementation",
+    "Advanced Indexing Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Indexing into a microservice",
+    "Scale Indexing for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Indexing Documentation",
+      "url": "https://www.google.com/search?q=Indexing+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Indexing Crash Course",
+      "url": "https://youtube.com/results?search_query=Indexing+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Indexing Interview Questions",
+      "url": "https://www.google.com/search?q=Indexing+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Indexing",
+    "How Amazon asks about Indexing"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,56 @@
+{
+  "roleId": "database_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Database Design",
+  "topicOverview": "An in-depth deep dive into Database Design. Mastering this is critical for passing technical interviews for Database Engineer roles.",
+  "whyItMatters": "Database Design is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Normalization",
+    "ER Diagrams",
+    "Schema Design"
+  ],
+  "examples": [
+    "Implementing Database Design in a real-world scenario",
+    "Handling edge cases in Database Design"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Database Design.",
+    "Fix the bug in the given Database Design snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Database Design to a 5-year-old.",
+    "What are the pros and cons of Database Design?",
+    "How does Database Design handle memory management?"
+  ],
+  "miniProjects": [
+    "Database Design Implementation",
+    "Advanced Database Design Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Database Design into a microservice",
+    "Scale Database Design for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Database Design Documentation",
+      "url": "https://www.google.com/search?q=Database%20Design+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Database Design Crash Course",
+      "url": "https://youtube.com/results?search_query=Database%20Design+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Database Design Interview Questions",
+      "url": "https://www.google.com/search?q=Database%20Design+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Database Design",
+    "How Amazon asks about Database Design"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

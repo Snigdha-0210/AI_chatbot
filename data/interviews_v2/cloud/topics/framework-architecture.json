@@ -1,0 +1,57 @@
+{
+  "roleId": "cloud",
+  "subjectName": "Core Skills",
+  "topicName": "Framework Architecture",
+  "topicOverview": "An in-depth deep dive into Framework Architecture. Mastering this is critical for passing technical interviews for Cloud roles.",
+  "whyItMatters": "Framework Architecture is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Components",
+    "Routing",
+    "State",
+    "APIs"
+  ],
+  "examples": [
+    "Implementing Framework Architecture in a real-world scenario",
+    "Handling edge cases in Framework Architecture"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Framework Architecture.",
+    "Fix the bug in the given Framework Architecture snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Framework Architecture to a 5-year-old.",
+    "What are the pros and cons of Framework Architecture?",
+    "How does Framework Architecture handle memory management?"
+  ],
+  "miniProjects": [
+    "Medium Project",
+    "Advanced Framework Architecture Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Framework Architecture into a microservice",
+    "Scale Framework Architecture for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Framework Architecture Documentation",
+      "url": "https://www.google.com/search?q=Framework%20Architecture+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Framework Architecture Crash Course",
+      "url": "https://youtube.com/results?search_query=Framework%20Architecture+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Framework Architecture Interview Questions",
+      "url": "https://www.google.com/search?q=Framework%20Architecture+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Framework Architecture",
+    "How Amazon asks about Framework Architecture"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

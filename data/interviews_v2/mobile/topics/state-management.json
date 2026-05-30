@@ -1,0 +1,57 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Mobile Development Core",
+  "topicName": "State Management",
+  "topicOverview": "An in-depth deep dive into State Management. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "State Management is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Provider",
+    "Riverpod",
+    "Bloc",
+    "Local State"
+  ],
+  "examples": [
+    "Implementing State Management in a real-world scenario",
+    "Handling edge cases in State Management"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating State Management.",
+    "Fix the bug in the given State Management snippet."
+  ],
+  "interviewQuestions": [
+    "Explain State Management to a 5-year-old.",
+    "What are the pros and cons of State Management?",
+    "How does State Management handle memory management?"
+  ],
+  "miniProjects": [
+    "Todo App with Riverpod",
+    "Advanced State Management Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate State Management into a microservice",
+    "Scale State Management for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "State Management Documentation",
+      "url": "https://www.google.com/search?q=State%20Management+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "State Management Crash Course",
+      "url": "https://youtube.com/results?search_query=State%20Management+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "State Management Interview Questions",
+      "url": "https://www.google.com/search?q=State%20Management+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests State Management",
+    "How Amazon asks about State Management"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "35 Hours"
+}

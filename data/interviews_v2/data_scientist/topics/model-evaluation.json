@@ -1,0 +1,58 @@
+{
+  "roleId": "data_scientist",
+  "subjectName": "Machine Learning",
+  "topicName": "Model Evaluation",
+  "topicOverview": "An in-depth deep dive into Model Evaluation. Mastering this is critical for passing technical interviews for Data Scientist roles.",
+  "whyItMatters": "Model Evaluation is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Accuracy",
+    "Precision",
+    "Recall",
+    "F1 Score",
+    "ROC-AUC"
+  ],
+  "examples": [
+    "Implementing Model Evaluation in a real-world scenario",
+    "Handling edge cases in Model Evaluation"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Model Evaluation.",
+    "Fix the bug in the given Model Evaluation snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Model Evaluation to a 5-year-old.",
+    "What are the pros and cons of Model Evaluation?",
+    "How does Model Evaluation handle memory management?"
+  ],
+  "miniProjects": [
+    "Build a Model Evaluation App",
+    "Advanced Model Evaluation Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Model Evaluation into a microservice",
+    "Scale Model Evaluation for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Model Evaluation Official Docs",
+      "url": "https://scikit-learn.org/stable/",
+      "type": "docs"
+    },
+    {
+      "title": "Full Model Evaluation Course",
+      "url": "https://www.youtube.com/watch?v=i_LwzRmAizo",
+      "type": "video"
+    },
+    {
+      "title": "Model Evaluation Practice Labs",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Model Evaluation",
+    "How Amazon asks about Model Evaluation"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "15 Hours"
+}

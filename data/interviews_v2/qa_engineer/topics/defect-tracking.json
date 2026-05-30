@@ -1,0 +1,55 @@
+{
+  "roleId": "qa_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Defect Tracking",
+  "topicOverview": "An in-depth deep dive into Defect Tracking. Mastering this is critical for passing technical interviews for QA Engineer roles.",
+  "whyItMatters": "Defect Tracking is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Jira",
+    "Bugzilla"
+  ],
+  "examples": [
+    "Implementing Defect Tracking in a real-world scenario",
+    "Handling edge cases in Defect Tracking"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Defect Tracking.",
+    "Fix the bug in the given Defect Tracking snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Defect Tracking to a 5-year-old.",
+    "What are the pros and cons of Defect Tracking?",
+    "How does Defect Tracking handle memory management?"
+  ],
+  "miniProjects": [
+    "Defect Tracking Implementation",
+    "Advanced Defect Tracking Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Defect Tracking into a microservice",
+    "Scale Defect Tracking for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Defect Tracking Documentation",
+      "url": "https://www.google.com/search?q=Defect%20Tracking+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Defect Tracking Crash Course",
+      "url": "https://youtube.com/results?search_query=Defect%20Tracking+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Defect Tracking Interview Questions",
+      "url": "https://www.google.com/search?q=Defect%20Tracking+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Defect Tracking",
+    "How Amazon asks about Defect Tracking"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

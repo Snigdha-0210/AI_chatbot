@@ -1,0 +1,55 @@
+{
+  "roleId": "iot_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Cloud Integration",
+  "topicOverview": "An in-depth deep dive into Cloud Integration. Mastering this is critical for passing technical interviews for IoT Engineer roles.",
+  "whyItMatters": "Cloud Integration is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "AWS IoT",
+    "Azure IoT"
+  ],
+  "examples": [
+    "Implementing Cloud Integration in a real-world scenario",
+    "Handling edge cases in Cloud Integration"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Cloud Integration.",
+    "Fix the bug in the given Cloud Integration snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Cloud Integration to a 5-year-old.",
+    "What are the pros and cons of Cloud Integration?",
+    "How does Cloud Integration handle memory management?"
+  ],
+  "miniProjects": [
+    "Cloud Integration Implementation",
+    "Advanced Cloud Integration Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Cloud Integration into a microservice",
+    "Scale Cloud Integration for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Cloud Integration Documentation",
+      "url": "https://www.google.com/search?q=Cloud%20Integration+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Cloud Integration Crash Course",
+      "url": "https://youtube.com/results?search_query=Cloud%20Integration+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Cloud Integration Interview Questions",
+      "url": "https://www.google.com/search?q=Cloud%20Integration+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Cloud Integration",
+    "How Amazon asks about Cloud Integration"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

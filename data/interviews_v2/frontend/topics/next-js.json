@@ -1,0 +1,57 @@
+{
+  "roleId": "frontend",
+  "subjectName": "Advanced Ecosystem",
+  "topicName": "Next.js",
+  "topicOverview": "An in-depth deep dive into Next.js. Mastering this is critical for passing technical interviews for Frontend Developer roles.",
+  "whyItMatters": "Next.js is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "App Router",
+    "SSR vs SSG",
+    "Server Actions",
+    "API Routes"
+  ],
+  "examples": [
+    "Implementing Next.js in a real-world scenario",
+    "Handling edge cases in Next.js"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Next.js.",
+    "Fix the bug in the given Next.js snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Next.js to a 5-year-old.",
+    "What are the pros and cons of Next.js?",
+    "How does Next.js handle memory management?"
+  ],
+  "miniProjects": [
+    "Fullstack Blog",
+    "Advanced Next.js Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Next.js into a microservice",
+    "Scale Next.js for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Next.js Official Docs",
+      "url": "https://nextjs.org/docs",
+      "type": "docs"
+    },
+    {
+      "title": "Full Next.js Course",
+      "url": "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+      "type": "video"
+    },
+    {
+      "title": "Next.js Practice Labs",
+      "url": "https://nextjs.org/learn",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Next.js",
+    "How Amazon asks about Next.js"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

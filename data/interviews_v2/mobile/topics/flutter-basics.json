@@ -1,0 +1,56 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Foundations",
+  "topicName": "Flutter Basics",
+  "topicOverview": "An in-depth deep dive into Flutter Basics. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "Flutter Basics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Widgets",
+    "Stateless vs Stateful",
+    "Material/Cupertino"
+  ],
+  "examples": [
+    "Implementing Flutter Basics in a real-world scenario",
+    "Handling edge cases in Flutter Basics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Flutter Basics.",
+    "Fix the bug in the given Flutter Basics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Flutter Basics to a 5-year-old.",
+    "What are the pros and cons of Flutter Basics?",
+    "How does Flutter Basics handle memory management?"
+  ],
+  "miniProjects": [
+    "Counter App",
+    "Advanced Flutter Basics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Flutter Basics into a microservice",
+    "Scale Flutter Basics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Flutter Basics Documentation",
+      "url": "https://www.google.com/search?q=Flutter%20Basics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Flutter Basics Crash Course",
+      "url": "https://youtube.com/results?search_query=Flutter%20Basics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Flutter Basics Interview Questions",
+      "url": "https://www.google.com/search?q=Flutter%20Basics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Flutter Basics",
+    "How Amazon asks about Flutter Basics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

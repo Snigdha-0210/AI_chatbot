@@ -1,0 +1,55 @@
+{
+  "roleId": "database_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Transactions",
+  "topicOverview": "An in-depth deep dive into Transactions. Mastering this is critical for passing technical interviews for Database Engineer roles.",
+  "whyItMatters": "Transactions is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "ACID Properties",
+    "Isolation Levels"
+  ],
+  "examples": [
+    "Implementing Transactions in a real-world scenario",
+    "Handling edge cases in Transactions"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Transactions.",
+    "Fix the bug in the given Transactions snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Transactions to a 5-year-old.",
+    "What are the pros and cons of Transactions?",
+    "How does Transactions handle memory management?"
+  ],
+  "miniProjects": [
+    "Transactions Implementation",
+    "Advanced Transactions Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Transactions into a microservice",
+    "Scale Transactions for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Transactions Documentation",
+      "url": "https://www.google.com/search?q=Transactions+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Transactions Crash Course",
+      "url": "https://youtube.com/results?search_query=Transactions+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Transactions Interview Questions",
+      "url": "https://www.google.com/search?q=Transactions+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Transactions",
+    "How Amazon asks about Transactions"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

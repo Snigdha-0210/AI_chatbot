@@ -1,0 +1,269 @@
+{
+  "roleId": "cybersecurity",
+  "title": "Cybersecurity Analyst",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "toolStack": {
+    "Core Technologies": [
+      "Networking",
+      "Linux",
+      "Python",
+      "OWASP"
+    ],
+    "Development Tools": [
+      "Wireshark",
+      "Burp Suite",
+      "Metasploit",
+      "Nmap",
+      "Kali Linux"
+    ],
+    "AI Tools": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity"
+    ],
+    "Deployment Tools": [
+      "Splunk",
+      "AWS Security Hub"
+    ]
+  },
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Networking and System Basics.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Networking (TCP/IP)",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "OSI Model",
+            "TCP vs UDP",
+            "Subnetting",
+            "DNS"
+          ],
+          "miniProject": {
+            "name": "Network Mapper",
+            "description": "Apply your knowledge of Networking (TCP/IP) in a practical scenario."
+          }
+        },
+        {
+          "name": "Linux Fundamentals",
+          "category": "OS",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "CLI",
+            "Permissions",
+            "Bash Scripting",
+            "Cron Jobs"
+          ],
+          "miniProject": {
+            "name": "Automated Backup Script",
+            "description": "Apply your knowledge of Linux Fundamentals in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Security Fundamentals",
+      "description": "Understanding vulnerabilities and tools.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "OWASP Top 10",
+          "category": "Web Security",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "SQLi",
+            "XSS",
+            "CSRF",
+            "Broken Auth"
+          ],
+          "miniProject": {
+            "name": "Vulnerable App Exploitation",
+            "description": "Apply your knowledge of OWASP Top 10 in a practical scenario."
+          }
+        },
+        {
+          "name": "Network Analysis",
+          "category": "Tools",
+          "difficulty": "Intermediate",
+          "estimatedHours": 25,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Wireshark",
+            "Packet Sniffing",
+            "Nmap",
+            "Port Scanning"
+          ],
+          "miniProject": {
+            "name": "Traffic Analyzer",
+            "description": "Apply your knowledge of Network Analysis in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Offensive & Defensive Security",
+      "description": "Hacking and protecting.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "Penetration Testing",
+          "category": "Offensive",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Reconnaissance",
+            "Exploitation",
+            "Post-Exploitation",
+            "Burp Suite"
+          ],
+          "miniProject": {
+            "name": "HackTheBox Walkthrough",
+            "description": "Apply your knowledge of Penetration Testing in a practical scenario."
+          }
+        },
+        {
+          "name": "SIEM & Monitoring",
+          "category": "Defensive",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Splunk",
+            "Log Analysis",
+            "Incident Response"
+          ],
+          "miniProject": {
+            "name": "ELK Stack Setup",
+            "description": "Apply your knowledge of SIEM & Monitoring in a practical scenario."
+          }
+        }
+      ],
+      "projects": [
+        {
+          "name": "Vulnerability Scanner",
+          "difficulty": "Intermediate",
+          "description": "Scan open ports and weak headers.",
+          "skillsApplied": [
+            "Python",
+            "Nmap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "title": "Interview Prep",
+      "description": "Preparing for SOC roles.",
+      "estimatedWeeks": 3,
+      "topics": [
+        "CIA Triad",
+        "Types of Malware",
+        "Explain XSS and SQLi",
+        "Incident Response Phases"
+      ]
+    },
+    {
+      "id": "job",
+      "title": "Job Readiness",
+      "description": "Certifications and applications.",
+      "estimatedWeeks": 2,
+      "topics": [
+        "CompTIA Security+ Prep",
+        "SOC Analyst Preparation",
+        "CTF Platforms (TryHackMe/HackTheBox)"
+      ]
+    }
+  ]
+}

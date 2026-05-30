@@ -1,0 +1,55 @@
+{
+  "roleId": "qa_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Automation Testing",
+  "topicOverview": "An in-depth deep dive into Automation Testing. Mastering this is critical for passing technical interviews for QA Engineer roles.",
+  "whyItMatters": "Automation Testing is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Selenium",
+    "Cypress"
+  ],
+  "examples": [
+    "Implementing Automation Testing in a real-world scenario",
+    "Handling edge cases in Automation Testing"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Automation Testing.",
+    "Fix the bug in the given Automation Testing snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Automation Testing to a 5-year-old.",
+    "What are the pros and cons of Automation Testing?",
+    "How does Automation Testing handle memory management?"
+  ],
+  "miniProjects": [
+    "Automation Testing Implementation",
+    "Advanced Automation Testing Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Automation Testing into a microservice",
+    "Scale Automation Testing for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Automation Testing Documentation",
+      "url": "https://www.google.com/search?q=Automation%20Testing+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Automation Testing Crash Course",
+      "url": "https://youtube.com/results?search_query=Automation%20Testing+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Automation Testing Interview Questions",
+      "url": "https://www.google.com/search?q=Automation%20Testing+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Automation Testing",
+    "How Amazon asks about Automation Testing"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

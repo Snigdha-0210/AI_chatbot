@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Foundations",
+    "description": "Networking and System Basics.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Networking (TCP/IP)",
+        "theory": [
+          "OSI Model",
+          "TCP vs UDP",
+          "Subnetting",
+          "DNS"
+        ],
+        "miniProjects": [
+          "Network Mapper",
+          "Advanced Networking (TCP/IP) Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Networking (TCP/IP) to a 5-year-old.",
+          "What are the pros and cons of Networking (TCP/IP)?",
+          "How does Networking (TCP/IP) handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "networking-tcp-ip-"
+      },
+      {
+        "name": "Linux Fundamentals",
+        "theory": [
+          "CLI",
+          "Permissions",
+          "Bash Scripting",
+          "Cron Jobs"
+        ],
+        "miniProjects": [
+          "Automated Backup Script",
+          "Advanced Linux Fundamentals Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Linux Fundamentals to a 5-year-old.",
+          "What are the pros and cons of Linux Fundamentals?",
+          "How does Linux Fundamentals handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "linux-fundamentals"
+      }
+    ]
+  },
+  {
+    "name": "Security Fundamentals",
+    "description": "Understanding vulnerabilities and tools.",
+    "whyItMatters": "Security Fundamentals is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Security Fundamentals Documentation",
+        "url": "https://www.google.com/search?q=Security%20Fundamentals+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Security Fundamentals Crash Course",
+        "url": "https://youtube.com/results?search_query=Security%20Fundamentals+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Security Fundamentals Interview Questions",
+        "url": "https://www.google.com/search?q=Security%20Fundamentals+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Security Fundamentals?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Security Fundamentals?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "OWASP Top 10",
+        "theory": [
+          "SQLi",
+          "XSS",
+          "CSRF",
+          "Broken Auth"
+        ],
+        "miniProjects": [
+          "Vulnerable App Exploitation",
+          "Advanced OWASP Top 10 Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain OWASP Top 10 to a 5-year-old.",
+          "What are the pros and cons of OWASP Top 10?",
+          "How does OWASP Top 10 handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "owasp-top-10"
+      },
+      {
+        "name": "Network Analysis",
+        "theory": [
+          "Wireshark",
+          "Packet Sniffing",
+          "Nmap",
+          "Port Scanning"
+        ],
+        "miniProjects": [
+          "Traffic Analyzer",
+          "Advanced Network Analysis Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Network Analysis to a 5-year-old.",
+          "What are the pros and cons of Network Analysis?",
+          "How does Network Analysis handle memory management?"
+        ],
+        "estimatedHours": 25,
+        "slug": "network-analysis"
+      }
+    ]
+  },
+  {
+    "name": "Offensive & Defensive Security",
+    "description": "Hacking and protecting.",
+    "whyItMatters": "Offensive & Defensive Security is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Offensive & Defensive Security Documentation",
+        "url": "https://www.google.com/search?q=Offensive%20%26%20Defensive%20Security+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Offensive & Defensive Security Crash Course",
+        "url": "https://youtube.com/results?search_query=Offensive%20%26%20Defensive%20Security+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Offensive & Defensive Security Interview Questions",
+        "url": "https://www.google.com/search?q=Offensive%20%26%20Defensive%20Security+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Offensive & Defensive Security?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Offensive & Defensive Security?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Penetration Testing",
+        "theory": [
+          "Reconnaissance",
+          "Exploitation",
+          "Post-Exploitation",
+          "Burp Suite"
+        ],
+        "miniProjects": [
+          "HackTheBox Walkthrough",
+          "Advanced Penetration Testing Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Penetration Testing to a 5-year-old.",
+          "What are the pros and cons of Penetration Testing?",
+          "How does Penetration Testing handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "penetration-testing"
+      },
+      {
+        "name": "SIEM & Monitoring",
+        "theory": [
+          "Splunk",
+          "Log Analysis",
+          "Incident Response"
+        ],
+        "miniProjects": [
+          "ELK Stack Setup",
+          "Advanced SIEM & Monitoring Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain SIEM & Monitoring to a 5-year-old.",
+          "What are the pros and cons of SIEM & Monitoring?",
+          "How does SIEM & Monitoring handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "siem-monitoring"
+      }
+    ]
+  }
+]

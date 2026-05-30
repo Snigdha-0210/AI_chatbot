@@ -1,0 +1,56 @@
+{
+  "roleId": "embedded_systems",
+  "subjectName": "Core Skills",
+  "topicName": "RTOS",
+  "topicOverview": "An in-depth deep dive into RTOS. Mastering this is critical for passing technical interviews for Embedded Systems Engineer roles.",
+  "whyItMatters": "RTOS is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Tasks",
+    "Semaphores",
+    "Mutexes"
+  ],
+  "examples": [
+    "Implementing RTOS in a real-world scenario",
+    "Handling edge cases in RTOS"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating RTOS.",
+    "Fix the bug in the given RTOS snippet."
+  ],
+  "interviewQuestions": [
+    "Explain RTOS to a 5-year-old.",
+    "What are the pros and cons of RTOS?",
+    "How does RTOS handle memory management?"
+  ],
+  "miniProjects": [
+    "RTOS Implementation",
+    "Advanced RTOS Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate RTOS into a microservice",
+    "Scale RTOS for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "RTOS Documentation",
+      "url": "https://www.google.com/search?q=RTOS+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "RTOS Crash Course",
+      "url": "https://youtube.com/results?search_query=RTOS+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "RTOS Interview Questions",
+      "url": "https://www.google.com/search?q=RTOS+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests RTOS",
+    "How Amazon asks about RTOS"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,55 @@
+{
+  "roleId": "ar_vr_developer",
+  "subjectName": "Foundations",
+  "topicName": "Game Physics",
+  "topicOverview": "An in-depth deep dive into Game Physics. Mastering this is critical for passing technical interviews for AR/VR Developer roles.",
+  "whyItMatters": "Game Physics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Colliders",
+    "Rigidbodies"
+  ],
+  "examples": [
+    "Implementing Game Physics in a real-world scenario",
+    "Handling edge cases in Game Physics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Game Physics.",
+    "Fix the bug in the given Game Physics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Game Physics to a 5-year-old.",
+    "What are the pros and cons of Game Physics?",
+    "How does Game Physics handle memory management?"
+  ],
+  "miniProjects": [
+    "Game Physics Implementation",
+    "Advanced Game Physics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Game Physics into a microservice",
+    "Scale Game Physics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Game Physics Documentation",
+      "url": "https://www.google.com/search?q=Game%20Physics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Game Physics Crash Course",
+      "url": "https://youtube.com/results?search_query=Game%20Physics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Game Physics Interview Questions",
+      "url": "https://www.google.com/search?q=Game%20Physics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Game Physics",
+    "How Amazon asks about Game Physics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,57 @@
+{
+  "roleId": "cybersecurity",
+  "subjectName": "Foundations",
+  "topicName": "Networking (TCP/IP)",
+  "topicOverview": "An in-depth deep dive into Networking (TCP/IP). Mastering this is critical for passing technical interviews for Cybersecurity Analyst roles.",
+  "whyItMatters": "Networking (TCP/IP) is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "OSI Model",
+    "TCP vs UDP",
+    "Subnetting",
+    "DNS"
+  ],
+  "examples": [
+    "Implementing Networking (TCP/IP) in a real-world scenario",
+    "Handling edge cases in Networking (TCP/IP)"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Networking (TCP/IP).",
+    "Fix the bug in the given Networking (TCP/IP) snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Networking (TCP/IP) to a 5-year-old.",
+    "What are the pros and cons of Networking (TCP/IP)?",
+    "How does Networking (TCP/IP) handle memory management?"
+  ],
+  "miniProjects": [
+    "Network Mapper",
+    "Advanced Networking (TCP/IP) Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Networking (TCP/IP) into a microservice",
+    "Scale Networking (TCP/IP) for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Networking (TCP/IP) Documentation",
+      "url": "https://www.google.com/search?q=Networking%20(TCP%2FIP)+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Networking (TCP/IP) Crash Course",
+      "url": "https://youtube.com/results?search_query=Networking%20(TCP%2FIP)+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Networking (TCP/IP) Interview Questions",
+      "url": "https://www.google.com/search?q=Networking%20(TCP%2FIP)+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Networking (TCP/IP)",
+    "How Amazon asks about Networking (TCP/IP)"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

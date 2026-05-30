@@ -1,0 +1,56 @@
+{
+  "roleId": "ar_vr_developer",
+  "subjectName": "Foundations",
+  "topicName": "Unity",
+  "topicOverview": "An in-depth deep dive into Unity. Mastering this is critical for passing technical interviews for AR/VR Developer roles.",
+  "whyItMatters": "Unity is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Editor",
+    "Scenes",
+    "Prefabs"
+  ],
+  "examples": [
+    "Implementing Unity in a real-world scenario",
+    "Handling edge cases in Unity"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Unity.",
+    "Fix the bug in the given Unity snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Unity to a 5-year-old.",
+    "What are the pros and cons of Unity?",
+    "How does Unity handle memory management?"
+  ],
+  "miniProjects": [
+    "Unity Implementation",
+    "Advanced Unity Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Unity into a microservice",
+    "Scale Unity for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Unity Documentation",
+      "url": "https://www.google.com/search?q=Unity+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Unity Crash Course",
+      "url": "https://youtube.com/results?search_query=Unity+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Unity Interview Questions",
+      "url": "https://www.google.com/search?q=Unity+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Unity",
+    "How Amazon asks about Unity"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

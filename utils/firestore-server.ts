@@ -1,7 +1,7 @@
-import { FieldValue } from "firebase-admin/firestore";
 import { COLLECTIONS } from "@/utils/constants";
 import { generateChatTitle } from "@/utils/chat-title";
-import { getAdminAuth, getAdminDb } from "@/utils/firebase-admin";
+import { db, auth } from "@/lib/firebase";
+import { collection, doc, getDoc, setDoc, updateDoc, addDoc, serverTimestamp } from "firebase/firestore";
 import type {
   AiResultContent,
   AiResultType,
@@ -10,22 +10,18 @@ import type {
 } from "@/types";
 
 export async function upsertUser(uid: string): Promise<void> {
-  const record = await getAdminAuth().getUser(uid);
-  const db = getAdminDb();
-  const ref = db.collection(COLLECTIONS.users).doc(uid);
-  const snap = await ref.get();
+  const ref = doc(db, COLLECTIONS.users, uid);
+  const snap = await getDoc(ref);
 
   const data = {
     id: uid,
-    name: record.displayName ?? null,
-    email: record.email ?? null,
-    updatedAt: FieldValue.serverTimestamp(),
+    updatedAt: serverTimestamp(),
   };
 
-  if (!snap.exists) {
-    await ref.set({ ...data, createdAt: FieldValue.serverTimestamp() });
+  if (!snap.exists()) {
+    await setDoc(ref, { ...data, createdAt: serverTimestamp() }, { merge: true });
   } else {
-    await ref.update(data);
+    await updateDoc(ref, data);
   }
 }
 
@@ -35,17 +31,15 @@ export async function saveChat(
   messages: ChatMessage[],
   newMessageText?: string
 ): Promise<string> {
-  const db = getAdminDb();
-
   if (chatId) {
-    const ref = db.collection(COLLECTIONS.chats).doc(chatId);
-    const snap = await ref.get();
-    if (!snap.exists || snap.data()?.userId !== userId) {
+    const ref = doc(db, COLLECTIONS.chats, chatId);
+    const snap = await getDoc(ref);
+    if (!snap.exists() || snap.data()?.userId !== userId) {
       throw new Error("Chat not found");
     }
-    await ref.update({
+    await updateDoc(ref, {
       messages,
-      updatedAt: FieldValue.serverTimestamp(),
+      updatedAt: serverTimestamp(),
     });
     return chatId;
   }
@@ -55,14 +49,14 @@ export async function saveChat(
     newMessageText ?? firstUser?.content ?? "New chat"
   );
 
-  const doc = await db.collection(COLLECTIONS.chats).add({
+  const newDocRef = await addDoc(collection(db, COLLECTIONS.chats), {
     userId,
     title,
     messages,
-    createdAt: FieldValue.serverTimestamp(),
-    updatedAt: FieldValue.serverTimestamp(),
+    createdAt: serverTimestamp(),
+    updatedAt: serverTimestamp(),
   });
-  return doc.id;
+  return newDocRef.id;
 }
 
 export async function saveResume(
@@ -71,7 +65,7 @@ export async function saveResume(
   feedback: AtsAnalysis,
   meta: { fileName: string; storagePath: string }
 ): Promise<string> {
-  const doc = await getAdminDb().collection(COLLECTIONS.resumes).add({
+  const newDocRef = await addDoc(collection(db, COLLECTIONS.resumes), {
     userId,
     score,
     feedback: {
@@ -82,9 +76,9 @@ export async function saveResume(
     },
     fileName: meta.fileName,
     storagePath: meta.storagePath,
-    createdAt: FieldValue.serverTimestamp(),
+    createdAt: serverTimestamp(),
   });
-  return doc.id;
+  return newDocRef.id;
 }
 
 export async function saveAiResult(
@@ -93,12 +87,12 @@ export async function saveAiResult(
   label: string,
   content: AiResultContent
 ): Promise<string> {
-  const doc = await getAdminDb().collection(COLLECTIONS.aiResults).add({
+  const newDocRef = await addDoc(collection(db, COLLECTIONS.aiResults), {
     userId,
     type,
     label,
     content,
-    createdAt: FieldValue.serverTimestamp(),
+    createdAt: serverTimestamp(),
   });
-  return doc.id;
+  return newDocRef.id;
 }

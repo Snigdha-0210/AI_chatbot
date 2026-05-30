@@ -1,0 +1,56 @@
+{
+  "roleId": "ar_vr_developer",
+  "subjectName": "Foundations",
+  "topicName": "3D Graphics",
+  "topicOverview": "An in-depth deep dive into 3D Graphics. Mastering this is critical for passing technical interviews for AR/VR Developer roles.",
+  "whyItMatters": "3D Graphics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Meshes",
+    "Textures",
+    "Materials"
+  ],
+  "examples": [
+    "Implementing 3D Graphics in a real-world scenario",
+    "Handling edge cases in 3D Graphics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating 3D Graphics.",
+    "Fix the bug in the given 3D Graphics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain 3D Graphics to a 5-year-old.",
+    "What are the pros and cons of 3D Graphics?",
+    "How does 3D Graphics handle memory management?"
+  ],
+  "miniProjects": [
+    "3D Graphics Implementation",
+    "Advanced 3D Graphics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate 3D Graphics into a microservice",
+    "Scale 3D Graphics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "3D Graphics Documentation",
+      "url": "https://www.google.com/search?q=3D%20Graphics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "3D Graphics Crash Course",
+      "url": "https://youtube.com/results?search_query=3D%20Graphics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "3D Graphics Interview Questions",
+      "url": "https://www.google.com/search?q=3D%20Graphics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests 3D Graphics",
+    "How Amazon asks about 3D Graphics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,56 @@
+{
+  "roleId": "cybersecurity",
+  "subjectName": "Offensive & Defensive Security",
+  "topicName": "SIEM & Monitoring",
+  "topicOverview": "An in-depth deep dive into SIEM & Monitoring. Mastering this is critical for passing technical interviews for Cybersecurity Analyst roles.",
+  "whyItMatters": "SIEM & Monitoring is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Splunk",
+    "Log Analysis",
+    "Incident Response"
+  ],
+  "examples": [
+    "Implementing SIEM & Monitoring in a real-world scenario",
+    "Handling edge cases in SIEM & Monitoring"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating SIEM & Monitoring.",
+    "Fix the bug in the given SIEM & Monitoring snippet."
+  ],
+  "interviewQuestions": [
+    "Explain SIEM & Monitoring to a 5-year-old.",
+    "What are the pros and cons of SIEM & Monitoring?",
+    "How does SIEM & Monitoring handle memory management?"
+  ],
+  "miniProjects": [
+    "ELK Stack Setup",
+    "Advanced SIEM & Monitoring Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate SIEM & Monitoring into a microservice",
+    "Scale SIEM & Monitoring for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "SIEM & Monitoring Documentation",
+      "url": "https://www.google.com/search?q=SIEM%20%26%20Monitoring+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "SIEM & Monitoring Crash Course",
+      "url": "https://youtube.com/results?search_query=SIEM%20%26%20Monitoring+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "SIEM & Monitoring Interview Questions",
+      "url": "https://www.google.com/search?q=SIEM%20%26%20Monitoring+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests SIEM & Monitoring",
+    "How Amazon asks about SIEM & Monitoring"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

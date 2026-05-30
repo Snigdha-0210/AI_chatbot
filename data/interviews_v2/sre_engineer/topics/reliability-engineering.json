@@ -1,0 +1,56 @@
+{
+  "roleId": "sre_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Reliability Engineering",
+  "topicOverview": "An in-depth deep dive into Reliability Engineering. Mastering this is critical for passing technical interviews for SRE Engineer roles.",
+  "whyItMatters": "Reliability Engineering is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "SLIs",
+    "SLOs",
+    "Error Budgets"
+  ],
+  "examples": [
+    "Implementing Reliability Engineering in a real-world scenario",
+    "Handling edge cases in Reliability Engineering"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Reliability Engineering.",
+    "Fix the bug in the given Reliability Engineering snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Reliability Engineering to a 5-year-old.",
+    "What are the pros and cons of Reliability Engineering?",
+    "How does Reliability Engineering handle memory management?"
+  ],
+  "miniProjects": [
+    "Reliability Engineering Implementation",
+    "Advanced Reliability Engineering Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Reliability Engineering into a microservice",
+    "Scale Reliability Engineering for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Reliability Engineering Documentation",
+      "url": "https://www.google.com/search?q=Reliability%20Engineering+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Reliability Engineering Crash Course",
+      "url": "https://youtube.com/results?search_query=Reliability%20Engineering+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Reliability Engineering Interview Questions",
+      "url": "https://www.google.com/search?q=Reliability%20Engineering+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Reliability Engineering",
+    "How Amazon asks about Reliability Engineering"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

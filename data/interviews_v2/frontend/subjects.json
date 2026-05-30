@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Foundations",
+    "description": "The building blocks of the web.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "HTML",
+        "theory": [
+          "HTML Structure",
+          "Semantic HTML",
+          "Forms",
+          "Tables",
+          "Accessibility",
+          "SEO Basics",
+          "Best Practices"
+        ],
+        "miniProjects": [
+          "Personal Portfolio Page",
+          "Advanced HTML Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain HTML to a 5-year-old.",
+          "What are the pros and cons of HTML?",
+          "How does HTML handle memory management?"
+        ],
+        "estimatedHours": 10,
+        "slug": "html"
+      },
+      {
+        "name": "CSS",
+        "theory": [
+          "Box Model",
+          "Flexbox",
+          "Grid",
+          "Animations",
+          "Media Queries"
+        ],
+        "miniProjects": [
+          "Responsive Landing Page",
+          "Advanced CSS Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain CSS to a 5-year-old.",
+          "What are the pros and cons of CSS?",
+          "How does CSS handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "css"
+      },
+      {
+        "name": "JavaScript",
+        "theory": [
+          "Variables",
+          "Data Types",
+          "Loops",
+          "Functions",
+          "Objects",
+          "Arrays",
+          "DOM",
+          "ES6",
+          "Async Await",
+          "APIs"
+        ],
+        "miniProjects": [
+          "Weather App",
+          "Advanced JavaScript Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain JavaScript to a 5-year-old.",
+          "What are the pros and cons of JavaScript?",
+          "How does JavaScript handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "javascript"
+      }
+    ]
+  },
+  {
+    "name": "Core Skills",
+    "description": "Modern UI engineering.",
+    "whyItMatters": "Core Skills is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Intermediate",
+    "resources": [
+      {
+        "title": "Core Skills Documentation",
+        "url": "https://www.google.com/search?q=Core%20Skills+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Core Skills Crash Course",
+        "url": "https://youtube.com/results?search_query=Core%20Skills+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Core Skills Interview Questions",
+        "url": "https://www.google.com/search?q=Core%20Skills+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Core Skills?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Core Skills?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "React",
+        "theory": [
+          "Components",
+          "Props",
+          "State",
+          "Hooks",
+          "Routing",
+          "API Calls",
+          "Context API",
+          "Performance Optimization"
+        ],
+        "miniProjects": [
+          "Task Management App",
+          "Advanced React Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain React to a 5-year-old.",
+          "What are the pros and cons of React?",
+          "How does React handle memory management?"
+        ],
+        "estimatedHours": 50,
+        "slug": "react"
+      },
+      {
+        "name": "TypeScript",
+        "theory": [
+          "Types",
+          "Interfaces",
+          "Generics",
+          "Utility Types"
+        ],
+        "miniProjects": [
+          "Refactor App to TS",
+          "Advanced TypeScript Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain TypeScript to a 5-year-old.",
+          "What are the pros and cons of TypeScript?",
+          "How does TypeScript handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "typescript"
+      }
+    ]
+  },
+  {
+    "name": "Advanced Ecosystem",
+    "description": "Production ready frameworks.",
+    "whyItMatters": "Advanced Ecosystem is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Advanced Ecosystem Documentation",
+        "url": "https://www.google.com/search?q=Advanced%20Ecosystem+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Advanced Ecosystem Crash Course",
+        "url": "https://youtube.com/results?search_query=Advanced%20Ecosystem+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Advanced Ecosystem Interview Questions",
+        "url": "https://www.google.com/search?q=Advanced%20Ecosystem+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Advanced Ecosystem?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Advanced Ecosystem?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Next.js",
+        "theory": [
+          "App Router",
+          "SSR vs SSG",
+          "Server Actions",
+          "API Routes"
+        ],
+        "miniProjects": [
+          "Fullstack Blog",
+          "Advanced Next.js Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Next.js to a 5-year-old.",
+          "What are the pros and cons of Next.js?",
+          "How does Next.js handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "next-js"
+      },
+      {
+        "name": "State Management",
+        "theory": [
+          "Zustand",
+          "Redux Toolkit",
+          "React Query"
+        ],
+        "miniProjects": [
+          "E-Commerce Cart",
+          "Advanced State Management Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain State Management to a 5-year-old.",
+          "What are the pros and cons of State Management?",
+          "How does State Management handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "state-management"
+      }
+    ]
+  }
+]

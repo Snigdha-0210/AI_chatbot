@@ -1,0 +1,252 @@
+{
+  "roleId": "ar_vr_developer",
+  "title": "AR/VR Developer",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "3D and gaming basics.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Unity",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Editor",
+            "Scenes",
+            "Prefabs"
+          ],
+          "miniProject": {
+            "name": "Unity Implementation",
+            "description": "Practical implementation of Unity principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "C#",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Scripting",
+            "OOP"
+          ],
+          "miniProject": {
+            "name": "C# Implementation",
+            "description": "Practical implementation of C# principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "3D Graphics",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Meshes",
+            "Textures",
+            "Materials"
+          ],
+          "miniProject": {
+            "name": "3D Graphics Implementation",
+            "description": "Practical implementation of 3D Graphics principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Game Physics",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Colliders",
+            "Rigidbodies"
+          ],
+          "miniProject": {
+            "name": "Game Physics Implementation",
+            "description": "Practical implementation of Game Physics principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "XR SDKs.",
+      "estimatedWeeks": 8,
+      "skills": [
+        {
+          "name": "ARCore",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Tracking",
+            "Anchors"
+          ],
+          "miniProject": {
+            "name": "ARCore Implementation",
+            "description": "Practical implementation of ARCore principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "ARKit",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Face Tracking",
+            "Plane Detection"
+          ],
+          "miniProject": {
+            "name": "ARKit Implementation",
+            "description": "Practical implementation of ARKit principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "XR Development",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Interaction Toolkit"
+          ],
+          "miniProject": {
+            "name": "XR Development Implementation",
+            "description": "Practical implementation of XR Development principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Rendering",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Shaders",
+            "Lighting"
+          ],
+          "miniProject": {
+            "name": "Rendering Implementation",
+            "description": "Practical implementation of Rendering principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Projects",
+      "description": "Immersive experiences.",
+      "estimatedWeeks": 6,
+      "projects": [
+        {
+          "name": "Virtual Campus Tour",
+          "difficulty": "Advanced",
+          "description": "Interactive 3D navigation of a university.",
+          "skillsApplied": [
+            "Unity",
+            "WebXR"
+          ]
+        },
+        {
+          "name": "AR Shopping Application",
+          "difficulty": "Advanced",
+          "description": "Virtual furniture placement using plane detection.",
+          "skillsApplied": [
+            "Unity",
+            "ARCore"
+          ]
+        },
+        {
+          "name": "VR Learning Platform",
+          "difficulty": "Advanced",
+          "description": "Interactive virtual classroom with avatars.",
+          "skillsApplied": [
+            "Unity",
+            "Oculus SDK",
+            "Photon"
+          ]
+        },
+        {
+          "name": "Medical Simulation Environment",
+          "difficulty": "Advanced",
+          "description": "Surgical training simulator in VR.",
+          "skillsApplied": [
+            "Unreal Engine",
+            "C++"
+          ]
+        },
+        {
+          "name": "AR Interior Design Tool",
+          "difficulty": "Advanced",
+          "description": "Real-time room measurement and decoration.",
+          "skillsApplied": [
+            "Swift",
+            "ARKit"
+          ]
+        },
+        {
+          "name": "Virtual Collaboration Workspace",
+          "difficulty": "Advanced",
+          "description": "Multiplayer VR meeting room.",
+          "skillsApplied": [
+            "Unity",
+            "WebRTC"
+          ]
+        },
+        {
+          "name": "Industrial Training Simulator",
+          "difficulty": "Advanced",
+          "description": "Hazardous environment training.",
+          "skillsApplied": [
+            "Unity",
+            "SteamVR"
+          ]
+        },
+        {
+          "name": "Mixed Reality Productivity Suite",
+          "difficulty": "Advanced",
+          "description": "Multiple virtual monitors in MR.",
+          "skillsApplied": [
+            "C#",
+            "HoloLens"
+          ]
+        }
+      ]
+    }
+  ],
+  "toolStack": {
+    "Core Technologies": [
+      "Git",
+      "Docker"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Postman"
+    ]
+  }
+}

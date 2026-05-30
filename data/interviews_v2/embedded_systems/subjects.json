@@ -1,0 +1,244 @@
+[
+  {
+    "name": "Foundations",
+    "description": "Low level programming.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "C",
+        "theory": [
+          "Pointers",
+          "Memory Management"
+        ],
+        "miniProjects": [
+          "C Implementation",
+          "Advanced C Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain C to a 5-year-old.",
+          "What are the pros and cons of C?",
+          "How does C handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "c"
+      },
+      {
+        "name": "Microcontrollers",
+        "theory": [
+          "ARM Cortex-M",
+          "AVR"
+        ],
+        "miniProjects": [
+          "Microcontrollers Implementation",
+          "Advanced Microcontrollers Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Microcontrollers to a 5-year-old.",
+          "What are the pros and cons of Microcontrollers?",
+          "How does Microcontrollers handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "microcontrollers"
+      },
+      {
+        "name": "Electronics",
+        "theory": [
+          "PCB Basics",
+          "Soldering"
+        ],
+        "miniProjects": [
+          "Electronics Implementation",
+          "Advanced Electronics Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Electronics to a 5-year-old.",
+          "What are the pros and cons of Electronics?",
+          "How does Electronics handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "electronics"
+      },
+      {
+        "name": "Digital Logic",
+        "theory": [
+          "Gates",
+          "Flip-Flops",
+          "Registers"
+        ],
+        "miniProjects": [
+          "Digital Logic Implementation",
+          "Advanced Digital Logic Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Digital Logic to a 5-year-old.",
+          "What are the pros and cons of Digital Logic?",
+          "How does Digital Logic handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "digital-logic"
+      }
+    ]
+  },
+  {
+    "name": "Core Skills",
+    "description": "Firmware development.",
+    "whyItMatters": "Core Skills is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Core Skills Documentation",
+        "url": "https://www.google.com/search?q=Core%20Skills+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Core Skills Crash Course",
+        "url": "https://youtube.com/results?search_query=Core%20Skills+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Core Skills Interview Questions",
+        "url": "https://www.google.com/search?q=Core%20Skills+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Core Skills?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Core Skills?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "RTOS",
+        "theory": [
+          "Tasks",
+          "Semaphores",
+          "Mutexes"
+        ],
+        "miniProjects": [
+          "RTOS Implementation",
+          "Advanced RTOS Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain RTOS to a 5-year-old.",
+          "What are the pros and cons of RTOS?",
+          "How does RTOS handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "rtos"
+      },
+      {
+        "name": "Device Drivers",
+        "theory": [
+          "I2C",
+          "SPI",
+          "UART"
+        ],
+        "miniProjects": [
+          "Device Drivers Implementation",
+          "Advanced Device Drivers Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Device Drivers to a 5-year-old.",
+          "What are the pros and cons of Device Drivers?",
+          "How does Device Drivers handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "device-drivers"
+      },
+      {
+        "name": "Communication Protocols",
+        "theory": [
+          "CAN",
+          "LIN"
+        ],
+        "miniProjects": [
+          "Communication Protocols Implementation",
+          "Advanced Communication Protocols Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Communication Protocols to a 5-year-old.",
+          "What are the pros and cons of Communication Protocols?",
+          "How does Communication Protocols handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "communication-protocols"
+      },
+      {
+        "name": "Memory Management",
+        "theory": [
+          "Flash",
+          "RAM",
+          "EEPROM"
+        ],
+        "miniProjects": [
+          "Memory Management Implementation",
+          "Advanced Memory Management Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Memory Management to a 5-year-old.",
+          "What are the pros and cons of Memory Management?",
+          "How does Memory Management handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "memory-management"
+      }
+    ]
+  }
+]

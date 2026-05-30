@@ -1,0 +1,54 @@
+{
+  "roleId": "ar_vr_developer",
+  "subjectName": "Core Skills",
+  "topicName": "XR Development",
+  "topicOverview": "An in-depth deep dive into XR Development. Mastering this is critical for passing technical interviews for AR/VR Developer roles.",
+  "whyItMatters": "XR Development is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Interaction Toolkit"
+  ],
+  "examples": [
+    "Implementing XR Development in a real-world scenario",
+    "Handling edge cases in XR Development"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating XR Development.",
+    "Fix the bug in the given XR Development snippet."
+  ],
+  "interviewQuestions": [
+    "Explain XR Development to a 5-year-old.",
+    "What are the pros and cons of XR Development?",
+    "How does XR Development handle memory management?"
+  ],
+  "miniProjects": [
+    "XR Development Implementation",
+    "Advanced XR Development Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate XR Development into a microservice",
+    "Scale XR Development for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "XR Development Documentation",
+      "url": "https://www.google.com/search?q=XR%20Development+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "XR Development Crash Course",
+      "url": "https://youtube.com/results?search_query=XR%20Development+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "XR Development Interview Questions",
+      "url": "https://www.google.com/search?q=XR%20Development+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests XR Development",
+    "How Amazon asks about XR Development"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

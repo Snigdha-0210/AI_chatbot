@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useResumes } from "@/hooks/useResumes";
+import { useAuth } from "@/hooks/useAuth";
 import { useToast } from "@/components/ui/Toast";
 import { postAts } from "@/utils/api";
 import { ATSResultView } from "@/components/ats/ATSResultView";
@@ -11,10 +12,12 @@ import { EmptyState } from "@/components/ui/EmptyState";
 import type { AtsAnalysis, ResumeDoc } from "@/types";
 
 export function ATSScanner() {
+  const { user } = useAuth();
   const { resumes, loading, error, refresh, getResume } = useResumes();
   const toast = useToast();
 
   const [file, setFile] = useState<File | null>(null);
+  const [jobDescription, setJobDescription] = useState("");
   const [scanning, setScanning] = useState(false);
   const [selected, setSelected] = useState<ResumeDoc | null>(null);
   const [freshResult, setFreshResult] = useState<
@@ -27,11 +30,19 @@ export function ATSScanner() {
       toast.error("Select a PDF resume first");
       return;
     }
+    if (!jobDescription.trim()) {
+      toast.error("Please paste a job description");
+      return;
+    }
+    if (!user) {
+      toast.error("You must be logged in");
+      return;
+    }
     setScanning(true);
     setFreshResult(null);
     setSelected(null);
     try {
-      const data = await postAts(file);
+      const data = await postAts(file, jobDescription, user.uid);
       setFreshResult(data);
       toast.success("Resume analyzed successfully");
       await refresh();
@@ -81,17 +92,28 @@ export function ATSScanner() {
             </p>
             <input
               type="file"
-              accept="application/pdf"
+              accept="application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
               className="mx-auto mt-4 block max-w-xs text-sm file:mr-4 file:rounded-full file:border-0 file:bg-primary file:px-4 file:py-2 file:text-sm file:font-medium file:text-on-primary"
               onChange={(e) => {
                 setFile(e.target.files?.[0] ?? null);
                 setFreshResult(null);
               }}
             />
+            
+            <div className="mt-6 text-left">
+              <label className="block text-sm font-semibold text-on-surface mb-2">Job Description</label>
+              <textarea
+                className="w-full h-32 p-3 text-sm bg-surface-container border border-white/10 rounded-xl focus:outline-none focus:border-primary text-on-surface placeholder:text-on-surface-variant/50"
+                placeholder="Paste the complete job description here..."
+                value={jobDescription}
+                onChange={(e) => setJobDescription(e.target.value)}
+              />
+            </div>
+
             <button
               type="button"
               onClick={scan}
-              disabled={!file || scanning}
+              disabled={scanning}
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary to-primary-container px-8 py-3 text-sm font-semibold text-on-primary-container shadow-lg shadow-primary/20 transition hover:opacity-90 disabled:opacity-50"
             >
               {scanning && <Spinner className="h-4 w-4 border-on-primary-container" />}

@@ -1,0 +1,55 @@
+{
+  "roleId": "iot_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Arduino",
+  "topicOverview": "An in-depth deep dive into Arduino. Mastering this is critical for passing technical interviews for IoT Engineer roles.",
+  "whyItMatters": "Arduino is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Libraries",
+    "Interfacing"
+  ],
+  "examples": [
+    "Implementing Arduino in a real-world scenario",
+    "Handling edge cases in Arduino"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Arduino.",
+    "Fix the bug in the given Arduino snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Arduino to a 5-year-old.",
+    "What are the pros and cons of Arduino?",
+    "How does Arduino handle memory management?"
+  ],
+  "miniProjects": [
+    "Arduino Implementation",
+    "Advanced Arduino Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Arduino into a microservice",
+    "Scale Arduino for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Arduino Documentation",
+      "url": "https://www.google.com/search?q=Arduino+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Arduino Crash Course",
+      "url": "https://youtube.com/results?search_query=Arduino+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Arduino Interview Questions",
+      "url": "https://www.google.com/search?q=Arduino+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Arduino",
+    "How Amazon asks about Arduino"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

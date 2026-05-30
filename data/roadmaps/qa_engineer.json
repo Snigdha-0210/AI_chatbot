@@ -1,0 +1,219 @@
+{
+  "roleId": "qa_engineer",
+  "title": "QA Engineer",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Core testing concepts.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Software Testing Basics",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Manual Testing",
+            "Bug Lifecycle",
+            "SDLC",
+            "STLC"
+          ],
+          "miniProject": {
+            "name": "Software Testing Basics Implementation",
+            "description": "Practical implementation of Software Testing Basics principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Test Case Design",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Equivalence Partitioning",
+            "Boundary Value Analysis"
+          ],
+          "miniProject": {
+            "name": "Test Case Design Implementation",
+            "description": "Practical implementation of Test Case Design principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Defect Tracking",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Jira",
+            "Bugzilla"
+          ],
+          "miniProject": {
+            "name": "Defect Tracking Implementation",
+            "description": "Practical implementation of Defect Tracking principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Automation and API testing.",
+      "estimatedWeeks": 8,
+      "skills": [
+        {
+          "name": "API Testing",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Postman",
+            "REST Assured"
+          ],
+          "miniProject": {
+            "name": "API Testing Implementation",
+            "description": "Practical implementation of API Testing principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Automation Testing",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Selenium",
+            "Cypress"
+          ],
+          "miniProject": {
+            "name": "Automation Testing Implementation",
+            "description": "Practical implementation of Automation Testing principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Performance Testing",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "JMeter",
+            "Gatling"
+          ],
+          "miniProject": {
+            "name": "Performance Testing Implementation",
+            "description": "Practical implementation of Performance Testing principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Projects",
+      "description": "Real-world testing suites.",
+      "estimatedWeeks": 6,
+      "projects": [
+        {
+          "name": "Automation Testing Framework",
+          "difficulty": "Advanced",
+          "description": "A complete data-driven automation framework.",
+          "skillsApplied": [
+            "Selenium",
+            "Java"
+          ]
+        },
+        {
+          "name": "Cross Browser Testing Platform",
+          "difficulty": "Advanced",
+          "description": "Automated tests across multiple browsers.",
+          "skillsApplied": [
+            "Cypress",
+            "BrowserStack"
+          ]
+        },
+        {
+          "name": "API Testing Dashboard",
+          "difficulty": "Advanced",
+          "description": "Comprehensive API testing and reporting.",
+          "skillsApplied": [
+            "Postman",
+            "Newman",
+            "React"
+          ]
+        },
+        {
+          "name": "Performance Testing Suite",
+          "difficulty": "Advanced",
+          "description": "Load testing suite simulating 10k users.",
+          "skillsApplied": [
+            "JMeter",
+            "Gatling"
+          ]
+        },
+        {
+          "name": "Visual Regression Testing Tool",
+          "difficulty": "Advanced",
+          "description": "Automated UI comparison tool.",
+          "skillsApplied": [
+            "Playwright",
+            "Applitools"
+          ]
+        },
+        {
+          "name": "Bug Analytics Platform",
+          "difficulty": "Advanced",
+          "description": "Dashboard for tracking defect trends.",
+          "skillsApplied": [
+            "Python",
+            "Grafana"
+          ]
+        },
+        {
+          "name": "CI/CD Testing Pipeline",
+          "difficulty": "Advanced",
+          "description": "Automated testing in GitHub Actions.",
+          "skillsApplied": [
+            "Docker",
+            "GitHub Actions"
+          ]
+        },
+        {
+          "name": "Enterprise QA Management System",
+          "difficulty": "Advanced",
+          "description": "Internal tool for test case management.",
+          "skillsApplied": [
+            "Node",
+            "React"
+          ]
+        }
+      ]
+    }
+  ],
+  "toolStack": {
+    "Core Technologies": [
+      "Git",
+      "Docker"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Postman"
+    ]
+  }
+}

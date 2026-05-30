@@ -1,0 +1,58 @@
+{
+  "roleId": "data_scientist",
+  "subjectName": "Foundations",
+  "topicName": "Python",
+  "topicOverview": "An in-depth deep dive into Python. Mastering this is critical for passing technical interviews for Data Scientist roles.",
+  "whyItMatters": "Python is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Variables",
+    "Data Types",
+    "Loops",
+    "Functions",
+    "OOP"
+  ],
+  "examples": [
+    "Implementing Python in a real-world scenario",
+    "Handling edge cases in Python"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Python.",
+    "Fix the bug in the given Python snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Python to a 5-year-old.",
+    "What are the pros and cons of Python?",
+    "How does Python handle memory management?"
+  ],
+  "miniProjects": [
+    "Python CLI Tool",
+    "Advanced Python Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Python into a microservice",
+    "Scale Python for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Python Official Docs",
+      "url": "https://docs.python.org/3/",
+      "type": "docs"
+    },
+    {
+      "title": "Full Python Course",
+      "url": "https://www.youtube.com/watch?v=_uQrJ0TkZlc",
+      "type": "video"
+    },
+    {
+      "title": "Python Practice Labs",
+      "url": "https://www.kaggle.com/learn/python",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Python",
+    "How Amazon asks about Python"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

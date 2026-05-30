@@ -1,0 +1,56 @@
+{
+  "roleId": "sre_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Observability",
+  "topicOverview": "An in-depth deep dive into Observability. Mastering this is critical for passing technical interviews for SRE Engineer roles.",
+  "whyItMatters": "Observability is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Logging",
+    "Tracing",
+    "Metrics"
+  ],
+  "examples": [
+    "Implementing Observability in a real-world scenario",
+    "Handling edge cases in Observability"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Observability.",
+    "Fix the bug in the given Observability snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Observability to a 5-year-old.",
+    "What are the pros and cons of Observability?",
+    "How does Observability handle memory management?"
+  ],
+  "miniProjects": [
+    "Observability Implementation",
+    "Advanced Observability Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Observability into a microservice",
+    "Scale Observability for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Observability Documentation",
+      "url": "https://www.google.com/search?q=Observability+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Observability Crash Course",
+      "url": "https://youtube.com/results?search_query=Observability+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Observability Interview Questions",
+      "url": "https://www.google.com/search?q=Observability+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Observability",
+    "How Amazon asks about Observability"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

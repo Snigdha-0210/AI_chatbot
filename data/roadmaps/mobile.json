@@ -1,0 +1,329 @@
+{
+  "roleId": "mobile",
+  "title": "Mobile App Developer",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "toolStack": {
+    "Core Technologies": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "REST APIs",
+      "SQLite"
+    ],
+    "Development Tools": [
+      "Android Studio",
+      "VS Code",
+      "Firebase Console",
+      "Xcode"
+    ],
+    "AI Tools": [
+      "ChatGPT",
+      "Claude",
+      "Cursor",
+      "GitHub Copilot"
+    ],
+    "Deployment Tools": [
+      "Google Play Console",
+      "App Store Connect",
+      "Codemagic",
+      "Fastlane"
+    ]
+  },
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Core mobile concepts and languages.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Dart",
+          "category": "Language",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Variables",
+            "OOP",
+            "Null Safety",
+            "Async Programming"
+          ],
+          "miniProject": {
+            "name": "CLI Calculator",
+            "description": "Apply your knowledge of Dart in a practical scenario."
+          }
+        },
+        {
+          "name": "Flutter Basics",
+          "category": "Framework",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Widgets",
+            "Stateless vs Stateful",
+            "Material/Cupertino"
+          ],
+          "miniProject": {
+            "name": "Counter App",
+            "description": "Apply your knowledge of Flutter Basics in a practical scenario."
+          }
+        },
+        {
+          "name": "UI Fundamentals",
+          "category": "Design",
+          "difficulty": "Intermediate",
+          "estimatedHours": 15,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Layouts (Row/Column)",
+            "Containers",
+            "Styling",
+            "Responsiveness"
+          ],
+          "miniProject": {
+            "name": "Profile Screen",
+            "description": "Apply your knowledge of UI Fundamentals in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Mobile Development Core",
+      "description": "Mastering the framework and state.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "Navigation",
+          "category": "Framework",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Navigator 2.0",
+            "GoRouter",
+            "Passing Data"
+          ],
+          "miniProject": {
+            "name": "Multi-screen App",
+            "description": "Apply your knowledge of Navigation in a practical scenario."
+          }
+        },
+        {
+          "name": "State Management",
+          "category": "Architecture",
+          "difficulty": "Intermediate",
+          "estimatedHours": 35,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Provider",
+            "Riverpod",
+            "Bloc",
+            "Local State"
+          ],
+          "miniProject": {
+            "name": "Todo App with Riverpod",
+            "description": "Apply your knowledge of State Management in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Intermediate Skills & Backend",
+      "description": "Connecting apps to the cloud.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "Firebase Auth & Firestore",
+          "category": "Backend",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Authentication",
+            "NoSQL",
+            "Realtime Updates"
+          ],
+          "miniProject": {
+            "name": "Chat App",
+            "description": "Apply your knowledge of Firebase Auth & Firestore in a practical scenario."
+          }
+        },
+        {
+          "name": "REST APIs",
+          "category": "Networking",
+          "difficulty": "Intermediate",
+          "estimatedHours": 25,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "HTTP Package",
+            "JSON Serialization",
+            "Error Handling"
+          ],
+          "miniProject": {
+            "name": "Weather App (API)",
+            "description": "Apply your knowledge of REST APIs in a practical scenario."
+          }
+        },
+        {
+          "name": "Device Features",
+          "category": "Hardware",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Camera",
+            "GPS",
+            "Push Notifications"
+          ],
+          "miniProject": {
+            "name": "Location Tracker",
+            "description": "Apply your knowledge of Device Features in a practical scenario."
+          }
+        }
+      ],
+      "projects": [
+        {
+          "name": "Food Delivery App",
+          "difficulty": "Advanced",
+          "description": "Complex UI, cart state, and external API calls.",
+          "skillsApplied": [
+            "REST APIs",
+            "Riverpod",
+            "Firebase"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "title": "Interview Preparation",
+      "description": "App architecture and technical questions.",
+      "estimatedWeeks": 4,
+      "topics": [
+        "Flutter Interview Questions",
+        "App Architecture (Clean Architecture)",
+        "Clean Code Principles",
+        "System Design for Mobile"
+      ]
+    },
+    {
+      "id": "job",
+      "title": "Job Readiness",
+      "description": "Deploying to stores.",
+      "estimatedWeeks": 2,
+      "topics": [
+        "Publishing to App Store / Play Store",
+        "Portfolio Building",
+        "Resume Optimization"
+      ]
+    }
+  ]
+}

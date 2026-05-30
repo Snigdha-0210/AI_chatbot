@@ -1,0 +1,55 @@
+{
+  "roleId": "iot_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "MQTT",
+  "topicOverview": "An in-depth deep dive into MQTT. Mastering this is critical for passing technical interviews for IoT Engineer roles.",
+  "whyItMatters": "MQTT is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Pub/Sub",
+    "Brokers"
+  ],
+  "examples": [
+    "Implementing MQTT in a real-world scenario",
+    "Handling edge cases in MQTT"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating MQTT.",
+    "Fix the bug in the given MQTT snippet."
+  ],
+  "interviewQuestions": [
+    "Explain MQTT to a 5-year-old.",
+    "What are the pros and cons of MQTT?",
+    "How does MQTT handle memory management?"
+  ],
+  "miniProjects": [
+    "MQTT Implementation",
+    "Advanced MQTT Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate MQTT into a microservice",
+    "Scale MQTT for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "MQTT Documentation",
+      "url": "https://www.google.com/search?q=MQTT+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "MQTT Crash Course",
+      "url": "https://youtube.com/results?search_query=MQTT+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "MQTT Interview Questions",
+      "url": "https://www.google.com/search?q=MQTT+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests MQTT",
+    "How Amazon asks about MQTT"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

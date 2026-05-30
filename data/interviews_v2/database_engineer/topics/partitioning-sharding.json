@@ -1,0 +1,55 @@
+{
+  "roleId": "database_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Partitioning & Sharding",
+  "topicOverview": "An in-depth deep dive into Partitioning & Sharding. Mastering this is critical for passing technical interviews for Database Engineer roles.",
+  "whyItMatters": "Partitioning & Sharding is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Horizontal",
+    "Vertical"
+  ],
+  "examples": [
+    "Implementing Partitioning & Sharding in a real-world scenario",
+    "Handling edge cases in Partitioning & Sharding"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Partitioning & Sharding.",
+    "Fix the bug in the given Partitioning & Sharding snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Partitioning & Sharding to a 5-year-old.",
+    "What are the pros and cons of Partitioning & Sharding?",
+    "How does Partitioning & Sharding handle memory management?"
+  ],
+  "miniProjects": [
+    "Partitioning & Sharding Implementation",
+    "Advanced Partitioning & Sharding Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Partitioning & Sharding into a microservice",
+    "Scale Partitioning & Sharding for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Partitioning & Sharding Documentation",
+      "url": "https://www.google.com/search?q=Partitioning%20%26%20Sharding+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Partitioning & Sharding Crash Course",
+      "url": "https://youtube.com/results?search_query=Partitioning%20%26%20Sharding+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Partitioning & Sharding Interview Questions",
+      "url": "https://www.google.com/search?q=Partitioning%20%26%20Sharding+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Partitioning & Sharding",
+    "How Amazon asks about Partitioning & Sharding"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,286 @@
+[
+  {
+    "name": "Foundations",
+    "description": "Math, Stats, and Programming basics.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Intermediate",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Python",
+        "theory": [
+          "Variables",
+          "Data Types",
+          "Loops",
+          "Functions",
+          "OOP"
+        ],
+        "miniProjects": [
+          "Python CLI Tool",
+          "Advanced Python Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Python to a 5-year-old.",
+          "What are the pros and cons of Python?",
+          "How does Python handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "python"
+      },
+      {
+        "name": "Statistics",
+        "theory": [
+          "Probability",
+          "Distributions",
+          "Hypothesis Testing",
+          "A/B Testing"
+        ],
+        "miniProjects": [
+          "Build a Statistics App",
+          "Advanced Statistics Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Statistics to a 5-year-old.",
+          "What are the pros and cons of Statistics?",
+          "How does Statistics handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "statistics"
+      },
+      {
+        "name": "SQL",
+        "theory": [
+          "Selects",
+          "Joins",
+          "Aggregations",
+          "Window Functions"
+        ],
+        "miniProjects": [
+          "Store Database Queries",
+          "Advanced SQL Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain SQL to a 5-year-old.",
+          "What are the pros and cons of SQL?",
+          "How does SQL handle memory management?"
+        ],
+        "estimatedHours": 25,
+        "slug": "sql"
+      }
+    ]
+  },
+  {
+    "name": "Data Analysis",
+    "description": "Manipulating and visualizing data.",
+    "whyItMatters": "Data Analysis is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Data Analysis Documentation",
+        "url": "https://www.google.com/search?q=Data%20Analysis+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Data Analysis Crash Course",
+        "url": "https://youtube.com/results?search_query=Data%20Analysis+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Data Analysis Interview Questions",
+        "url": "https://www.google.com/search?q=Data%20Analysis+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Data Analysis?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Data Analysis?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Pandas & NumPy",
+        "theory": [
+          "Series",
+          "DataFrames",
+          "Filtering",
+          "Grouping",
+          "Vectorization"
+        ],
+        "miniProjects": [
+          "Data Cleaning Pipeline",
+          "Advanced Pandas & NumPy Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Pandas & NumPy to a 5-year-old.",
+          "What are the pros and cons of Pandas & NumPy?",
+          "How does Pandas & NumPy handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "pandas-numpy"
+      },
+      {
+        "name": "Data Visualization",
+        "theory": [
+          "Matplotlib",
+          "Seaborn",
+          "Plotly",
+          "Dashboard Design"
+        ],
+        "miniProjects": [
+          "Sales Dashboard",
+          "Advanced Data Visualization Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Data Visualization to a 5-year-old.",
+          "What are the pros and cons of Data Visualization?",
+          "How does Data Visualization handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "data-visualization"
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning",
+    "description": "Predictive modeling.",
+    "whyItMatters": "Machine Learning is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Machine Learning Official Docs",
+        "url": "https://scikit-learn.org/stable/",
+        "type": "docs"
+      },
+      {
+        "title": "Full Machine Learning Course",
+        "url": "https://www.youtube.com/watch?v=i_LwzRmAizo",
+        "type": "video"
+      },
+      {
+        "title": "Machine Learning Practice Labs",
+        "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Machine Learning?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Machine Learning?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Scikit-Learn",
+        "theory": [
+          "Regression",
+          "Classification",
+          "Clustering",
+          "Cross Validation"
+        ],
+        "miniProjects": [
+          "House Price Predictor",
+          "Advanced Scikit-Learn Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Scikit-Learn to a 5-year-old.",
+          "What are the pros and cons of Scikit-Learn?",
+          "How does Scikit-Learn handle memory management?"
+        ],
+        "estimatedHours": 50,
+        "slug": "scikit-learn"
+      },
+      {
+        "name": "Model Evaluation",
+        "theory": [
+          "Accuracy",
+          "Precision",
+          "Recall",
+          "F1 Score",
+          "ROC-AUC"
+        ],
+        "miniProjects": [
+          "Build a Model Evaluation App",
+          "Advanced Model Evaluation Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Model Evaluation to a 5-year-old.",
+          "What are the pros and cons of Model Evaluation?",
+          "How does Model Evaluation handle memory management?"
+        ],
+        "estimatedHours": 15,
+        "slug": "model-evaluation"
+      }
+    ]
+  }
+]

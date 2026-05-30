@@ -1,0 +1,257 @@
+{
+  "roleId": "embedded_systems",
+  "title": "Embedded Systems Engineer",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Low level programming.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "C",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Pointers",
+            "Memory Management"
+          ],
+          "miniProject": {
+            "name": "C Implementation",
+            "description": "Practical implementation of C principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Microcontrollers",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "ARM Cortex-M",
+            "AVR"
+          ],
+          "miniProject": {
+            "name": "Microcontrollers Implementation",
+            "description": "Practical implementation of Microcontrollers principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Electronics",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "PCB Basics",
+            "Soldering"
+          ],
+          "miniProject": {
+            "name": "Electronics Implementation",
+            "description": "Practical implementation of Electronics principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Digital Logic",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Gates",
+            "Flip-Flops",
+            "Registers"
+          ],
+          "miniProject": {
+            "name": "Digital Logic Implementation",
+            "description": "Practical implementation of Digital Logic principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Firmware development.",
+      "estimatedWeeks": 8,
+      "skills": [
+        {
+          "name": "RTOS",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Tasks",
+            "Semaphores",
+            "Mutexes"
+          ],
+          "miniProject": {
+            "name": "RTOS Implementation",
+            "description": "Practical implementation of RTOS principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Device Drivers",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "I2C",
+            "SPI",
+            "UART"
+          ],
+          "miniProject": {
+            "name": "Device Drivers Implementation",
+            "description": "Practical implementation of Device Drivers principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Communication Protocols",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "CAN",
+            "LIN"
+          ],
+          "miniProject": {
+            "name": "Communication Protocols Implementation",
+            "description": "Practical implementation of Communication Protocols principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Memory Management",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Flash",
+            "RAM",
+            "EEPROM"
+          ],
+          "miniProject": {
+            "name": "Memory Management Implementation",
+            "description": "Practical implementation of Memory Management principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Projects",
+      "description": "Hardware systems.",
+      "estimatedWeeks": 6,
+      "projects": [
+        {
+          "name": "Automotive ECU Simulator",
+          "difficulty": "Advanced",
+          "description": "Simulated engine control unit via CAN bus.",
+          "skillsApplied": [
+            "CAN bus",
+            "Microcontroller",
+            "C"
+          ]
+        },
+        {
+          "name": "RTOS Based Monitoring System",
+          "difficulty": "Advanced",
+          "description": "Multi-threaded sensor logging.",
+          "skillsApplied": [
+            "FreeRTOS",
+            "STM32"
+          ]
+        },
+        {
+          "name": "Smart Traffic Controller",
+          "difficulty": "Advanced",
+          "description": "Adaptive intersection light timing.",
+          "skillsApplied": [
+            "Embedded C",
+            "Sensors"
+          ]
+        },
+        {
+          "name": "Drone Flight Controller",
+          "difficulty": "Advanced",
+          "description": "PID stabilization for quadcopters.",
+          "skillsApplied": [
+            "IMU",
+            "PWM",
+            "C++"
+          ]
+        },
+        {
+          "name": "Industrial Sensor Platform",
+          "difficulty": "Advanced",
+          "description": "High frequency data logging to SD card.",
+          "skillsApplied": [
+            "SPI",
+            "DMA",
+            "FatFS"
+          ]
+        },
+        {
+          "name": "Wearable Health Monitoring Device",
+          "difficulty": "Advanced",
+          "description": "Heart rate calculation algorithms.",
+          "skillsApplied": [
+            "I2C",
+            "PPG Sensor"
+          ]
+        },
+        {
+          "name": "Embedded Security System",
+          "difficulty": "Advanced",
+          "description": "Biometric access controller.",
+          "skillsApplied": [
+            "UART",
+            "Fingerprint Module"
+          ]
+        },
+        {
+          "name": "Smart Robotics Controller",
+          "difficulty": "Advanced",
+          "description": "Path planning for autonomous rovers.",
+          "skillsApplied": [
+            "Motor Drivers",
+            "ROS"
+          ]
+        }
+      ]
+    }
+  ],
+  "toolStack": {
+    "Core Technologies": [
+      "Git",
+      "Docker"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Postman"
+    ]
+  }
+}

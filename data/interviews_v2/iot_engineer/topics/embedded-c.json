@@ -1,0 +1,55 @@
+{
+  "roleId": "iot_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Embedded C",
+  "topicOverview": "An in-depth deep dive into Embedded C. Mastering this is critical for passing technical interviews for IoT Engineer roles.",
+  "whyItMatters": "Embedded C is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Pointers",
+    "Bitwise Operations"
+  ],
+  "examples": [
+    "Implementing Embedded C in a real-world scenario",
+    "Handling edge cases in Embedded C"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Embedded C.",
+    "Fix the bug in the given Embedded C snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Embedded C to a 5-year-old.",
+    "What are the pros and cons of Embedded C?",
+    "How does Embedded C handle memory management?"
+  ],
+  "miniProjects": [
+    "Embedded C Implementation",
+    "Advanced Embedded C Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Embedded C into a microservice",
+    "Scale Embedded C for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Embedded C Documentation",
+      "url": "https://www.google.com/search?q=Embedded%20C+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Embedded C Crash Course",
+      "url": "https://youtube.com/results?search_query=Embedded%20C+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Embedded C Interview Questions",
+      "url": "https://www.google.com/search?q=Embedded%20C+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Embedded C",
+    "How Amazon asks about Embedded C"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

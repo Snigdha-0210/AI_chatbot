@@ -1,0 +1,55 @@
+{
+  "roleId": "sre_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Cloud Basics",
+  "topicOverview": "An in-depth deep dive into Cloud Basics. Mastering this is critical for passing technical interviews for SRE Engineer roles.",
+  "whyItMatters": "Cloud Basics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "AWS",
+    "GCP"
+  ],
+  "examples": [
+    "Implementing Cloud Basics in a real-world scenario",
+    "Handling edge cases in Cloud Basics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Cloud Basics.",
+    "Fix the bug in the given Cloud Basics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Cloud Basics to a 5-year-old.",
+    "What are the pros and cons of Cloud Basics?",
+    "How does Cloud Basics handle memory management?"
+  ],
+  "miniProjects": [
+    "Cloud Basics Implementation",
+    "Advanced Cloud Basics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Cloud Basics into a microservice",
+    "Scale Cloud Basics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Cloud Basics Documentation",
+      "url": "https://www.google.com/search?q=Cloud%20Basics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Cloud Basics Crash Course",
+      "url": "https://youtube.com/results?search_query=Cloud%20Basics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Cloud Basics Interview Questions",
+      "url": "https://www.google.com/search?q=Cloud%20Basics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Cloud Basics",
+    "How Amazon asks about Cloud Basics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,55 @@
+{
+  "roleId": "database_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Replication",
+  "topicOverview": "An in-depth deep dive into Replication. Mastering this is critical for passing technical interviews for Database Engineer roles.",
+  "whyItMatters": "Replication is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Master-Slave",
+    "Multi-Master"
+  ],
+  "examples": [
+    "Implementing Replication in a real-world scenario",
+    "Handling edge cases in Replication"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Replication.",
+    "Fix the bug in the given Replication snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Replication to a 5-year-old.",
+    "What are the pros and cons of Replication?",
+    "How does Replication handle memory management?"
+  ],
+  "miniProjects": [
+    "Replication Implementation",
+    "Advanced Replication Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Replication into a microservice",
+    "Scale Replication for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Replication Documentation",
+      "url": "https://www.google.com/search?q=Replication+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Replication Crash Course",
+      "url": "https://youtube.com/results?search_query=Replication+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Replication Interview Questions",
+      "url": "https://www.google.com/search?q=Replication+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Replication",
+    "How Amazon asks about Replication"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

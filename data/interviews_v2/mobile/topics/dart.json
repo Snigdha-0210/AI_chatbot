@@ -1,0 +1,57 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Foundations",
+  "topicName": "Dart",
+  "topicOverview": "An in-depth deep dive into Dart. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "Dart is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Variables",
+    "OOP",
+    "Null Safety",
+    "Async Programming"
+  ],
+  "examples": [
+    "Implementing Dart in a real-world scenario",
+    "Handling edge cases in Dart"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Dart.",
+    "Fix the bug in the given Dart snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Dart to a 5-year-old.",
+    "What are the pros and cons of Dart?",
+    "How does Dart handle memory management?"
+  ],
+  "miniProjects": [
+    "CLI Calculator",
+    "Advanced Dart Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Dart into a microservice",
+    "Scale Dart for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Dart Documentation",
+      "url": "https://www.google.com/search?q=Dart+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Dart Crash Course",
+      "url": "https://youtube.com/results?search_query=Dart+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Dart Interview Questions",
+      "url": "https://www.google.com/search?q=Dart+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Dart",
+    "How Amazon asks about Dart"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

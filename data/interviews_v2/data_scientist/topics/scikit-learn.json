@@ -1,0 +1,57 @@
+{
+  "roleId": "data_scientist",
+  "subjectName": "Machine Learning",
+  "topicName": "Scikit-Learn",
+  "topicOverview": "An in-depth deep dive into Scikit-Learn. Mastering this is critical for passing technical interviews for Data Scientist roles.",
+  "whyItMatters": "Scikit-Learn is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Regression",
+    "Classification",
+    "Clustering",
+    "Cross Validation"
+  ],
+  "examples": [
+    "Implementing Scikit-Learn in a real-world scenario",
+    "Handling edge cases in Scikit-Learn"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Scikit-Learn.",
+    "Fix the bug in the given Scikit-Learn snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Scikit-Learn to a 5-year-old.",
+    "What are the pros and cons of Scikit-Learn?",
+    "How does Scikit-Learn handle memory management?"
+  ],
+  "miniProjects": [
+    "House Price Predictor",
+    "Advanced Scikit-Learn Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Scikit-Learn into a microservice",
+    "Scale Scikit-Learn for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Scikit-Learn Official Docs",
+      "url": "https://scikit-learn.org/stable/",
+      "type": "docs"
+    },
+    {
+      "title": "Full Scikit-Learn Course",
+      "url": "https://www.youtube.com/watch?v=i_LwzRmAizo",
+      "type": "video"
+    },
+    {
+      "title": "Scikit-Learn Practice Labs",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Scikit-Learn",
+    "How Amazon asks about Scikit-Learn"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "50 Hours"
+}

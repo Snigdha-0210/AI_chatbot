@@ -1,0 +1,621 @@
+{
+  "roleId": "cybersecurity",
+  "title": "Cybersecurity Analyst Interview Prep",
+  "technicalQuestions": [
+    {
+      "id": "t_cybersecurity_1",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Networking (TCP/IP)",
+      "question": "Can you explain the core concepts of Networking (TCP/IP) and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "OSI Model",
+        "TCP vs UDP",
+        "Subnetting",
+        "DNS"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_2",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Networking (TCP/IP)",
+      "question": "How does OSI Model work in the context of Networking (TCP/IP)?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_3",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Networking (TCP/IP)",
+      "question": "How does TCP vs UDP work in the context of Networking (TCP/IP)?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_4",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Networking (TCP/IP)",
+      "question": "How does Subnetting work in the context of Networking (TCP/IP)?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_5",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Networking (TCP/IP)",
+      "question": "How does DNS work in the context of Networking (TCP/IP)?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_6",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Linux Fundamentals",
+      "question": "Can you explain the core concepts of Linux Fundamentals and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "CLI",
+        "Permissions",
+        "Bash Scripting",
+        "Cron Jobs"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_7",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Linux Fundamentals",
+      "question": "How does CLI work in the context of Linux Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_8",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Linux Fundamentals",
+      "question": "How does Permissions work in the context of Linux Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_9",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Linux Fundamentals",
+      "question": "How does Bash Scripting work in the context of Linux Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_10",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Linux Fundamentals",
+      "question": "How does Cron Jobs work in the context of Linux Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_11",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "OWASP Top 10",
+      "question": "Can you explain the core concepts of OWASP Top 10 and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "SQLi",
+        "XSS",
+        "CSRF",
+        "Broken Auth"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_12",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "OWASP Top 10",
+      "question": "How does SQLi work in the context of OWASP Top 10?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_13",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "OWASP Top 10",
+      "question": "How does XSS work in the context of OWASP Top 10?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_14",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "OWASP Top 10",
+      "question": "How does CSRF work in the context of OWASP Top 10?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_15",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "OWASP Top 10",
+      "question": "How does Broken Auth work in the context of OWASP Top 10?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_16",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Network Analysis",
+      "question": "Can you explain the core concepts of Network Analysis and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Wireshark",
+        "Packet Sniffing",
+        "Nmap",
+        "Port Scanning"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_17",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Network Analysis",
+      "question": "How does Wireshark work in the context of Network Analysis?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_18",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Network Analysis",
+      "question": "How does Packet Sniffing work in the context of Network Analysis?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_19",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Network Analysis",
+      "question": "How does Nmap work in the context of Network Analysis?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_20",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Network Analysis",
+      "question": "How does Port Scanning work in the context of Network Analysis?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_21",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Penetration Testing",
+      "question": "Can you explain the core concepts of Penetration Testing and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Reconnaissance",
+        "Exploitation",
+        "Post-Exploitation",
+        "Burp Suite"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_22",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Penetration Testing",
+      "question": "How does Reconnaissance work in the context of Penetration Testing?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_23",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Penetration Testing",
+      "question": "How does Exploitation work in the context of Penetration Testing?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_24",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Penetration Testing",
+      "question": "How does Post-Exploitation work in the context of Penetration Testing?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_25",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Penetration Testing",
+      "question": "How does Burp Suite work in the context of Penetration Testing?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_26",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SIEM & Monitoring",
+      "question": "Can you explain the core concepts of SIEM & Monitoring and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Splunk",
+        "Log Analysis",
+        "Incident Response"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_27",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SIEM & Monitoring",
+      "question": "How does Splunk work in the context of SIEM & Monitoring?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_28",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SIEM & Monitoring",
+      "question": "How does Log Analysis work in the context of SIEM & Monitoring?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_cybersecurity_29",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SIEM & Monitoring",
+      "question": "How does Incident Response work in the context of SIEM & Monitoring?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    }
+  ],
+  "behavioralQuestions": [
+    {
+      "id": "b1",
+      "type": "behavioral",
+      "difficulty": "Easy",
+      "category": "General",
+      "question": "Tell me about yourself.",
+      "expectedKeyPoints": [
+        "Past experience",
+        "Current role/study",
+        "Future goals aligned with company"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Teamwork",
+      "question": "Describe a time you had a conflict with a team member.",
+      "expectedKeyPoints": [
+        "Situation",
+        "Action taken to resolve",
+        "Compromise",
+        "Positive outcome"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Leadership",
+      "question": "Tell me about a time you took the lead on a project.",
+      "expectedKeyPoints": [
+        "Initiative",
+        "Delegation",
+        "Result"
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "behavioral",
+      "difficulty": "Hard",
+      "category": "Failure",
+      "question": "Describe a project that failed. What did you learn?",
+      "expectedKeyPoints": [
+        "Accountability",
+        "Analysis of failure",
+        "Lessons applied later"
+      ]
+    }
+  ],
+  "codingQuestions": [
+    {
+      "id": "c1",
+      "type": "coding",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "question": "Two Sum: Find indices of two numbers that add up to target.",
+      "expectedKeyPoints": [
+        "Hash Map",
+        "O(N) Time",
+        "O(N) Space"
+      ]
+    },
+    {
+      "id": "c2",
+      "type": "coding",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "question": "Longest Substring Without Repeating Characters.",
+      "expectedKeyPoints": [
+        "Sliding Window",
+        "Set",
+        "O(N) Time"
+      ]
+    },
+    {
+      "id": "c3",
+      "type": "coding",
+      "difficulty": "Hard",
+      "category": "Graphs",
+      "question": "Word Ladder: Find shortest transformation sequence.",
+      "expectedKeyPoints": [
+        "BFS",
+        "Queue",
+        "O(M^2 * N)"
+      ]
+    }
+  ],
+  "companyTracks": [
+    {
+      "company": "Google",
+      "pattern": "3-4 Technical Coding Rounds (Data Structures focus), 1 System Design, 1 Googlyness (Behavioral)",
+      "expectedSkills": [
+        "Data Structures",
+        "Algorithms",
+        "System Design"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "c1",
+          "type": "coding",
+          "difficulty": "Easy",
+          "category": "Arrays",
+          "question": "Two Sum: Find indices of two numbers that add up to target.",
+          "expectedKeyPoints": [
+            "Hash Map",
+            "O(N) Time",
+            "O(N) Space"
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "coding",
+          "difficulty": "Medium",
+          "category": "Strings",
+          "question": "Longest Substring Without Repeating Characters.",
+          "expectedKeyPoints": [
+            "Sliding Window",
+            "Set",
+            "O(N) Time"
+          ]
+        },
+        {
+          "id": "c3",
+          "type": "coding",
+          "difficulty": "Hard",
+          "category": "Graphs",
+          "question": "Word Ladder: Find shortest transformation sequence.",
+          "expectedKeyPoints": [
+            "BFS",
+            "Queue",
+            "O(M^2 * N)"
+          ]
+        },
+        {
+          "id": "b1",
+          "type": "behavioral",
+          "difficulty": "Easy",
+          "category": "General",
+          "question": "Tell me about yourself.",
+          "expectedKeyPoints": [
+            "Past experience",
+            "Current role/study",
+            "Future goals aligned with company"
+          ]
+        },
+        {
+          "id": "b2",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Teamwork",
+          "question": "Describe a time you had a conflict with a team member.",
+          "expectedKeyPoints": [
+            "Situation",
+            "Action taken to resolve",
+            "Compromise",
+            "Positive outcome"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "pattern": "3 Technical Rounds (Coding + Domain), 1 Hiring Manager (Behavioral)",
+      "expectedSkills": [
+        "Networking",
+        "Linux",
+        "Python",
+        "OWASP"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "t_cybersecurity_1",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Networking (TCP/IP)",
+          "question": "Can you explain the core concepts of Networking (TCP/IP) and how it is used in modern applications?",
+          "expectedKeyPoints": [
+            "OSI Model",
+            "TCP vs UDP",
+            "Subnetting",
+            "DNS"
+          ]
+        },
+        {
+          "id": "t_cybersecurity_2",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Networking (TCP/IP)",
+          "question": "How does OSI Model work in the context of Networking (TCP/IP)?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "t_cybersecurity_3",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Networking (TCP/IP)",
+          "question": "How does TCP vs UDP work in the context of Networking (TCP/IP)?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "b3",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Leadership",
+          "question": "Tell me about a time you took the lead on a project.",
+          "expectedKeyPoints": [
+            "Initiative",
+            "Delegation",
+            "Result"
+          ]
+        },
+        {
+          "id": "b4",
+          "type": "behavioral",
+          "difficulty": "Hard",
+          "category": "Failure",
+          "question": "Describe a project that failed. What did you learn?",
+          "expectedKeyPoints": [
+            "Accountability",
+            "Analysis of failure",
+            "Lessons applied later"
+          ]
+        }
+      ]
+    }
+  ],
+  "cheatSheets": [
+    {
+      "skill": "Networking (TCP/IP)",
+      "content": "# Networking (TCP/IP) Cheat Sheet\n\n**Category:** Core\n\n**Key Subtopics:**\n- OSI Model\n- TCP vs UDP\n- Subnetting\n- DNS\n\n**Common Interview Themes:**\n- Be prepared to discuss how Networking (TCP/IP) integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Linux Fundamentals",
+      "content": "# Linux Fundamentals Cheat Sheet\n\n**Category:** OS\n\n**Key Subtopics:**\n- CLI\n- Permissions\n- Bash Scripting\n- Cron Jobs\n\n**Common Interview Themes:**\n- Be prepared to discuss how Linux Fundamentals integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "OWASP Top 10",
+      "content": "# OWASP Top 10 Cheat Sheet\n\n**Category:** Web Security\n\n**Key Subtopics:**\n- SQLi\n- XSS\n- CSRF\n- Broken Auth\n\n**Common Interview Themes:**\n- Be prepared to discuss how OWASP Top 10 integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Network Analysis",
+      "content": "# Network Analysis Cheat Sheet\n\n**Category:** Tools\n\n**Key Subtopics:**\n- Wireshark\n- Packet Sniffing\n- Nmap\n- Port Scanning\n\n**Common Interview Themes:**\n- Be prepared to discuss how Network Analysis integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Penetration Testing",
+      "content": "# Penetration Testing Cheat Sheet\n\n**Category:** Offensive\n\n**Key Subtopics:**\n- Reconnaissance\n- Exploitation\n- Post-Exploitation\n- Burp Suite\n\n**Common Interview Themes:**\n- Be prepared to discuss how Penetration Testing integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "SIEM & Monitoring",
+      "content": "# SIEM & Monitoring Cheat Sheet\n\n**Category:** Defensive\n\n**Key Subtopics:**\n- Splunk\n- Log Analysis\n- Incident Response\n\n**Common Interview Themes:**\n- Be prepared to discuss how SIEM & Monitoring integrates with your overall stack.\n- Focus on performance and edge cases."
+    }
+  ]
+}

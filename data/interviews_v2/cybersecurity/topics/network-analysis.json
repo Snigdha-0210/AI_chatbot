@@ -1,0 +1,57 @@
+{
+  "roleId": "cybersecurity",
+  "subjectName": "Security Fundamentals",
+  "topicName": "Network Analysis",
+  "topicOverview": "An in-depth deep dive into Network Analysis. Mastering this is critical for passing technical interviews for Cybersecurity Analyst roles.",
+  "whyItMatters": "Network Analysis is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Wireshark",
+    "Packet Sniffing",
+    "Nmap",
+    "Port Scanning"
+  ],
+  "examples": [
+    "Implementing Network Analysis in a real-world scenario",
+    "Handling edge cases in Network Analysis"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Network Analysis.",
+    "Fix the bug in the given Network Analysis snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Network Analysis to a 5-year-old.",
+    "What are the pros and cons of Network Analysis?",
+    "How does Network Analysis handle memory management?"
+  ],
+  "miniProjects": [
+    "Traffic Analyzer",
+    "Advanced Network Analysis Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Network Analysis into a microservice",
+    "Scale Network Analysis for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Network Analysis Documentation",
+      "url": "https://www.google.com/search?q=Network%20Analysis+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Network Analysis Crash Course",
+      "url": "https://youtube.com/results?search_query=Network%20Analysis+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Network Analysis Interview Questions",
+      "url": "https://www.google.com/search?q=Network%20Analysis+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Network Analysis",
+    "How Amazon asks about Network Analysis"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "25 Hours"
+}

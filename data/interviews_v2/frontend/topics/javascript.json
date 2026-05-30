@@ -1,0 +1,63 @@
+{
+  "roleId": "frontend",
+  "subjectName": "Foundations",
+  "topicName": "JavaScript",
+  "topicOverview": "An in-depth deep dive into JavaScript. Mastering this is critical for passing technical interviews for Frontend Developer roles.",
+  "whyItMatters": "JavaScript is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Variables",
+    "Data Types",
+    "Loops",
+    "Functions",
+    "Objects",
+    "Arrays",
+    "DOM",
+    "ES6",
+    "Async Await",
+    "APIs"
+  ],
+  "examples": [
+    "Implementing JavaScript in a real-world scenario",
+    "Handling edge cases in JavaScript"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating JavaScript.",
+    "Fix the bug in the given JavaScript snippet."
+  ],
+  "interviewQuestions": [
+    "Explain JavaScript to a 5-year-old.",
+    "What are the pros and cons of JavaScript?",
+    "How does JavaScript handle memory management?"
+  ],
+  "miniProjects": [
+    "Weather App",
+    "Advanced JavaScript Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate JavaScript into a microservice",
+    "Scale JavaScript for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "JavaScript Official Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "type": "docs"
+    },
+    {
+      "title": "Full JavaScript Course",
+      "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
+      "type": "video"
+    },
+    {
+      "title": "JavaScript Practice Labs",
+      "url": "https://leetcode.com/study-plan/javascript-30-days/",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests JavaScript",
+    "How Amazon asks about JavaScript"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

@@ -1,0 +1,55 @@
+{
+  "roleId": "ar_vr_developer",
+  "subjectName": "Core Skills",
+  "topicName": "Rendering",
+  "topicOverview": "An in-depth deep dive into Rendering. Mastering this is critical for passing technical interviews for AR/VR Developer roles.",
+  "whyItMatters": "Rendering is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Shaders",
+    "Lighting"
+  ],
+  "examples": [
+    "Implementing Rendering in a real-world scenario",
+    "Handling edge cases in Rendering"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Rendering.",
+    "Fix the bug in the given Rendering snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Rendering to a 5-year-old.",
+    "What are the pros and cons of Rendering?",
+    "How does Rendering handle memory management?"
+  ],
+  "miniProjects": [
+    "Rendering Implementation",
+    "Advanced Rendering Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Rendering into a microservice",
+    "Scale Rendering for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Rendering Documentation",
+      "url": "https://www.google.com/search?q=Rendering+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Rendering Crash Course",
+      "url": "https://youtube.com/results?search_query=Rendering+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Rendering Interview Questions",
+      "url": "https://www.google.com/search?q=Rendering+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Rendering",
+    "How Amazon asks about Rendering"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

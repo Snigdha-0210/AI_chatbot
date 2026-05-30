@@ -1,0 +1,55 @@
+{
+  "roleId": "ar_vr_developer",
+  "subjectName": "Core Skills",
+  "topicName": "ARCore",
+  "topicOverview": "An in-depth deep dive into ARCore. Mastering this is critical for passing technical interviews for AR/VR Developer roles.",
+  "whyItMatters": "ARCore is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Tracking",
+    "Anchors"
+  ],
+  "examples": [
+    "Implementing ARCore in a real-world scenario",
+    "Handling edge cases in ARCore"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating ARCore.",
+    "Fix the bug in the given ARCore snippet."
+  ],
+  "interviewQuestions": [
+    "Explain ARCore to a 5-year-old.",
+    "What are the pros and cons of ARCore?",
+    "How does ARCore handle memory management?"
+  ],
+  "miniProjects": [
+    "ARCore Implementation",
+    "Advanced ARCore Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate ARCore into a microservice",
+    "Scale ARCore for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "ARCore Documentation",
+      "url": "https://www.google.com/search?q=ARCore+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "ARCore Crash Course",
+      "url": "https://youtube.com/results?search_query=ARCore+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "ARCore Interview Questions",
+      "url": "https://www.google.com/search?q=ARCore+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests ARCore",
+    "How Amazon asks about ARCore"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

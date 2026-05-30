@@ -9,11 +9,26 @@ let adminDb: Firestore;
 let adminStorage: Storage;
 
 function getServiceAccount() {
+  // Option 1: Single JSON string
   const json = process.env.FIREBASE_SERVICE_ACCOUNT_JSON;
-  if (!json) {
-    throw new Error("FIREBASE_SERVICE_ACCOUNT_JSON is not set");
+  if (json) {
+    return JSON.parse(json) as Record<string, string>;
   }
-  return JSON.parse(json) as Record<string, string>;
+
+  // Option 2: Individual variables
+  const projectId = process.env.FIREBASE_PROJECT_ID;
+  const clientEmail = process.env.FIREBASE_CLIENT_EMAIL;
+  const privateKey = process.env.FIREBASE_PRIVATE_KEY?.replace(/\\n/g, '\n');
+
+  if (projectId && clientEmail && privateKey) {
+    return {
+      projectId,
+      clientEmail,
+      privateKey,
+    };
+  }
+
+  throw new Error("Firebase Admin credentials missing. Set FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, and FIREBASE_PRIVATE_KEY, or FIREBASE_SERVICE_ACCOUNT_JSON.");
 }
 
 export function getAdminApp(): App {

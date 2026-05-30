@@ -1,0 +1,57 @@
+{
+  "roleId": "qa_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Software Testing Basics",
+  "topicOverview": "An in-depth deep dive into Software Testing Basics. Mastering this is critical for passing technical interviews for QA Engineer roles.",
+  "whyItMatters": "Software Testing Basics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Manual Testing",
+    "Bug Lifecycle",
+    "SDLC",
+    "STLC"
+  ],
+  "examples": [
+    "Implementing Software Testing Basics in a real-world scenario",
+    "Handling edge cases in Software Testing Basics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Software Testing Basics.",
+    "Fix the bug in the given Software Testing Basics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Software Testing Basics to a 5-year-old.",
+    "What are the pros and cons of Software Testing Basics?",
+    "How does Software Testing Basics handle memory management?"
+  ],
+  "miniProjects": [
+    "Software Testing Basics Implementation",
+    "Advanced Software Testing Basics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Software Testing Basics into a microservice",
+    "Scale Software Testing Basics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Software Testing Basics Documentation",
+      "url": "https://www.google.com/search?q=Software%20Testing%20Basics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Software Testing Basics Crash Course",
+      "url": "https://youtube.com/results?search_query=Software%20Testing%20Basics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Software Testing Basics Interview Questions",
+      "url": "https://www.google.com/search?q=Software%20Testing%20Basics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Software Testing Basics",
+    "How Amazon asks about Software Testing Basics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

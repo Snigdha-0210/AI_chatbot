@@ -1,0 +1,700 @@
+{
+  "roleId": "mobile",
+  "title": "Mobile App Developer Interview Prep",
+  "technicalQuestions": [
+    {
+      "id": "t_mobile_1",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Dart",
+      "question": "Can you explain the core concepts of Dart and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Variables",
+        "OOP",
+        "Null Safety",
+        "Async Programming"
+      ]
+    },
+    {
+      "id": "t_mobile_2",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Dart",
+      "question": "How does Variables work in the context of Dart?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_3",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Dart",
+      "question": "How does OOP work in the context of Dart?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_4",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Dart",
+      "question": "How does Null Safety work in the context of Dart?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_5",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Dart",
+      "question": "How does Async Programming work in the context of Dart?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_6",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Flutter Basics",
+      "question": "Can you explain the core concepts of Flutter Basics and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Widgets",
+        "Stateless vs Stateful",
+        "Material/Cupertino"
+      ]
+    },
+    {
+      "id": "t_mobile_7",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Flutter Basics",
+      "question": "How does Widgets work in the context of Flutter Basics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_8",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Flutter Basics",
+      "question": "How does Stateless vs Stateful work in the context of Flutter Basics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_9",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Flutter Basics",
+      "question": "How does Material/Cupertino work in the context of Flutter Basics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_10",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "UI Fundamentals",
+      "question": "Can you explain the core concepts of UI Fundamentals and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Layouts (Row/Column)",
+        "Containers",
+        "Styling",
+        "Responsiveness"
+      ]
+    },
+    {
+      "id": "t_mobile_11",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "UI Fundamentals",
+      "question": "How does Layouts (Row/Column) work in the context of UI Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_12",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "UI Fundamentals",
+      "question": "How does Containers work in the context of UI Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_13",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "UI Fundamentals",
+      "question": "How does Styling work in the context of UI Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_14",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "UI Fundamentals",
+      "question": "How does Responsiveness work in the context of UI Fundamentals?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_15",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Navigation",
+      "question": "Can you explain the core concepts of Navigation and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Navigator 2.0",
+        "GoRouter",
+        "Passing Data"
+      ]
+    },
+    {
+      "id": "t_mobile_16",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Navigation",
+      "question": "How does Navigator 2.0 work in the context of Navigation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_17",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Navigation",
+      "question": "How does GoRouter work in the context of Navigation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_18",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Navigation",
+      "question": "How does Passing Data work in the context of Navigation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_19",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "Can you explain the core concepts of State Management and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Provider",
+        "Riverpod",
+        "Bloc",
+        "Local State"
+      ]
+    },
+    {
+      "id": "t_mobile_20",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "How does Provider work in the context of State Management?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_21",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "How does Riverpod work in the context of State Management?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_22",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "How does Bloc work in the context of State Management?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_23",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "How does Local State work in the context of State Management?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_24",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Firebase Auth & Firestore",
+      "question": "Can you explain the core concepts of Firebase Auth & Firestore and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Authentication",
+        "NoSQL",
+        "Realtime Updates"
+      ]
+    },
+    {
+      "id": "t_mobile_25",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Firebase Auth & Firestore",
+      "question": "How does Authentication work in the context of Firebase Auth & Firestore?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_26",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Firebase Auth & Firestore",
+      "question": "How does NoSQL work in the context of Firebase Auth & Firestore?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_27",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Firebase Auth & Firestore",
+      "question": "How does Realtime Updates work in the context of Firebase Auth & Firestore?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_28",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "REST APIs",
+      "question": "Can you explain the core concepts of REST APIs and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "HTTP Package",
+        "JSON Serialization",
+        "Error Handling"
+      ]
+    },
+    {
+      "id": "t_mobile_29",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "REST APIs",
+      "question": "How does HTTP Package work in the context of REST APIs?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_30",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "REST APIs",
+      "question": "How does JSON Serialization work in the context of REST APIs?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_31",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "REST APIs",
+      "question": "How does Error Handling work in the context of REST APIs?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_32",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Device Features",
+      "question": "Can you explain the core concepts of Device Features and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Camera",
+        "GPS",
+        "Push Notifications"
+      ]
+    },
+    {
+      "id": "t_mobile_33",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Device Features",
+      "question": "How does Camera work in the context of Device Features?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_34",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Device Features",
+      "question": "How does GPS work in the context of Device Features?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_mobile_35",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Device Features",
+      "question": "How does Push Notifications work in the context of Device Features?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    }
+  ],
+  "behavioralQuestions": [
+    {
+      "id": "b1",
+      "type": "behavioral",
+      "difficulty": "Easy",
+      "category": "General",
+      "question": "Tell me about yourself.",
+      "expectedKeyPoints": [
+        "Past experience",
+        "Current role/study",
+        "Future goals aligned with company"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Teamwork",
+      "question": "Describe a time you had a conflict with a team member.",
+      "expectedKeyPoints": [
+        "Situation",
+        "Action taken to resolve",
+        "Compromise",
+        "Positive outcome"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Leadership",
+      "question": "Tell me about a time you took the lead on a project.",
+      "expectedKeyPoints": [
+        "Initiative",
+        "Delegation",
+        "Result"
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "behavioral",
+      "difficulty": "Hard",
+      "category": "Failure",
+      "question": "Describe a project that failed. What did you learn?",
+      "expectedKeyPoints": [
+        "Accountability",
+        "Analysis of failure",
+        "Lessons applied later"
+      ]
+    }
+  ],
+  "codingQuestions": [
+    {
+      "id": "c1",
+      "type": "coding",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "question": "Two Sum: Find indices of two numbers that add up to target.",
+      "expectedKeyPoints": [
+        "Hash Map",
+        "O(N) Time",
+        "O(N) Space"
+      ]
+    },
+    {
+      "id": "c2",
+      "type": "coding",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "question": "Longest Substring Without Repeating Characters.",
+      "expectedKeyPoints": [
+        "Sliding Window",
+        "Set",
+        "O(N) Time"
+      ]
+    },
+    {
+      "id": "c3",
+      "type": "coding",
+      "difficulty": "Hard",
+      "category": "Graphs",
+      "question": "Word Ladder: Find shortest transformation sequence.",
+      "expectedKeyPoints": [
+        "BFS",
+        "Queue",
+        "O(M^2 * N)"
+      ]
+    }
+  ],
+  "companyTracks": [
+    {
+      "company": "Google",
+      "pattern": "3-4 Technical Coding Rounds (Data Structures focus), 1 System Design, 1 Googlyness (Behavioral)",
+      "expectedSkills": [
+        "Data Structures",
+        "Algorithms",
+        "System Design"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "c1",
+          "type": "coding",
+          "difficulty": "Easy",
+          "category": "Arrays",
+          "question": "Two Sum: Find indices of two numbers that add up to target.",
+          "expectedKeyPoints": [
+            "Hash Map",
+            "O(N) Time",
+            "O(N) Space"
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "coding",
+          "difficulty": "Medium",
+          "category": "Strings",
+          "question": "Longest Substring Without Repeating Characters.",
+          "expectedKeyPoints": [
+            "Sliding Window",
+            "Set",
+            "O(N) Time"
+          ]
+        },
+        {
+          "id": "c3",
+          "type": "coding",
+          "difficulty": "Hard",
+          "category": "Graphs",
+          "question": "Word Ladder: Find shortest transformation sequence.",
+          "expectedKeyPoints": [
+            "BFS",
+            "Queue",
+            "O(M^2 * N)"
+          ]
+        },
+        {
+          "id": "b1",
+          "type": "behavioral",
+          "difficulty": "Easy",
+          "category": "General",
+          "question": "Tell me about yourself.",
+          "expectedKeyPoints": [
+            "Past experience",
+            "Current role/study",
+            "Future goals aligned with company"
+          ]
+        },
+        {
+          "id": "b2",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Teamwork",
+          "question": "Describe a time you had a conflict with a team member.",
+          "expectedKeyPoints": [
+            "Situation",
+            "Action taken to resolve",
+            "Compromise",
+            "Positive outcome"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "pattern": "3 Technical Rounds (Coding + Domain), 1 Hiring Manager (Behavioral)",
+      "expectedSkills": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "REST APIs",
+        "SQLite"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "t_mobile_1",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Dart",
+          "question": "Can you explain the core concepts of Dart and how it is used in modern applications?",
+          "expectedKeyPoints": [
+            "Variables",
+            "OOP",
+            "Null Safety",
+            "Async Programming"
+          ]
+        },
+        {
+          "id": "t_mobile_2",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Dart",
+          "question": "How does Variables work in the context of Dart?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "t_mobile_3",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Dart",
+          "question": "How does OOP work in the context of Dart?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "b3",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Leadership",
+          "question": "Tell me about a time you took the lead on a project.",
+          "expectedKeyPoints": [
+            "Initiative",
+            "Delegation",
+            "Result"
+          ]
+        },
+        {
+          "id": "b4",
+          "type": "behavioral",
+          "difficulty": "Hard",
+          "category": "Failure",
+          "question": "Describe a project that failed. What did you learn?",
+          "expectedKeyPoints": [
+            "Accountability",
+            "Analysis of failure",
+            "Lessons applied later"
+          ]
+        }
+      ]
+    }
+  ],
+  "cheatSheets": [
+    {
+      "skill": "Dart",
+      "content": "# Dart Cheat Sheet\n\n**Category:** Language\n\n**Key Subtopics:**\n- Variables\n- OOP\n- Null Safety\n- Async Programming\n\n**Common Interview Themes:**\n- Be prepared to discuss how Dart integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Flutter Basics",
+      "content": "# Flutter Basics Cheat Sheet\n\n**Category:** Framework\n\n**Key Subtopics:**\n- Widgets\n- Stateless vs Stateful\n- Material/Cupertino\n\n**Common Interview Themes:**\n- Be prepared to discuss how Flutter Basics integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "UI Fundamentals",
+      "content": "# UI Fundamentals Cheat Sheet\n\n**Category:** Design\n\n**Key Subtopics:**\n- Layouts (Row/Column)\n- Containers\n- Styling\n- Responsiveness\n\n**Common Interview Themes:**\n- Be prepared to discuss how UI Fundamentals integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Navigation",
+      "content": "# Navigation Cheat Sheet\n\n**Category:** Framework\n\n**Key Subtopics:**\n- Navigator 2.0\n- GoRouter\n- Passing Data\n\n**Common Interview Themes:**\n- Be prepared to discuss how Navigation integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "State Management",
+      "content": "# State Management Cheat Sheet\n\n**Category:** Architecture\n\n**Key Subtopics:**\n- Provider\n- Riverpod\n- Bloc\n- Local State\n\n**Common Interview Themes:**\n- Be prepared to discuss how State Management integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Firebase Auth & Firestore",
+      "content": "# Firebase Auth & Firestore Cheat Sheet\n\n**Category:** Backend\n\n**Key Subtopics:**\n- Authentication\n- NoSQL\n- Realtime Updates\n\n**Common Interview Themes:**\n- Be prepared to discuss how Firebase Auth & Firestore integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "REST APIs",
+      "content": "# REST APIs Cheat Sheet\n\n**Category:** Networking\n\n**Key Subtopics:**\n- HTTP Package\n- JSON Serialization\n- Error Handling\n\n**Common Interview Themes:**\n- Be prepared to discuss how REST APIs integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Device Features",
+      "content": "# Device Features Cheat Sheet\n\n**Category:** Hardware\n\n**Key Subtopics:**\n- Camera\n- GPS\n- Push Notifications\n\n**Common Interview Themes:**\n- Be prepared to discuss how Device Features integrates with your overall stack.\n- Focus on performance and edge cases."
+    }
+  ]
+}

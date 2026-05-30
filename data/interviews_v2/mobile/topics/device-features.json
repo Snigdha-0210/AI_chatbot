@@ -1,0 +1,56 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Intermediate Skills & Backend",
+  "topicName": "Device Features",
+  "topicOverview": "An in-depth deep dive into Device Features. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "Device Features is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Camera",
+    "GPS",
+    "Push Notifications"
+  ],
+  "examples": [
+    "Implementing Device Features in a real-world scenario",
+    "Handling edge cases in Device Features"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Device Features.",
+    "Fix the bug in the given Device Features snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Device Features to a 5-year-old.",
+    "What are the pros and cons of Device Features?",
+    "How does Device Features handle memory management?"
+  ],
+  "miniProjects": [
+    "Location Tracker",
+    "Advanced Device Features Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Device Features into a microservice",
+    "Scale Device Features for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Device Features Documentation",
+      "url": "https://www.google.com/search?q=Device%20Features+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Device Features Crash Course",
+      "url": "https://youtube.com/results?search_query=Device%20Features+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Device Features Interview Questions",
+      "url": "https://www.google.com/search?q=Device%20Features+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Device Features",
+    "How Amazon asks about Device Features"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

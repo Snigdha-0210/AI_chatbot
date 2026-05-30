@@ -1,0 +1,55 @@
+{
+  "roleId": "embedded_systems",
+  "subjectName": "Foundations",
+  "topicName": "Electronics",
+  "topicOverview": "An in-depth deep dive into Electronics. Mastering this is critical for passing technical interviews for Embedded Systems Engineer roles.",
+  "whyItMatters": "Electronics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "PCB Basics",
+    "Soldering"
+  ],
+  "examples": [
+    "Implementing Electronics in a real-world scenario",
+    "Handling edge cases in Electronics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Electronics.",
+    "Fix the bug in the given Electronics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Electronics to a 5-year-old.",
+    "What are the pros and cons of Electronics?",
+    "How does Electronics handle memory management?"
+  ],
+  "miniProjects": [
+    "Electronics Implementation",
+    "Advanced Electronics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Electronics into a microservice",
+    "Scale Electronics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Electronics Documentation",
+      "url": "https://www.google.com/search?q=Electronics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Electronics Crash Course",
+      "url": "https://youtube.com/results?search_query=Electronics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Electronics Interview Questions",
+      "url": "https://www.google.com/search?q=Electronics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Electronics",
+    "How Amazon asks about Electronics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

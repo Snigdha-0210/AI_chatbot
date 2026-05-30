@@ -1,0 +1,238 @@
+{
+  "roleId": "sre_engineer",
+  "title": "SRE Engineer",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "System basics.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Linux",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Command Line",
+            "Permissions",
+            "Bash Scripting"
+          ],
+          "miniProject": {
+            "name": "Linux Implementation",
+            "description": "Practical implementation of Linux principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Networking",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "TCP/IP",
+            "DNS",
+            "Load Balancing"
+          ],
+          "miniProject": {
+            "name": "Networking Implementation",
+            "description": "Practical implementation of Networking principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Cloud Basics",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "AWS",
+            "GCP"
+          ],
+          "miniProject": {
+            "name": "Cloud Basics Implementation",
+            "description": "Practical implementation of Cloud Basics principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Reliability practices.",
+      "estimatedWeeks": 8,
+      "skills": [
+        {
+          "name": "Monitoring",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Prometheus",
+            "Grafana"
+          ],
+          "miniProject": {
+            "name": "Monitoring Implementation",
+            "description": "Practical implementation of Monitoring principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Observability",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Logging",
+            "Tracing",
+            "Metrics"
+          ],
+          "miniProject": {
+            "name": "Observability Implementation",
+            "description": "Practical implementation of Observability principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Incident Management",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Runbooks",
+            "Postmortems"
+          ],
+          "miniProject": {
+            "name": "Incident Management Implementation",
+            "description": "Practical implementation of Incident Management principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Reliability Engineering",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "SLIs",
+            "SLOs",
+            "Error Budgets"
+          ],
+          "miniProject": {
+            "name": "Reliability Engineering Implementation",
+            "description": "Practical implementation of Reliability Engineering principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Projects",
+      "description": "SRE in practice.",
+      "estimatedWeeks": 6,
+      "projects": [
+        {
+          "name": "Observability Platform",
+          "difficulty": "Advanced",
+          "description": "Comprehensive system dashboard with tracing.",
+          "skillsApplied": [
+            "Grafana",
+            "Prometheus",
+            "Jaeger"
+          ]
+        },
+        {
+          "name": "Infrastructure Monitoring System",
+          "difficulty": "Advanced",
+          "description": "Agent-based node monitoring.",
+          "skillsApplied": [
+            "Telegraf",
+            "InfluxDB"
+          ]
+        },
+        {
+          "name": "Incident Response Dashboard",
+          "difficulty": "Advanced",
+          "description": "Automated alerting and on-call rotation.",
+          "skillsApplied": [
+            "PagerDuty",
+            "Python"
+          ]
+        },
+        {
+          "name": "Cloud Reliability Platform",
+          "difficulty": "Advanced",
+          "description": "Chaos engineering testing suite.",
+          "skillsApplied": [
+            "Chaos Mesh",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "Kubernetes Monitoring Suite",
+          "difficulty": "Advanced",
+          "description": "Deep cluster health analytics.",
+          "skillsApplied": [
+            "Kube-state-metrics",
+            "ELK"
+          ]
+        },
+        {
+          "name": "Auto Scaling Engine",
+          "difficulty": "Advanced",
+          "description": "Dynamic scaling based on custom metrics.",
+          "skillsApplied": [
+            "AWS Auto Scaling",
+            "Terraform"
+          ]
+        },
+        {
+          "name": "Disaster Recovery Automation",
+          "difficulty": "Advanced",
+          "description": "Automated cross-region failover scripts.",
+          "skillsApplied": [
+            "AWS Route53",
+            "Lambda"
+          ]
+        },
+        {
+          "name": "Site Reliability Analytics Platform",
+          "difficulty": "Advanced",
+          "description": "SLO/SLI error budget tracker.",
+          "skillsApplied": [
+            "React",
+            "Go"
+          ]
+        }
+      ]
+    }
+  ],
+  "toolStack": {
+    "Core Technologies": [
+      "Git",
+      "Docker"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Postman"
+    ]
+  }
+}

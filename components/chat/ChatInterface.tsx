@@ -9,7 +9,19 @@ import { postChat } from "@/utils/api";
 import { fetchChatDoc } from "@/utils/firestore-client";
 import { Spinner } from "@/components/ui/Spinner";
 import { EmptyState } from "@/components/ui/EmptyState";
+import { MarkdownContent } from "@/components/ui/MarkdownContent";
 import type { ChatMessage } from "@/types";
+
+const SUGGESTED_PROMPTS = [
+  "How do I become a Full Stack Developer?",
+  "What skills am I missing?",
+  "Review my roadmap.",
+  "Suggest projects.",
+  "Prepare me for React interviews.",
+  "Improve my resume.",
+  "Generate a learning plan.",
+  "How placement ready am I?"
+];
 
 export function ChatInterface({ chatId }: { chatId?: string }) {
   const { user } = useAuth();
@@ -73,9 +85,9 @@ export function ChatInterface({ chatId }: { chatId?: string }) {
     };
   }, [user, chatId]);
 
-  async function send() {
-    const text = input.trim();
-    if (!text || sending) return;
+  async function send(textOverride?: string) {
+    const text = textOverride ?? input.trim();
+    if (!text || sending || !user?.uid) return;
 
     setError(null);
     setSending(true);
@@ -93,6 +105,7 @@ export function ChatInterface({ chatId }: { chatId?: string }) {
         message: text,
         chatId: activeChatId,
         history: prior,
+        userId: user.uid,
       });
       setMessages(res.messages);
       setActiveChatId(res.chatId);
@@ -134,11 +147,28 @@ export function ChatInterface({ chatId }: { chatId?: string }) {
       <div className="flex min-h-0 flex-1 flex-col overflow-hidden rounded-2xl border border-white/10 bg-surface-card/40">
         <div className="flex-1 space-y-4 overflow-y-auto p-6">
           {!chatId && messages.length === 0 && (
-            <EmptyState
-              icon="chat"
-              title="Start a conversation"
-              description="Ask about internships, resumes, or interview prep."
-            />
+            <div className="flex flex-col items-center justify-center h-full max-w-2xl mx-auto space-y-8">
+              <EmptyState
+                icon="robot_2"
+                title="CampusCopilot AI"
+                description="Your personalized career mentor. Ask me about your roadmap, resume, or interview prep!"
+              />
+              
+              <div className="w-full">
+                <p className="text-xs uppercase tracking-widest text-on-surface-variant font-bold mb-3 px-2">Suggested Prompts</p>
+                <div className="flex flex-wrap gap-2">
+                  {SUGGESTED_PROMPTS.map((prompt) => (
+                    <button
+                      key={prompt}
+                      onClick={() => send(prompt)}
+                      className="text-left bg-surface-container hover:bg-surface-container-high border border-white/5 hover:border-primary/50 transition-colors rounded-xl px-4 py-2.5 text-sm text-on-surface"
+                    >
+                      {prompt}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
           )}
           {messages.map((m, i) => (
             <div
@@ -152,7 +182,11 @@ export function ChatInterface({ chatId }: { chatId?: string }) {
                     : "border border-white/5 bg-surface-container text-on-surface"
                 }`}
               >
-                {m.content}
+                {m.role === "assistant" ? (
+                  <MarkdownContent content={m.content} />
+                ) : (
+                  m.content
+                )}
               </div>
             </div>
           ))}

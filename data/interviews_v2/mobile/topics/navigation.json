@@ -1,0 +1,56 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Mobile Development Core",
+  "topicName": "Navigation",
+  "topicOverview": "An in-depth deep dive into Navigation. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "Navigation is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Navigator 2.0",
+    "GoRouter",
+    "Passing Data"
+  ],
+  "examples": [
+    "Implementing Navigation in a real-world scenario",
+    "Handling edge cases in Navigation"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Navigation.",
+    "Fix the bug in the given Navigation snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Navigation to a 5-year-old.",
+    "What are the pros and cons of Navigation?",
+    "How does Navigation handle memory management?"
+  ],
+  "miniProjects": [
+    "Multi-screen App",
+    "Advanced Navigation Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Navigation into a microservice",
+    "Scale Navigation for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Navigation Documentation",
+      "url": "https://www.google.com/search?q=Navigation+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Navigation Crash Course",
+      "url": "https://youtube.com/results?search_query=Navigation+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Navigation Interview Questions",
+      "url": "https://www.google.com/search?q=Navigation+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Navigation",
+    "How Amazon asks about Navigation"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,56 @@
+{
+  "roleId": "embedded_systems",
+  "subjectName": "Core Skills",
+  "topicName": "Memory Management",
+  "topicOverview": "An in-depth deep dive into Memory Management. Mastering this is critical for passing technical interviews for Embedded Systems Engineer roles.",
+  "whyItMatters": "Memory Management is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Flash",
+    "RAM",
+    "EEPROM"
+  ],
+  "examples": [
+    "Implementing Memory Management in a real-world scenario",
+    "Handling edge cases in Memory Management"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Memory Management.",
+    "Fix the bug in the given Memory Management snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Memory Management to a 5-year-old.",
+    "What are the pros and cons of Memory Management?",
+    "How does Memory Management handle memory management?"
+  ],
+  "miniProjects": [
+    "Memory Management Implementation",
+    "Advanced Memory Management Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Memory Management into a microservice",
+    "Scale Memory Management for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Memory Management Documentation",
+      "url": "https://www.google.com/search?q=Memory%20Management+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Memory Management Crash Course",
+      "url": "https://youtube.com/results?search_query=Memory%20Management+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Memory Management Interview Questions",
+      "url": "https://www.google.com/search?q=Memory%20Management+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Memory Management",
+    "How Amazon asks about Memory Management"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

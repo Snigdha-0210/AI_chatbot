@@ -1,0 +1,253 @@
+{
+  "roleId": "iot_engineer",
+  "title": "IoT Engineer",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Hardware basics.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Electronics",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Circuits",
+            "Components"
+          ],
+          "miniProject": {
+            "name": "Electronics Implementation",
+            "description": "Practical implementation of Electronics principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Sensors",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Digital",
+            "Analog"
+          ],
+          "miniProject": {
+            "name": "Sensors Implementation",
+            "description": "Practical implementation of Sensors principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Microcontrollers",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Architecture"
+          ],
+          "miniProject": {
+            "name": "Microcontrollers Implementation",
+            "description": "Practical implementation of Microcontrollers principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Embedded C",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Pointers",
+            "Bitwise Operations"
+          ],
+          "miniProject": {
+            "name": "Embedded C Implementation",
+            "description": "Practical implementation of Embedded C principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Connectivity.",
+      "estimatedWeeks": 8,
+      "skills": [
+        {
+          "name": "ESP32",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Wi-Fi",
+            "Bluetooth"
+          ],
+          "miniProject": {
+            "name": "ESP32 Implementation",
+            "description": "Practical implementation of ESP32 principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Arduino",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Libraries",
+            "Interfacing"
+          ],
+          "miniProject": {
+            "name": "Arduino Implementation",
+            "description": "Practical implementation of Arduino principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "MQTT",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Pub/Sub",
+            "Brokers"
+          ],
+          "miniProject": {
+            "name": "MQTT Implementation",
+            "description": "Practical implementation of MQTT principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Cloud Integration",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "AWS IoT",
+            "Azure IoT"
+          ],
+          "miniProject": {
+            "name": "Cloud Integration Implementation",
+            "description": "Practical implementation of Cloud Integration principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Projects",
+      "description": "Connected devices.",
+      "estimatedWeeks": 6,
+      "projects": [
+        {
+          "name": "Smart Home Automation System",
+          "difficulty": "Advanced",
+          "description": "App controlled appliances and lighting.",
+          "skillsApplied": [
+            "ESP32",
+            "MQTT",
+            "React Native"
+          ]
+        },
+        {
+          "name": "Industrial Monitoring Network",
+          "difficulty": "Advanced",
+          "description": "Factory floor machine telemetry.",
+          "skillsApplied": [
+            "Raspberry Pi",
+            "Node-RED"
+          ]
+        },
+        {
+          "name": "Smart Agriculture Platform",
+          "difficulty": "Advanced",
+          "description": "Soil moisture and automated irrigation.",
+          "skillsApplied": [
+            "Arduino",
+            "Sensors",
+            "AWS IoT"
+          ]
+        },
+        {
+          "name": "IoT Fleet Management",
+          "difficulty": "Advanced",
+          "description": "GPS tracking for logistics vehicles.",
+          "skillsApplied": [
+            "Cellular IoT",
+            "Google Maps API"
+          ]
+        },
+        {
+          "name": "Energy Consumption Tracker",
+          "difficulty": "Advanced",
+          "description": "Real-time power usage analytics.",
+          "skillsApplied": [
+            "ESP8266",
+            "InfluxDB",
+            "Grafana"
+          ]
+        },
+        {
+          "name": "Environmental Monitoring Platform",
+          "difficulty": "Advanced",
+          "description": "Air quality and temperature dashboard.",
+          "skillsApplied": [
+            "LoRaWAN",
+            "ThingsBoard"
+          ]
+        },
+        {
+          "name": "Smart City Infrastructure System",
+          "difficulty": "Advanced",
+          "description": "Connected streetlights and waste bins.",
+          "skillsApplied": [
+            "IoT Hub",
+            "Azure"
+          ]
+        },
+        {
+          "name": "Healthcare Monitoring Device Network",
+          "difficulty": "Advanced",
+          "description": "Wearable vitals tracking.",
+          "skillsApplied": [
+            "BLE",
+            "MQTT",
+            "Python"
+          ]
+        }
+      ]
+    }
+  ],
+  "toolStack": {
+    "Core Technologies": [
+      "Git",
+      "Docker"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Postman"
+    ]
+  }
+}

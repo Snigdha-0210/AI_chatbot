@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Foundations",
+    "description": "Core concepts for fullstack.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Programming Basics",
+        "theory": [
+          "Variables",
+          "Loops",
+          "Functions",
+          "OOP"
+        ],
+        "miniProjects": [
+          "CLI Tool",
+          "Advanced Programming Basics Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Programming Basics to a 5-year-old.",
+          "What are the pros and cons of Programming Basics?",
+          "How does Programming Basics handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "programming-basics"
+      },
+      {
+        "name": "Version Control",
+        "theory": [
+          "Git Basics",
+          "GitHub Collaboration",
+          "Branching",
+          "Pull Requests"
+        ],
+        "miniProjects": [
+          "Open Source PR",
+          "Advanced Version Control Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Version Control to a 5-year-old.",
+          "What are the pros and cons of Version Control?",
+          "How does Version Control handle memory management?"
+        ],
+        "estimatedHours": 10,
+        "slug": "version-control"
+      }
+    ]
+  },
+  {
+    "name": "Core Skills",
+    "description": "Mastering the tools of fullstack.",
+    "whyItMatters": "Core Skills is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Core Skills Documentation",
+        "url": "https://www.google.com/search?q=Core%20Skills+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Core Skills Crash Course",
+        "url": "https://youtube.com/results?search_query=Core%20Skills+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Core Skills Interview Questions",
+        "url": "https://www.google.com/search?q=Core%20Skills+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Core Skills?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Core Skills?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Framework Architecture",
+        "theory": [
+          "Components",
+          "Routing",
+          "State",
+          "APIs"
+        ],
+        "miniProjects": [
+          "Medium Project",
+          "Advanced Framework Architecture Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Framework Architecture to a 5-year-old.",
+          "What are the pros and cons of Framework Architecture?",
+          "How does Framework Architecture handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "framework-architecture"
+      },
+      {
+        "name": "Database Integration",
+        "theory": [
+          "SQL",
+          "NoSQL",
+          "ORMs"
+        ],
+        "miniProjects": [
+          "CRUD App",
+          "Advanced Database Integration Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Database Integration to a 5-year-old.",
+          "What are the pros and cons of Database Integration?",
+          "How does Database Integration handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "database-integration"
+      }
+    ]
+  },
+  {
+    "name": "Advanced Projects",
+    "description": "Building production ready systems.",
+    "whyItMatters": "Advanced Projects is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Advanced Projects Documentation",
+        "url": "https://www.google.com/search?q=Advanced%20Projects+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Advanced Projects Crash Course",
+        "url": "https://youtube.com/results?search_query=Advanced%20Projects+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Advanced Projects Interview Questions",
+        "url": "https://www.google.com/search?q=Advanced%20Projects+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Advanced Projects?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Advanced Projects?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Deployment & CI/CD",
+        "theory": [
+          "Docker",
+          "Actions",
+          "Cloud Hosting"
+        ],
+        "miniProjects": [
+          "Deployed App",
+          "Advanced Deployment & CI/CD Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Deployment & CI/CD to a 5-year-old.",
+          "What are the pros and cons of Deployment & CI/CD?",
+          "How does Deployment & CI/CD handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "deployment-ci-cd"
+      }
+    ]
+  }
+]

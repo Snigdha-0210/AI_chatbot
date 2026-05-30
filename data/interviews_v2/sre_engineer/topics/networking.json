@@ -1,0 +1,56 @@
+{
+  "roleId": "sre_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Networking",
+  "topicOverview": "An in-depth deep dive into Networking. Mastering this is critical for passing technical interviews for SRE Engineer roles.",
+  "whyItMatters": "Networking is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "TCP/IP",
+    "DNS",
+    "Load Balancing"
+  ],
+  "examples": [
+    "Implementing Networking in a real-world scenario",
+    "Handling edge cases in Networking"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Networking.",
+    "Fix the bug in the given Networking snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Networking to a 5-year-old.",
+    "What are the pros and cons of Networking?",
+    "How does Networking handle memory management?"
+  ],
+  "miniProjects": [
+    "Networking Implementation",
+    "Advanced Networking Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Networking into a microservice",
+    "Scale Networking for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Networking Documentation",
+      "url": "https://www.google.com/search?q=Networking+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Networking Crash Course",
+      "url": "https://youtube.com/results?search_query=Networking+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Networking Interview Questions",
+      "url": "https://www.google.com/search?q=Networking+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Networking",
+    "How Amazon asks about Networking"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

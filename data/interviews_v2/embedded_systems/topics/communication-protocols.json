@@ -1,0 +1,55 @@
+{
+  "roleId": "embedded_systems",
+  "subjectName": "Core Skills",
+  "topicName": "Communication Protocols",
+  "topicOverview": "An in-depth deep dive into Communication Protocols. Mastering this is critical for passing technical interviews for Embedded Systems Engineer roles.",
+  "whyItMatters": "Communication Protocols is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "CAN",
+    "LIN"
+  ],
+  "examples": [
+    "Implementing Communication Protocols in a real-world scenario",
+    "Handling edge cases in Communication Protocols"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Communication Protocols.",
+    "Fix the bug in the given Communication Protocols snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Communication Protocols to a 5-year-old.",
+    "What are the pros and cons of Communication Protocols?",
+    "How does Communication Protocols handle memory management?"
+  ],
+  "miniProjects": [
+    "Communication Protocols Implementation",
+    "Advanced Communication Protocols Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Communication Protocols into a microservice",
+    "Scale Communication Protocols for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Communication Protocols Documentation",
+      "url": "https://www.google.com/search?q=Communication%20Protocols+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Communication Protocols Crash Course",
+      "url": "https://youtube.com/results?search_query=Communication%20Protocols+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Communication Protocols Interview Questions",
+      "url": "https://www.google.com/search?q=Communication%20Protocols+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Communication Protocols",
+    "How Amazon asks about Communication Protocols"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

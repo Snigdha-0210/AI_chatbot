@@ -1,0 +1,235 @@
+{
+  "roleId": "database_engineer",
+  "title": "Database Engineer",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Database fundamentals.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "SQL",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Queries",
+            "Joins",
+            "Subqueries"
+          ],
+          "miniProject": {
+            "name": "SQL Implementation",
+            "description": "Practical implementation of SQL principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Database Design",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Normalization",
+            "ER Diagrams",
+            "Schema Design"
+          ],
+          "miniProject": {
+            "name": "Database Design Implementation",
+            "description": "Practical implementation of Database Design principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Transactions",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "ACID Properties",
+            "Isolation Levels"
+          ],
+          "miniProject": {
+            "name": "Transactions Implementation",
+            "description": "Practical implementation of Transactions principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Advanced optimization.",
+      "estimatedWeeks": 8,
+      "skills": [
+        {
+          "name": "Indexing",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "B-Trees",
+            "Hash Indexes"
+          ],
+          "miniProject": {
+            "name": "Indexing Implementation",
+            "description": "Practical implementation of Indexing principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Partitioning & Sharding",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Horizontal",
+            "Vertical"
+          ],
+          "miniProject": {
+            "name": "Partitioning & Sharding Implementation",
+            "description": "Practical implementation of Partitioning & Sharding principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Replication",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Master-Slave",
+            "Multi-Master"
+          ],
+          "miniProject": {
+            "name": "Replication Implementation",
+            "description": "Practical implementation of Replication principles in a simulated environment."
+          },
+          "resources": []
+        },
+        {
+          "name": "Stored Procedures",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 9,
+          "prerequisites": [],
+          "subtopics": [
+            "Triggers",
+            "Functions"
+          ],
+          "miniProject": {
+            "name": "Stored Procedures Implementation",
+            "description": "Practical implementation of Stored Procedures principles in a simulated environment."
+          },
+          "resources": []
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Projects",
+      "description": "Large scale databases.",
+      "estimatedWeeks": 6,
+      "projects": [
+        {
+          "name": "Distributed Database Simulator",
+          "difficulty": "Advanced",
+          "description": "Simulating a distributed DB environment.",
+          "skillsApplied": [
+            "PostgreSQL",
+            "Docker"
+          ]
+        },
+        {
+          "name": "Database Monitoring Platform",
+          "difficulty": "Advanced",
+          "description": "Dashboard for DB health and query times.",
+          "skillsApplied": [
+            "Grafana",
+            "Prometheus"
+          ]
+        },
+        {
+          "name": "SQL Query Optimizer",
+          "difficulty": "Advanced",
+          "description": "Tool to analyze and suggest index strategies.",
+          "skillsApplied": [
+            "Python",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Analytics Data Warehouse",
+          "difficulty": "Advanced",
+          "description": "Data warehouse for BI and OLAP.",
+          "skillsApplied": [
+            "Redshift",
+            "ETL"
+          ]
+        },
+        {
+          "name": "Replication Management System",
+          "difficulty": "Advanced",
+          "description": "Automated master-slave failover.",
+          "skillsApplied": [
+            "MySQL",
+            "Bash"
+          ]
+        },
+        {
+          "name": "Database Backup Automation Tool",
+          "difficulty": "Advanced",
+          "description": "Scheduled backups with disaster recovery.",
+          "skillsApplied": [
+            "AWS S3",
+            "Cron"
+          ]
+        },
+        {
+          "name": "High Availability Cluster",
+          "difficulty": "Advanced",
+          "description": "Setting up a multi-node Galera cluster.",
+          "skillsApplied": [
+            "MariaDB",
+            "Linux"
+          ]
+        },
+        {
+          "name": "Multi-Tenant Database Architecture",
+          "difficulty": "Advanced",
+          "description": "Row-level security for SaaS.",
+          "skillsApplied": [
+            "PostgreSQL",
+            "RLS"
+          ]
+        }
+      ]
+    }
+  ],
+  "toolStack": {
+    "Core Technologies": [
+      "Git",
+      "Docker"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Postman"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "roleId": "blockchain",
+  "subjectName": "Advanced Projects",
+  "topicName": "Deployment & CI/CD",
+  "topicOverview": "An in-depth deep dive into Deployment & CI/CD. Mastering this is critical for passing technical interviews for Blockchain roles.",
+  "whyItMatters": "Deployment & CI/CD is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Docker",
+    "Actions",
+    "Cloud Hosting"
+  ],
+  "examples": [
+    "Implementing Deployment & CI/CD in a real-world scenario",
+    "Handling edge cases in Deployment & CI/CD"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Deployment & CI/CD.",
+    "Fix the bug in the given Deployment & CI/CD snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Deployment & CI/CD to a 5-year-old.",
+    "What are the pros and cons of Deployment & CI/CD?",
+    "How does Deployment & CI/CD handle memory management?"
+  ],
+  "miniProjects": [
+    "Deployed App",
+    "Advanced Deployment & CI/CD Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Deployment & CI/CD into a microservice",
+    "Scale Deployment & CI/CD for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Deployment & CI/CD Documentation",
+      "url": "https://www.google.com/search?q=Deployment%20%26%20CI%2FCD+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Deployment & CI/CD Crash Course",
+      "url": "https://youtube.com/results?search_query=Deployment%20%26%20CI%2FCD+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Deployment & CI/CD Interview Questions",
+      "url": "https://www.google.com/search?q=Deployment%20%26%20CI%2FCD+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Deployment & CI/CD",
+    "How Amazon asks about Deployment & CI/CD"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

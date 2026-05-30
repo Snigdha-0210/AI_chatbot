@@ -1,0 +1,55 @@
+{
+  "roleId": "ar_vr_developer",
+  "subjectName": "Core Skills",
+  "topicName": "ARKit",
+  "topicOverview": "An in-depth deep dive into ARKit. Mastering this is critical for passing technical interviews for AR/VR Developer roles.",
+  "whyItMatters": "ARKit is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Face Tracking",
+    "Plane Detection"
+  ],
+  "examples": [
+    "Implementing ARKit in a real-world scenario",
+    "Handling edge cases in ARKit"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating ARKit.",
+    "Fix the bug in the given ARKit snippet."
+  ],
+  "interviewQuestions": [
+    "Explain ARKit to a 5-year-old.",
+    "What are the pros and cons of ARKit?",
+    "How does ARKit handle memory management?"
+  ],
+  "miniProjects": [
+    "ARKit Implementation",
+    "Advanced ARKit Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate ARKit into a microservice",
+    "Scale ARKit for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "ARKit Documentation",
+      "url": "https://www.google.com/search?q=ARKit+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "ARKit Crash Course",
+      "url": "https://youtube.com/results?search_query=ARKit+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "ARKit Interview Questions",
+      "url": "https://www.google.com/search?q=ARKit+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests ARKit",
+    "How Amazon asks about ARKit"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

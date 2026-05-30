@@ -1,0 +1,296 @@
+{
+  "roleId": "data_scientist",
+  "title": "Data Scientist",
+  "demand": "Very High",
+  "estimatedMonths": 8,
+  "toolStack": {
+    "Core Technologies": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-Learn",
+      "SQL",
+      "Tableau"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Jupyter",
+      "Google Colab",
+      "Kaggle"
+    ],
+    "AI Tools": [
+      "ChatGPT",
+      "Claude",
+      "Perplexity",
+      "Cursor"
+    ],
+    "Deployment Tools": [
+      "Streamlit",
+      "Docker",
+      "AWS SageMaker"
+    ]
+  },
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Math, Stats, and Programming basics.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Language",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Variables",
+            "Data Types",
+            "Loops",
+            "Functions",
+            "OOP"
+          ],
+          "miniProject": {
+            "name": "Python CLI Tool",
+            "description": "Apply your knowledge of Python in a practical scenario."
+          }
+        },
+        {
+          "name": "Statistics",
+          "category": "Math",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Probability",
+            "Distributions",
+            "Hypothesis Testing",
+            "A/B Testing"
+          ]
+        },
+        {
+          "name": "SQL",
+          "category": "Database",
+          "difficulty": "Intermediate",
+          "estimatedHours": 25,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Selects",
+            "Joins",
+            "Aggregations",
+            "Window Functions"
+          ],
+          "miniProject": {
+            "name": "Store Database Queries",
+            "description": "Apply your knowledge of SQL in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Data Analysis",
+      "description": "Manipulating and visualizing data.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "Pandas & NumPy",
+          "category": "Data Manipulation",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Series",
+            "DataFrames",
+            "Filtering",
+            "Grouping",
+            "Vectorization"
+          ],
+          "miniProject": {
+            "name": "Data Cleaning Pipeline",
+            "description": "Apply your knowledge of Pandas & NumPy in a practical scenario."
+          }
+        },
+        {
+          "name": "Data Visualization",
+          "category": "Visualization",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Matplotlib",
+            "Seaborn",
+            "Plotly",
+            "Dashboard Design"
+          ],
+          "miniProject": {
+            "name": "Sales Dashboard",
+            "description": "Apply your knowledge of Data Visualization in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Machine Learning",
+      "description": "Predictive modeling.",
+      "estimatedWeeks": 8,
+      "skills": [
+        {
+          "name": "Scikit-Learn",
+          "category": "Framework",
+          "difficulty": "Intermediate",
+          "estimatedHours": 50,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Regression",
+            "Classification",
+            "Clustering",
+            "Cross Validation"
+          ],
+          "miniProject": {
+            "name": "House Price Predictor",
+            "description": "Apply your knowledge of Scikit-Learn in a practical scenario."
+          }
+        },
+        {
+          "name": "Model Evaluation",
+          "category": "Metrics",
+          "difficulty": "Intermediate",
+          "estimatedHours": 15,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Accuracy",
+            "Precision",
+            "Recall",
+            "F1 Score",
+            "ROC-AUC"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Customer Churn Predictor",
+          "difficulty": "Intermediate",
+          "description": "Predict if a customer will leave.",
+          "skillsApplied": [
+            "Pandas",
+            "Scikit-Learn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "title": "Interview Prep",
+      "description": "Stats and Coding questions.",
+      "estimatedWeeks": 4,
+      "topics": [
+        "SQL Window Functions",
+        "Explain P-Value",
+        "Bias-Variance Tradeoff"
+      ]
+    },
+    {
+      "id": "job",
+      "title": "Job Readiness",
+      "description": "Kaggle and Portfolio.",
+      "estimatedWeeks": 2,
+      "topics": [
+        "Publish Kaggle Notebooks",
+        "Resume Optimization"
+      ]
+    }
+  ]
+}

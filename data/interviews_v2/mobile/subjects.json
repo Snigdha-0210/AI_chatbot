@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Foundations",
+    "description": "Core mobile concepts and languages.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Intermediate",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Dart",
+        "theory": [
+          "Variables",
+          "OOP",
+          "Null Safety",
+          "Async Programming"
+        ],
+        "miniProjects": [
+          "CLI Calculator",
+          "Advanced Dart Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Dart to a 5-year-old.",
+          "What are the pros and cons of Dart?",
+          "How does Dart handle memory management?"
+        ],
+        "estimatedHours": 30,
+        "slug": "dart"
+      },
+      {
+        "name": "Flutter Basics",
+        "theory": [
+          "Widgets",
+          "Stateless vs Stateful",
+          "Material/Cupertino"
+        ],
+        "miniProjects": [
+          "Counter App",
+          "Advanced Flutter Basics Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Flutter Basics to a 5-year-old.",
+          "What are the pros and cons of Flutter Basics?",
+          "How does Flutter Basics handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "flutter-basics"
+      },
+      {
+        "name": "UI Fundamentals",
+        "theory": [
+          "Layouts (Row/Column)",
+          "Containers",
+          "Styling",
+          "Responsiveness"
+        ],
+        "miniProjects": [
+          "Profile Screen",
+          "Advanced UI Fundamentals Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain UI Fundamentals to a 5-year-old.",
+          "What are the pros and cons of UI Fundamentals?",
+          "How does UI Fundamentals handle memory management?"
+        ],
+        "estimatedHours": 15,
+        "slug": "ui-fundamentals"
+      }
+    ]
+  },
+  {
+    "name": "Mobile Development Core",
+    "description": "Mastering the framework and state.",
+    "whyItMatters": "Mobile Development Core is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Intermediate",
+    "resources": [
+      {
+        "title": "Mobile Development Core Documentation",
+        "url": "https://www.google.com/search?q=Mobile%20Development%20Core+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Mobile Development Core Crash Course",
+        "url": "https://youtube.com/results?search_query=Mobile%20Development%20Core+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Mobile Development Core Interview Questions",
+        "url": "https://www.google.com/search?q=Mobile%20Development%20Core+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Mobile Development Core?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Mobile Development Core?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Navigation",
+        "theory": [
+          "Navigator 2.0",
+          "GoRouter",
+          "Passing Data"
+        ],
+        "miniProjects": [
+          "Multi-screen App",
+          "Advanced Navigation Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Navigation to a 5-year-old.",
+          "What are the pros and cons of Navigation?",
+          "How does Navigation handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "navigation"
+      },
+      {
+        "name": "State Management",
+        "theory": [
+          "Provider",
+          "Riverpod",
+          "Bloc",
+          "Local State"
+        ],
+        "miniProjects": [
+          "Todo App with Riverpod",
+          "Advanced State Management Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain State Management to a 5-year-old.",
+          "What are the pros and cons of State Management?",
+          "How does State Management handle memory management?"
+        ],
+        "estimatedHours": 35,
+        "slug": "state-management"
+      }
+    ]
+  },
+  {
+    "name": "Intermediate Skills & Backend",
+    "description": "Connecting apps to the cloud.",
+    "whyItMatters": "Intermediate Skills & Backend is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Intermediate Skills & Backend Documentation",
+        "url": "https://www.google.com/search?q=Intermediate%20Skills%20%26%20Backend+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Intermediate Skills & Backend Crash Course",
+        "url": "https://youtube.com/results?search_query=Intermediate%20Skills%20%26%20Backend+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Intermediate Skills & Backend Interview Questions",
+        "url": "https://www.google.com/search?q=Intermediate%20Skills%20%26%20Backend+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Intermediate Skills & Backend?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Intermediate Skills & Backend?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Firebase Auth & Firestore",
+        "theory": [
+          "Authentication",
+          "NoSQL",
+          "Realtime Updates"
+        ],
+        "miniProjects": [
+          "Chat App",
+          "Advanced Firebase Auth & Firestore Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Firebase Auth & Firestore to a 5-year-old.",
+          "What are the pros and cons of Firebase Auth & Firestore?",
+          "How does Firebase Auth & Firestore handle memory management?"
+        ],
+        "estimatedHours": 40,
+        "slug": "firebase-auth-firestore"
+      },
+      {
+        "name": "REST APIs",
+        "theory": [
+          "HTTP Package",
+          "JSON Serialization",
+          "Error Handling"
+        ],
+        "miniProjects": [
+          "Weather App (API)",
+          "Advanced REST APIs Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain REST APIs to a 5-year-old.",
+          "What are the pros and cons of REST APIs?",
+          "How does REST APIs handle memory management?"
+        ],
+        "estimatedHours": 25,
+        "slug": "rest-apis"
+      },
+      {
+        "name": "Device Features",
+        "theory": [
+          "Camera",
+          "GPS",
+          "Push Notifications"
+        ],
+        "miniProjects": [
+          "Location Tracker",
+          "Advanced Device Features Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Device Features to a 5-year-old.",
+          "What are the pros and cons of Device Features?",
+          "How does Device Features handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "device-features"
+      }
+    ]
+  }
+]

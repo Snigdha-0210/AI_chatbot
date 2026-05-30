@@ -1,0 +1,55 @@
+{
+  "roleId": "embedded_systems",
+  "subjectName": "Foundations",
+  "topicName": "C",
+  "topicOverview": "An in-depth deep dive into C. Mastering this is critical for passing technical interviews for Embedded Systems Engineer roles.",
+  "whyItMatters": "C is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Pointers",
+    "Memory Management"
+  ],
+  "examples": [
+    "Implementing C in a real-world scenario",
+    "Handling edge cases in C"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating C.",
+    "Fix the bug in the given C snippet."
+  ],
+  "interviewQuestions": [
+    "Explain C to a 5-year-old.",
+    "What are the pros and cons of C?",
+    "How does C handle memory management?"
+  ],
+  "miniProjects": [
+    "C Implementation",
+    "Advanced C Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate C into a microservice",
+    "Scale C for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "C Documentation",
+      "url": "https://www.google.com/search?q=C+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "C Crash Course",
+      "url": "https://youtube.com/results?search_query=C+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "C Interview Questions",
+      "url": "https://www.google.com/search?q=C+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests C",
+    "How Amazon asks about C"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

@@ -1,0 +1,57 @@
+{
+  "roleId": "data_scientist",
+  "subjectName": "Foundations",
+  "topicName": "Statistics",
+  "topicOverview": "An in-depth deep dive into Statistics. Mastering this is critical for passing technical interviews for Data Scientist roles.",
+  "whyItMatters": "Statistics is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Probability",
+    "Distributions",
+    "Hypothesis Testing",
+    "A/B Testing"
+  ],
+  "examples": [
+    "Implementing Statistics in a real-world scenario",
+    "Handling edge cases in Statistics"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Statistics.",
+    "Fix the bug in the given Statistics snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Statistics to a 5-year-old.",
+    "What are the pros and cons of Statistics?",
+    "How does Statistics handle memory management?"
+  ],
+  "miniProjects": [
+    "Build a Statistics App",
+    "Advanced Statistics Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Statistics into a microservice",
+    "Scale Statistics for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Statistics Documentation",
+      "url": "https://www.google.com/search?q=Statistics+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Statistics Crash Course",
+      "url": "https://youtube.com/results?search_query=Statistics+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Statistics Interview Questions",
+      "url": "https://www.google.com/search?q=Statistics+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Statistics",
+    "How Amazon asks about Statistics"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

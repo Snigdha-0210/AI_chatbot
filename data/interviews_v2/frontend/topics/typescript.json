@@ -1,0 +1,57 @@
+{
+  "roleId": "frontend",
+  "subjectName": "Core Skills",
+  "topicName": "TypeScript",
+  "topicOverview": "An in-depth deep dive into TypeScript. Mastering this is critical for passing technical interviews for Frontend Developer roles.",
+  "whyItMatters": "TypeScript is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Types",
+    "Interfaces",
+    "Generics",
+    "Utility Types"
+  ],
+  "examples": [
+    "Implementing TypeScript in a real-world scenario",
+    "Handling edge cases in TypeScript"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating TypeScript.",
+    "Fix the bug in the given TypeScript snippet."
+  ],
+  "interviewQuestions": [
+    "Explain TypeScript to a 5-year-old.",
+    "What are the pros and cons of TypeScript?",
+    "How does TypeScript handle memory management?"
+  ],
+  "miniProjects": [
+    "Refactor App to TS",
+    "Advanced TypeScript Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate TypeScript into a microservice",
+    "Scale TypeScript for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "TypeScript Documentation",
+      "url": "https://www.google.com/search?q=TypeScript+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "TypeScript Crash Course",
+      "url": "https://youtube.com/results?search_query=TypeScript+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "TypeScript Interview Questions",
+      "url": "https://www.google.com/search?q=TypeScript+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests TypeScript",
+    "How Amazon asks about TypeScript"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

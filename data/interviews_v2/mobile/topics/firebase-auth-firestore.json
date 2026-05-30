@@ -1,0 +1,56 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Intermediate Skills & Backend",
+  "topicName": "Firebase Auth & Firestore",
+  "topicOverview": "An in-depth deep dive into Firebase Auth & Firestore. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "Firebase Auth & Firestore is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Authentication",
+    "NoSQL",
+    "Realtime Updates"
+  ],
+  "examples": [
+    "Implementing Firebase Auth & Firestore in a real-world scenario",
+    "Handling edge cases in Firebase Auth & Firestore"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Firebase Auth & Firestore.",
+    "Fix the bug in the given Firebase Auth & Firestore snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Firebase Auth & Firestore to a 5-year-old.",
+    "What are the pros and cons of Firebase Auth & Firestore?",
+    "How does Firebase Auth & Firestore handle memory management?"
+  ],
+  "miniProjects": [
+    "Chat App",
+    "Advanced Firebase Auth & Firestore Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Firebase Auth & Firestore into a microservice",
+    "Scale Firebase Auth & Firestore for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Firebase Auth & Firestore Documentation",
+      "url": "https://www.google.com/search?q=Firebase%20Auth%20%26%20Firestore+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Firebase Auth & Firestore Crash Course",
+      "url": "https://youtube.com/results?search_query=Firebase%20Auth%20%26%20Firestore+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Firebase Auth & Firestore Interview Questions",
+      "url": "https://www.google.com/search?q=Firebase%20Auth%20%26%20Firestore+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Firebase Auth & Firestore",
+    "How Amazon asks about Firebase Auth & Firestore"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

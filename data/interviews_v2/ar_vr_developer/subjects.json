@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Foundations",
+    "description": "3D and gaming basics.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Unity",
+        "theory": [
+          "Editor",
+          "Scenes",
+          "Prefabs"
+        ],
+        "miniProjects": [
+          "Unity Implementation",
+          "Advanced Unity Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Unity to a 5-year-old.",
+          "What are the pros and cons of Unity?",
+          "How does Unity handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "unity"
+      },
+      {
+        "name": "C#",
+        "theory": [
+          "Scripting",
+          "OOP"
+        ],
+        "miniProjects": [
+          "C# Implementation",
+          "Advanced C# Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain C# to a 5-year-old.",
+          "What are the pros and cons of C#?",
+          "How does C# handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "c-"
+      },
+      {
+        "name": "3D Graphics",
+        "theory": [
+          "Meshes",
+          "Textures",
+          "Materials"
+        ],
+        "miniProjects": [
+          "3D Graphics Implementation",
+          "Advanced 3D Graphics Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain 3D Graphics to a 5-year-old.",
+          "What are the pros and cons of 3D Graphics?",
+          "How does 3D Graphics handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "3d-graphics"
+      },
+      {
+        "name": "Game Physics",
+        "theory": [
+          "Colliders",
+          "Rigidbodies"
+        ],
+        "miniProjects": [
+          "Game Physics Implementation",
+          "Advanced Game Physics Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Game Physics to a 5-year-old.",
+          "What are the pros and cons of Game Physics?",
+          "How does Game Physics handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "game-physics"
+      }
+    ]
+  },
+  {
+    "name": "Core Skills",
+    "description": "XR SDKs.",
+    "whyItMatters": "Core Skills is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Core Skills Documentation",
+        "url": "https://www.google.com/search?q=Core%20Skills+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Core Skills Crash Course",
+        "url": "https://youtube.com/results?search_query=Core%20Skills+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Core Skills Interview Questions",
+        "url": "https://www.google.com/search?q=Core%20Skills+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Core Skills?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Core Skills?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "ARCore",
+        "theory": [
+          "Tracking",
+          "Anchors"
+        ],
+        "miniProjects": [
+          "ARCore Implementation",
+          "Advanced ARCore Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain ARCore to a 5-year-old.",
+          "What are the pros and cons of ARCore?",
+          "How does ARCore handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "arcore"
+      },
+      {
+        "name": "ARKit",
+        "theory": [
+          "Face Tracking",
+          "Plane Detection"
+        ],
+        "miniProjects": [
+          "ARKit Implementation",
+          "Advanced ARKit Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain ARKit to a 5-year-old.",
+          "What are the pros and cons of ARKit?",
+          "How does ARKit handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "arkit"
+      },
+      {
+        "name": "XR Development",
+        "theory": [
+          "Interaction Toolkit"
+        ],
+        "miniProjects": [
+          "XR Development Implementation",
+          "Advanced XR Development Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain XR Development to a 5-year-old.",
+          "What are the pros and cons of XR Development?",
+          "How does XR Development handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "xr-development"
+      },
+      {
+        "name": "Rendering",
+        "theory": [
+          "Shaders",
+          "Lighting"
+        ],
+        "miniProjects": [
+          "Rendering Implementation",
+          "Advanced Rendering Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Rendering to a 5-year-old.",
+          "What are the pros and cons of Rendering?",
+          "How does Rendering handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "rendering"
+      }
+    ]
+  }
+]

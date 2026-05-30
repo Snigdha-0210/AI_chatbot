@@ -1,0 +1,58 @@
+{
+  "roleId": "frontend",
+  "subjectName": "Foundations",
+  "topicName": "CSS",
+  "topicOverview": "An in-depth deep dive into CSS. Mastering this is critical for passing technical interviews for Frontend Developer roles.",
+  "whyItMatters": "CSS is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Box Model",
+    "Flexbox",
+    "Grid",
+    "Animations",
+    "Media Queries"
+  ],
+  "examples": [
+    "Implementing CSS in a real-world scenario",
+    "Handling edge cases in CSS"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating CSS.",
+    "Fix the bug in the given CSS snippet."
+  ],
+  "interviewQuestions": [
+    "Explain CSS to a 5-year-old.",
+    "What are the pros and cons of CSS?",
+    "How does CSS handle memory management?"
+  ],
+  "miniProjects": [
+    "Responsive Landing Page",
+    "Advanced CSS Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate CSS into a microservice",
+    "Scale CSS for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "CSS Official Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "type": "docs"
+    },
+    {
+      "title": "Full CSS Course",
+      "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA",
+      "type": "video"
+    },
+    {
+      "title": "CSS Practice Labs",
+      "url": "https://cssbattle.dev/",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests CSS",
+    "How Amazon asks about CSS"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

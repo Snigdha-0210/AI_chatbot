@@ -1,0 +1,741 @@
+{
+  "roleId": "data_scientist",
+  "title": "Data Scientist Interview Prep",
+  "technicalQuestions": [
+    {
+      "id": "t_data_scientist_1",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Python",
+      "question": "Can you explain the core concepts of Python and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Variables",
+        "Data Types",
+        "Loops",
+        "Functions",
+        "OOP"
+      ]
+    },
+    {
+      "id": "t_data_scientist_2",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Python",
+      "question": "How does Variables work in the context of Python?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_3",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Python",
+      "question": "How does Data Types work in the context of Python?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_4",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Python",
+      "question": "How does Loops work in the context of Python?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_5",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Python",
+      "question": "How does Functions work in the context of Python?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_6",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Python",
+      "question": "How does OOP work in the context of Python?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_7",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Statistics",
+      "question": "Can you explain the core concepts of Statistics and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Probability",
+        "Distributions",
+        "Hypothesis Testing",
+        "A/B Testing"
+      ]
+    },
+    {
+      "id": "t_data_scientist_8",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Statistics",
+      "question": "How does Probability work in the context of Statistics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_9",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Statistics",
+      "question": "How does Distributions work in the context of Statistics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_10",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Statistics",
+      "question": "How does Hypothesis Testing work in the context of Statistics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_11",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Statistics",
+      "question": "How does A/B Testing work in the context of Statistics?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_12",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SQL",
+      "question": "Can you explain the core concepts of SQL and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Selects",
+        "Joins",
+        "Aggregations",
+        "Window Functions"
+      ]
+    },
+    {
+      "id": "t_data_scientist_13",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SQL",
+      "question": "How does Selects work in the context of SQL?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_14",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SQL",
+      "question": "How does Joins work in the context of SQL?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_15",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SQL",
+      "question": "How does Aggregations work in the context of SQL?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_16",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "SQL",
+      "question": "How does Window Functions work in the context of SQL?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_17",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Pandas & NumPy",
+      "question": "Can you explain the core concepts of Pandas & NumPy and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Series",
+        "DataFrames",
+        "Filtering",
+        "Grouping",
+        "Vectorization"
+      ]
+    },
+    {
+      "id": "t_data_scientist_18",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Pandas & NumPy",
+      "question": "How does Series work in the context of Pandas & NumPy?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_19",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Pandas & NumPy",
+      "question": "How does DataFrames work in the context of Pandas & NumPy?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_20",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Pandas & NumPy",
+      "question": "How does Filtering work in the context of Pandas & NumPy?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_21",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Pandas & NumPy",
+      "question": "How does Grouping work in the context of Pandas & NumPy?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_22",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Pandas & NumPy",
+      "question": "How does Vectorization work in the context of Pandas & NumPy?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_23",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Data Visualization",
+      "question": "Can you explain the core concepts of Data Visualization and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Matplotlib",
+        "Seaborn",
+        "Plotly",
+        "Dashboard Design"
+      ]
+    },
+    {
+      "id": "t_data_scientist_24",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Data Visualization",
+      "question": "How does Matplotlib work in the context of Data Visualization?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_25",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Data Visualization",
+      "question": "How does Seaborn work in the context of Data Visualization?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_26",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Data Visualization",
+      "question": "How does Plotly work in the context of Data Visualization?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_27",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Data Visualization",
+      "question": "How does Dashboard Design work in the context of Data Visualization?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_28",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Scikit-Learn",
+      "question": "Can you explain the core concepts of Scikit-Learn and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Cross Validation"
+      ]
+    },
+    {
+      "id": "t_data_scientist_29",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Scikit-Learn",
+      "question": "How does Regression work in the context of Scikit-Learn?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_30",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Scikit-Learn",
+      "question": "How does Classification work in the context of Scikit-Learn?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_31",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Scikit-Learn",
+      "question": "How does Clustering work in the context of Scikit-Learn?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_32",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Scikit-Learn",
+      "question": "How does Cross Validation work in the context of Scikit-Learn?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_33",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Model Evaluation",
+      "question": "Can you explain the core concepts of Model Evaluation and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1 Score",
+        "ROC-AUC"
+      ]
+    },
+    {
+      "id": "t_data_scientist_34",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Model Evaluation",
+      "question": "How does Accuracy work in the context of Model Evaluation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_35",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Model Evaluation",
+      "question": "How does Precision work in the context of Model Evaluation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_36",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Model Evaluation",
+      "question": "How does Recall work in the context of Model Evaluation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_37",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Model Evaluation",
+      "question": "How does F1 Score work in the context of Model Evaluation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_data_scientist_38",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Model Evaluation",
+      "question": "How does ROC-AUC work in the context of Model Evaluation?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    }
+  ],
+  "behavioralQuestions": [
+    {
+      "id": "b1",
+      "type": "behavioral",
+      "difficulty": "Easy",
+      "category": "General",
+      "question": "Tell me about yourself.",
+      "expectedKeyPoints": [
+        "Past experience",
+        "Current role/study",
+        "Future goals aligned with company"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Teamwork",
+      "question": "Describe a time you had a conflict with a team member.",
+      "expectedKeyPoints": [
+        "Situation",
+        "Action taken to resolve",
+        "Compromise",
+        "Positive outcome"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Leadership",
+      "question": "Tell me about a time you took the lead on a project.",
+      "expectedKeyPoints": [
+        "Initiative",
+        "Delegation",
+        "Result"
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "behavioral",
+      "difficulty": "Hard",
+      "category": "Failure",
+      "question": "Describe a project that failed. What did you learn?",
+      "expectedKeyPoints": [
+        "Accountability",
+        "Analysis of failure",
+        "Lessons applied later"
+      ]
+    }
+  ],
+  "codingQuestions": [
+    {
+      "id": "c1",
+      "type": "coding",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "question": "Two Sum: Find indices of two numbers that add up to target.",
+      "expectedKeyPoints": [
+        "Hash Map",
+        "O(N) Time",
+        "O(N) Space"
+      ]
+    },
+    {
+      "id": "c2",
+      "type": "coding",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "question": "Longest Substring Without Repeating Characters.",
+      "expectedKeyPoints": [
+        "Sliding Window",
+        "Set",
+        "O(N) Time"
+      ]
+    },
+    {
+      "id": "c3",
+      "type": "coding",
+      "difficulty": "Hard",
+      "category": "Graphs",
+      "question": "Word Ladder: Find shortest transformation sequence.",
+      "expectedKeyPoints": [
+        "BFS",
+        "Queue",
+        "O(M^2 * N)"
+      ]
+    }
+  ],
+  "companyTracks": [
+    {
+      "company": "Google",
+      "pattern": "3-4 Technical Coding Rounds (Data Structures focus), 1 System Design, 1 Googlyness (Behavioral)",
+      "expectedSkills": [
+        "Data Structures",
+        "Algorithms",
+        "System Design"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "c1",
+          "type": "coding",
+          "difficulty": "Easy",
+          "category": "Arrays",
+          "question": "Two Sum: Find indices of two numbers that add up to target.",
+          "expectedKeyPoints": [
+            "Hash Map",
+            "O(N) Time",
+            "O(N) Space"
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "coding",
+          "difficulty": "Medium",
+          "category": "Strings",
+          "question": "Longest Substring Without Repeating Characters.",
+          "expectedKeyPoints": [
+            "Sliding Window",
+            "Set",
+            "O(N) Time"
+          ]
+        },
+        {
+          "id": "c3",
+          "type": "coding",
+          "difficulty": "Hard",
+          "category": "Graphs",
+          "question": "Word Ladder: Find shortest transformation sequence.",
+          "expectedKeyPoints": [
+            "BFS",
+            "Queue",
+            "O(M^2 * N)"
+          ]
+        },
+        {
+          "id": "b1",
+          "type": "behavioral",
+          "difficulty": "Easy",
+          "category": "General",
+          "question": "Tell me about yourself.",
+          "expectedKeyPoints": [
+            "Past experience",
+            "Current role/study",
+            "Future goals aligned with company"
+          ]
+        },
+        {
+          "id": "b2",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Teamwork",
+          "question": "Describe a time you had a conflict with a team member.",
+          "expectedKeyPoints": [
+            "Situation",
+            "Action taken to resolve",
+            "Compromise",
+            "Positive outcome"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "pattern": "3 Technical Rounds (Coding + Domain), 1 Hiring Manager (Behavioral)",
+      "expectedSkills": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-Learn",
+        "SQL",
+        "Tableau"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "t_data_scientist_1",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Python",
+          "question": "Can you explain the core concepts of Python and how it is used in modern applications?",
+          "expectedKeyPoints": [
+            "Variables",
+            "Data Types",
+            "Loops",
+            "Functions",
+            "OOP"
+          ]
+        },
+        {
+          "id": "t_data_scientist_2",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Python",
+          "question": "How does Variables work in the context of Python?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "t_data_scientist_3",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "Python",
+          "question": "How does Data Types work in the context of Python?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "b3",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Leadership",
+          "question": "Tell me about a time you took the lead on a project.",
+          "expectedKeyPoints": [
+            "Initiative",
+            "Delegation",
+            "Result"
+          ]
+        },
+        {
+          "id": "b4",
+          "type": "behavioral",
+          "difficulty": "Hard",
+          "category": "Failure",
+          "question": "Describe a project that failed. What did you learn?",
+          "expectedKeyPoints": [
+            "Accountability",
+            "Analysis of failure",
+            "Lessons applied later"
+          ]
+        }
+      ]
+    }
+  ],
+  "cheatSheets": [
+    {
+      "skill": "Python",
+      "content": "# Python Cheat Sheet\n\n**Category:** Language\n\n**Key Subtopics:**\n- Variables\n- Data Types\n- Loops\n- Functions\n- OOP\n\n**Common Interview Themes:**\n- Be prepared to discuss how Python integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Statistics",
+      "content": "# Statistics Cheat Sheet\n\n**Category:** Math\n\n**Key Subtopics:**\n- Probability\n- Distributions\n- Hypothesis Testing\n- A/B Testing\n\n**Common Interview Themes:**\n- Be prepared to discuss how Statistics integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "SQL",
+      "content": "# SQL Cheat Sheet\n\n**Category:** Database\n\n**Key Subtopics:**\n- Selects\n- Joins\n- Aggregations\n- Window Functions\n\n**Common Interview Themes:**\n- Be prepared to discuss how SQL integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Pandas & NumPy",
+      "content": "# Pandas & NumPy Cheat Sheet\n\n**Category:** Data Manipulation\n\n**Key Subtopics:**\n- Series\n- DataFrames\n- Filtering\n- Grouping\n- Vectorization\n\n**Common Interview Themes:**\n- Be prepared to discuss how Pandas & NumPy integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Data Visualization",
+      "content": "# Data Visualization Cheat Sheet\n\n**Category:** Visualization\n\n**Key Subtopics:**\n- Matplotlib\n- Seaborn\n- Plotly\n- Dashboard Design\n\n**Common Interview Themes:**\n- Be prepared to discuss how Data Visualization integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Scikit-Learn",
+      "content": "# Scikit-Learn Cheat Sheet\n\n**Category:** Framework\n\n**Key Subtopics:**\n- Regression\n- Classification\n- Clustering\n- Cross Validation\n\n**Common Interview Themes:**\n- Be prepared to discuss how Scikit-Learn integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Model Evaluation",
+      "content": "# Model Evaluation Cheat Sheet\n\n**Category:** Metrics\n\n**Key Subtopics:**\n- Accuracy\n- Precision\n- Recall\n- F1 Score\n- ROC-AUC\n\n**Common Interview Themes:**\n- Be prepared to discuss how Model Evaluation integrates with your overall stack.\n- Focus on performance and edge cases."
+    }
+  ]
+}

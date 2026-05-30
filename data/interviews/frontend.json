@@ -1,0 +1,873 @@
+{
+  "roleId": "frontend",
+  "title": "Frontend Developer Interview Prep",
+  "technicalQuestions": [
+    {
+      "id": "t_frontend_1",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "Can you explain the core concepts of HTML and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "HTML Structure",
+        "Semantic HTML",
+        "Forms",
+        "Tables",
+        "Accessibility",
+        "SEO Basics",
+        "Best Practices"
+      ]
+    },
+    {
+      "id": "t_frontend_2",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "How does HTML Structure work in the context of HTML?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_3",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "How does Semantic HTML work in the context of HTML?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_4",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "How does Forms work in the context of HTML?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_5",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "How does Tables work in the context of HTML?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_6",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "How does Accessibility work in the context of HTML?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_7",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "How does SEO Basics work in the context of HTML?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_8",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "HTML",
+      "question": "How does Best Practices work in the context of HTML?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_9",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "CSS",
+      "question": "Can you explain the core concepts of CSS and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Box Model",
+        "Flexbox",
+        "Grid",
+        "Animations",
+        "Media Queries"
+      ]
+    },
+    {
+      "id": "t_frontend_10",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "CSS",
+      "question": "How does Box Model work in the context of CSS?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_11",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "CSS",
+      "question": "How does Flexbox work in the context of CSS?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_12",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "CSS",
+      "question": "How does Grid work in the context of CSS?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_13",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "CSS",
+      "question": "How does Animations work in the context of CSS?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_14",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "CSS",
+      "question": "How does Media Queries work in the context of CSS?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_15",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "Can you explain the core concepts of JavaScript and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Variables",
+        "Data Types",
+        "Loops",
+        "Functions",
+        "Objects",
+        "Arrays",
+        "DOM",
+        "ES6",
+        "Async Await",
+        "APIs"
+      ]
+    },
+    {
+      "id": "t_frontend_16",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does Variables work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_17",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does Data Types work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_18",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does Loops work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_19",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does Functions work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_20",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does Objects work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_21",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does Arrays work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_22",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does DOM work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_23",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does ES6 work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_24",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does Async Await work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_25",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "JavaScript",
+      "question": "How does APIs work in the context of JavaScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_26",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "Can you explain the core concepts of React and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Components",
+        "Props",
+        "State",
+        "Hooks",
+        "Routing",
+        "API Calls",
+        "Context API",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "id": "t_frontend_27",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does Components work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_28",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does Props work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_29",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does State work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_30",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does Hooks work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_31",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does Routing work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_32",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does API Calls work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_33",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does Context API work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_34",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "React",
+      "question": "How does Performance Optimization work in the context of React?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_35",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "TypeScript",
+      "question": "Can you explain the core concepts of TypeScript and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Types",
+        "Interfaces",
+        "Generics",
+        "Utility Types"
+      ]
+    },
+    {
+      "id": "t_frontend_36",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "TypeScript",
+      "question": "How does Types work in the context of TypeScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_37",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "TypeScript",
+      "question": "How does Interfaces work in the context of TypeScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_38",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "TypeScript",
+      "question": "How does Generics work in the context of TypeScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_39",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "TypeScript",
+      "question": "How does Utility Types work in the context of TypeScript?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_40",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Next.js",
+      "question": "Can you explain the core concepts of Next.js and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "App Router",
+        "SSR vs SSG",
+        "Server Actions",
+        "API Routes"
+      ]
+    },
+    {
+      "id": "t_frontend_41",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Next.js",
+      "question": "How does App Router work in the context of Next.js?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_42",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Next.js",
+      "question": "How does SSR vs SSG work in the context of Next.js?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_43",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Next.js",
+      "question": "How does Server Actions work in the context of Next.js?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_44",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "Next.js",
+      "question": "How does API Routes work in the context of Next.js?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_45",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "Can you explain the core concepts of State Management and how it is used in modern applications?",
+      "expectedKeyPoints": [
+        "Zustand",
+        "Redux Toolkit",
+        "React Query"
+      ]
+    },
+    {
+      "id": "t_frontend_46",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "How does Zustand work in the context of State Management?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_47",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "How does Redux Toolkit work in the context of State Management?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    },
+    {
+      "id": "t_frontend_48",
+      "type": "technical",
+      "difficulty": "Medium",
+      "category": "State Management",
+      "question": "How does React Query work in the context of State Management?",
+      "expectedKeyPoints": [
+        "Definition",
+        "Implementation details",
+        "Pros/Cons"
+      ]
+    }
+  ],
+  "behavioralQuestions": [
+    {
+      "id": "b1",
+      "type": "behavioral",
+      "difficulty": "Easy",
+      "category": "General",
+      "question": "Tell me about yourself.",
+      "expectedKeyPoints": [
+        "Past experience",
+        "Current role/study",
+        "Future goals aligned with company"
+      ]
+    },
+    {
+      "id": "b2",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Teamwork",
+      "question": "Describe a time you had a conflict with a team member.",
+      "expectedKeyPoints": [
+        "Situation",
+        "Action taken to resolve",
+        "Compromise",
+        "Positive outcome"
+      ]
+    },
+    {
+      "id": "b3",
+      "type": "behavioral",
+      "difficulty": "Medium",
+      "category": "Leadership",
+      "question": "Tell me about a time you took the lead on a project.",
+      "expectedKeyPoints": [
+        "Initiative",
+        "Delegation",
+        "Result"
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "behavioral",
+      "difficulty": "Hard",
+      "category": "Failure",
+      "question": "Describe a project that failed. What did you learn?",
+      "expectedKeyPoints": [
+        "Accountability",
+        "Analysis of failure",
+        "Lessons applied later"
+      ]
+    }
+  ],
+  "codingQuestions": [
+    {
+      "id": "c1",
+      "type": "coding",
+      "difficulty": "Easy",
+      "category": "Arrays",
+      "question": "Two Sum: Find indices of two numbers that add up to target.",
+      "expectedKeyPoints": [
+        "Hash Map",
+        "O(N) Time",
+        "O(N) Space"
+      ]
+    },
+    {
+      "id": "c2",
+      "type": "coding",
+      "difficulty": "Medium",
+      "category": "Strings",
+      "question": "Longest Substring Without Repeating Characters.",
+      "expectedKeyPoints": [
+        "Sliding Window",
+        "Set",
+        "O(N) Time"
+      ]
+    },
+    {
+      "id": "c3",
+      "type": "coding",
+      "difficulty": "Hard",
+      "category": "Graphs",
+      "question": "Word Ladder: Find shortest transformation sequence.",
+      "expectedKeyPoints": [
+        "BFS",
+        "Queue",
+        "O(M^2 * N)"
+      ]
+    }
+  ],
+  "companyTracks": [
+    {
+      "company": "Google",
+      "pattern": "3-4 Technical Coding Rounds (Data Structures focus), 1 System Design, 1 Googlyness (Behavioral)",
+      "expectedSkills": [
+        "Data Structures",
+        "Algorithms",
+        "System Design"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "c1",
+          "type": "coding",
+          "difficulty": "Easy",
+          "category": "Arrays",
+          "question": "Two Sum: Find indices of two numbers that add up to target.",
+          "expectedKeyPoints": [
+            "Hash Map",
+            "O(N) Time",
+            "O(N) Space"
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "coding",
+          "difficulty": "Medium",
+          "category": "Strings",
+          "question": "Longest Substring Without Repeating Characters.",
+          "expectedKeyPoints": [
+            "Sliding Window",
+            "Set",
+            "O(N) Time"
+          ]
+        },
+        {
+          "id": "c3",
+          "type": "coding",
+          "difficulty": "Hard",
+          "category": "Graphs",
+          "question": "Word Ladder: Find shortest transformation sequence.",
+          "expectedKeyPoints": [
+            "BFS",
+            "Queue",
+            "O(M^2 * N)"
+          ]
+        },
+        {
+          "id": "b1",
+          "type": "behavioral",
+          "difficulty": "Easy",
+          "category": "General",
+          "question": "Tell me about yourself.",
+          "expectedKeyPoints": [
+            "Past experience",
+            "Current role/study",
+            "Future goals aligned with company"
+          ]
+        },
+        {
+          "id": "b2",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Teamwork",
+          "question": "Describe a time you had a conflict with a team member.",
+          "expectedKeyPoints": [
+            "Situation",
+            "Action taken to resolve",
+            "Compromise",
+            "Positive outcome"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "pattern": "3 Technical Rounds (Coding + Domain), 1 Hiring Manager (Behavioral)",
+      "expectedSkills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "sampleQuestions": [
+        {
+          "id": "t_frontend_1",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "HTML",
+          "question": "Can you explain the core concepts of HTML and how it is used in modern applications?",
+          "expectedKeyPoints": [
+            "HTML Structure",
+            "Semantic HTML",
+            "Forms",
+            "Tables",
+            "Accessibility",
+            "SEO Basics",
+            "Best Practices"
+          ]
+        },
+        {
+          "id": "t_frontend_2",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "HTML",
+          "question": "How does HTML Structure work in the context of HTML?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "t_frontend_3",
+          "type": "technical",
+          "difficulty": "Medium",
+          "category": "HTML",
+          "question": "How does Semantic HTML work in the context of HTML?",
+          "expectedKeyPoints": [
+            "Definition",
+            "Implementation details",
+            "Pros/Cons"
+          ]
+        },
+        {
+          "id": "b3",
+          "type": "behavioral",
+          "difficulty": "Medium",
+          "category": "Leadership",
+          "question": "Tell me about a time you took the lead on a project.",
+          "expectedKeyPoints": [
+            "Initiative",
+            "Delegation",
+            "Result"
+          ]
+        },
+        {
+          "id": "b4",
+          "type": "behavioral",
+          "difficulty": "Hard",
+          "category": "Failure",
+          "question": "Describe a project that failed. What did you learn?",
+          "expectedKeyPoints": [
+            "Accountability",
+            "Analysis of failure",
+            "Lessons applied later"
+          ]
+        }
+      ]
+    }
+  ],
+  "cheatSheets": [
+    {
+      "skill": "HTML",
+      "content": "# HTML Cheat Sheet\n\n**Category:** Markup\n\n**Key Subtopics:**\n- HTML Structure\n- Semantic HTML\n- Forms\n- Tables\n- Accessibility\n- SEO Basics\n- Best Practices\n\n**Common Interview Themes:**\n- Be prepared to discuss how HTML integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "CSS",
+      "content": "# CSS Cheat Sheet\n\n**Category:** Styling\n\n**Key Subtopics:**\n- Box Model\n- Flexbox\n- Grid\n- Animations\n- Media Queries\n\n**Common Interview Themes:**\n- Be prepared to discuss how CSS integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "JavaScript",
+      "content": "# JavaScript Cheat Sheet\n\n**Category:** Language\n\n**Key Subtopics:**\n- Variables\n- Data Types\n- Loops\n- Functions\n- Objects\n- Arrays\n- DOM\n- ES6\n- Async Await\n- APIs\n\n**Common Interview Themes:**\n- Be prepared to discuss how JavaScript integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "React",
+      "content": "# React Cheat Sheet\n\n**Category:** Framework\n\n**Key Subtopics:**\n- Components\n- Props\n- State\n- Hooks\n- Routing\n- API Calls\n- Context API\n- Performance Optimization\n\n**Common Interview Themes:**\n- Be prepared to discuss how React integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "TypeScript",
+      "content": "# TypeScript Cheat Sheet\n\n**Category:** Language\n\n**Key Subtopics:**\n- Types\n- Interfaces\n- Generics\n- Utility Types\n\n**Common Interview Themes:**\n- Be prepared to discuss how TypeScript integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "Next.js",
+      "content": "# Next.js Cheat Sheet\n\n**Category:** Framework\n\n**Key Subtopics:**\n- App Router\n- SSR vs SSG\n- Server Actions\n- API Routes\n\n**Common Interview Themes:**\n- Be prepared to discuss how Next.js integrates with your overall stack.\n- Focus on performance and edge cases."
+    },
+    {
+      "skill": "State Management",
+      "content": "# State Management Cheat Sheet\n\n**Category:** Architecture\n\n**Key Subtopics:**\n- Zustand\n- Redux Toolkit\n- React Query\n\n**Common Interview Themes:**\n- Be prepared to discuss how State Management integrates with your overall stack.\n- Focus on performance and edge cases."
+    }
+  ]
+}

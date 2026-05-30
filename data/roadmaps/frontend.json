@@ -1,0 +1,320 @@
+{
+  "roleId": "frontend",
+  "title": "Frontend Developer",
+  "demand": "Very High",
+  "estimatedMonths": 6,
+  "toolStack": {
+    "Core Technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "TailwindCSS"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "Git",
+      "GitHub",
+      "Chrome DevTools",
+      "Postman",
+      "Figma"
+    ],
+    "AI Tools": [
+      "ChatGPT",
+      "Claude",
+      "Cursor",
+      "GitHub Copilot",
+      "Lovable",
+      "v0"
+    ],
+    "Deployment Tools": [
+      "Vercel",
+      "Netlify",
+      "Firebase"
+    ]
+  },
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "The building blocks of the web.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "HTML",
+          "category": "Markup",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "HTML Structure",
+            "Semantic HTML",
+            "Forms",
+            "Tables",
+            "Accessibility",
+            "SEO Basics",
+            "Best Practices"
+          ],
+          "miniProject": {
+            "name": "Personal Portfolio Page",
+            "description": "Apply your knowledge of HTML in a practical scenario."
+          }
+        },
+        {
+          "name": "CSS",
+          "category": "Styling",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Box Model",
+            "Flexbox",
+            "Grid",
+            "Animations",
+            "Media Queries"
+          ],
+          "miniProject": {
+            "name": "Responsive Landing Page",
+            "description": "Apply your knowledge of CSS in a practical scenario."
+          }
+        },
+        {
+          "name": "JavaScript",
+          "category": "Language",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Variables",
+            "Data Types",
+            "Loops",
+            "Functions",
+            "Objects",
+            "Arrays",
+            "DOM",
+            "ES6",
+            "Async Await",
+            "APIs"
+          ],
+          "miniProject": {
+            "name": "Weather App",
+            "description": "Apply your knowledge of JavaScript in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Modern UI engineering.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "React",
+          "category": "Framework",
+          "difficulty": "Intermediate",
+          "estimatedHours": 50,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Components",
+            "Props",
+            "State",
+            "Hooks",
+            "Routing",
+            "API Calls",
+            "Context API",
+            "Performance Optimization"
+          ],
+          "miniProject": {
+            "name": "Task Management App",
+            "description": "Apply your knowledge of React in a practical scenario."
+          }
+        },
+        {
+          "name": "TypeScript",
+          "category": "Language",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Types",
+            "Interfaces",
+            "Generics",
+            "Utility Types"
+          ],
+          "miniProject": {
+            "name": "Refactor App to TS",
+            "description": "Apply your knowledge of TypeScript in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Ecosystem",
+      "description": "Production ready frameworks.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "Next.js",
+          "category": "Framework",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "App Router",
+            "SSR vs SSG",
+            "Server Actions",
+            "API Routes"
+          ],
+          "miniProject": {
+            "name": "Fullstack Blog",
+            "description": "Apply your knowledge of Next.js in a practical scenario."
+          }
+        },
+        {
+          "name": "State Management",
+          "category": "Architecture",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Zustand",
+            "Redux Toolkit",
+            "React Query"
+          ],
+          "miniProject": {
+            "name": "E-Commerce Cart",
+            "description": "Apply your knowledge of State Management in a practical scenario."
+          }
+        }
+      ],
+      "projects": [
+        {
+          "name": "E-Commerce Frontend",
+          "difficulty": "Advanced",
+          "description": "Complete store with cart state and API fetching.",
+          "skillsApplied": [
+            "React",
+            "TypeScript",
+            "Next.js"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "title": "Interview Prep",
+      "description": "JS questions and UI Design.",
+      "estimatedWeeks": 4,
+      "topics": [
+        "Event Loop",
+        "Closures",
+        "React Rendering Cycle",
+        "Frontend System Design"
+      ]
+    },
+    {
+      "id": "job",
+      "title": "Job Readiness",
+      "description": "Portfolio and resumes.",
+      "estimatedWeeks": 2,
+      "topics": [
+        "Deploy to Vercel",
+        "Build Personal Brand"
+      ]
+    }
+  ]
+}

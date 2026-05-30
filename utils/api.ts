@@ -1,99 +1,105 @@
-import { getIdToken } from "@/lib/firebase";
 import type {
   AtsAnalysis,
   ChatMessage,
   InterviewContent,
-  RoadmapContent,
+  CareerRoadmap,
+  BulletImproverDoc,
 } from "@/types";
 
-async function authJsonHeaders(): Promise<HeadersInit> {
-  const token = await getIdToken();
-  if (!token) throw new Error("You must be signed in");
-  return {
-    Authorization: `Bearer ${token}`,
-    "Content-Type": "application/json",
-  };
-}
+const jsonHeaders = {
+  "Content-Type": "application/json",
+};
 
 export async function postChat(body: {
   message: string;
   chatId?: string;
   history?: ChatMessage[];
+  userId: string;
 }) {
   const res = await fetch("/api/chat", {
     method: "POST",
-    headers: await authJsonHeaders(),
+    headers: jsonHeaders,
     body: JSON.stringify(body),
   });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error ?? "Chat failed");
-  return data as {
+  const json = await res.json();
+  if (!json.success) throw new Error(json.error ?? "Chat failed");
+  return json.data as {
     reply: string;
     chatId: string;
     messages: ChatMessage[];
   };
 }
 
-export async function postAts(file: File) {
-  const token = await getIdToken();
-  if (!token) throw new Error("You must be signed in");
-
+export async function postAts(file: File, jobDescription: string, userId: string) {
   const form = new FormData();
   form.append("file", file);
+  form.append("jobDescription", jobDescription);
+  form.append("userId", userId);
 
   const res = await fetch("/api/ats", {
     method: "POST",
-    headers: { Authorization: `Bearer ${token}` },
     body: form,
   });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error ?? "ATS scan failed");
-  return data as AtsAnalysis & { resumeId: string };
+  const json = await res.json();
+  if (!json.success) throw new Error(json.error ?? "ATS scan failed");
+  return json.data as AtsAnalysis & { resumeId: string };
 }
 
-export async function postImproveBullet(bullet: string) {
+export async function postImproveBullet(bullet: string, userId: string) {
   const res = await fetch("/api/improve-bullet", {
     method: "POST",
-    headers: await authJsonHeaders(),
-    body: JSON.stringify({ bullet }),
+    headers: jsonHeaders,
+    body: JSON.stringify({ bullet, userId }),
   });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error ?? "Failed to improve bullet");
-  return data as { resultId: string; input: string; output: string };
+  const json = await res.json();
+  if (!json.success) throw new Error(json.error ?? "Failed to improve bullet");
+  return json.data as BulletImproverDoc;
 }
 
-export async function postRoadmap(role: string, timeframe?: string) {
+export async function postRoadmap(roleId: string, year: string, level: string) {
   const res = await fetch("/api/roadmap", {
     method: "POST",
-    headers: await authJsonHeaders(),
-    body: JSON.stringify({ role, timeframe }),
+    headers: jsonHeaders,
+    body: JSON.stringify({ roleId, year, level }),
   });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error ?? "Failed to generate roadmap");
-  return data as RoadmapContent & { resultId: string };
+  const json = await res.json();
+  if (!json.success) throw new Error(json.error ?? "Failed to load roadmap");
+  return json.data as CareerRoadmap;
 }
 
-export async function postInterview(body: {
-  role: string;
-  difficulty: string;
-  existing?: InterviewContent;
-  resultId?: string;
-}) {
+export async function postInterview(roleId: string, level: string) {
   const res = await fetch("/api/interview", {
     method: "POST",
-    headers: await authJsonHeaders(),
-    body: JSON.stringify(body),
+    headers: jsonHeaders,
+    body: JSON.stringify({ roleId, level }),
   });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.error ?? "Failed to generate questions");
-  return data as InterviewContent & { resultId: string };
+  const json = await res.json();
+  if (!json.success) throw new Error(json.error ?? "Failed to load interview data");
+  return json.data;
+}
+
+export async function postInterviewV2(roleId: string, type: "subjects" | "coding" | "viva" | "companies" | "all" = "all") {
+  const res = await fetch("/api/interview-v2", {
+    method: "POST",
+    headers: jsonHeaders,
+    body: JSON.stringify({ roleId, type }),
+  });
+  const json = await res.json();
+  if (!json.success) throw new Error(json.error ?? "Failed to load V2 interview data");
+  return json.data;
+}
+
+export async function getInterviewTopic(roleId: string, topicSlug: string) {
+  const res = await fetch(`/api/interview-topic?roleId=${roleId}&topicSlug=${topicSlug}`, {
+    method: "GET",
+    headers: jsonHeaders
+  });
+  const json = await res.json();
+  if (!json.success) throw new Error(json.error ?? "Failed to load detailed topic page");
+  return json.data;
 }
 
 export async function ensureUser() {
-  const token = await getIdToken();
-  if (!token) return;
-  await fetch("/api/users/ensure", {
-    method: "POST",
-    headers: { Authorization: `Bearer ${token}` },
-  });
+  // Bypassed for development
+  return;
 }

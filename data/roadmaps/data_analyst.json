@@ -1,0 +1,238 @@
+{
+  "roleId": "data_analyst",
+  "title": "Data Analyst",
+  "demand": "High",
+  "estimatedMonths": 6,
+  "toolStack": {
+    "Core Technologies": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "Development Tools": [
+      "VS Code",
+      "GitHub",
+      "Docker",
+      "Postman"
+    ],
+    "AI Tools": [
+      "ChatGPT",
+      "Claude",
+      "Cursor",
+      "GitHub Copilot"
+    ],
+    "Deployment Tools": [
+      "AWS",
+      "Vercel",
+      "Heroku",
+      "GitHub Actions"
+    ]
+  },
+  "stages": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "description": "Core concepts for data_analyst.",
+      "estimatedWeeks": 4,
+      "skills": [
+        {
+          "name": "Programming Basics",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Variables",
+            "Loops",
+            "Functions",
+            "OOP"
+          ],
+          "miniProject": {
+            "name": "CLI Tool",
+            "description": "Apply your knowledge of Programming Basics in a practical scenario."
+          }
+        },
+        {
+          "name": "Version Control",
+          "category": "Tools",
+          "difficulty": "Intermediate",
+          "estimatedHours": 10,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Git",
+            "GitHub",
+            "Branching",
+            "PRs"
+          ],
+          "miniProject": {
+            "name": "Open Source PR",
+            "description": "Apply your knowledge of Version Control in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "title": "Core Skills",
+      "description": "Mastering the tools of data_analyst.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "Framework Architecture",
+          "category": "Core",
+          "difficulty": "Intermediate",
+          "estimatedHours": 40,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Components",
+            "Routing",
+            "State",
+            "APIs"
+          ],
+          "miniProject": {
+            "name": "Medium Project",
+            "description": "Apply your knowledge of Framework Architecture in a practical scenario."
+          }
+        },
+        {
+          "name": "Database Integration",
+          "category": "Data",
+          "difficulty": "Intermediate",
+          "estimatedHours": 30,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "SQL",
+            "NoSQL",
+            "ORMs"
+          ],
+          "miniProject": {
+            "name": "CRUD App",
+            "description": "Apply your knowledge of Database Integration in a practical scenario."
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Advanced Projects",
+      "description": "Building production ready systems.",
+      "estimatedWeeks": 6,
+      "skills": [
+        {
+          "name": "Deployment & CI/CD",
+          "category": "DevOps",
+          "difficulty": "Intermediate",
+          "estimatedHours": 20,
+          "importanceScore": 10,
+          "prerequisites": [],
+          "resources": [
+            {
+              "name": "Official Documentation",
+              "url": "#",
+              "type": "docs"
+            },
+            {
+              "name": "Crash Course",
+              "url": "#",
+              "type": "video"
+            }
+          ],
+          "subtopics": [
+            "Docker",
+            "Actions",
+            "Cloud Hosting"
+          ],
+          "miniProject": {
+            "name": "Deployed App",
+            "description": "Apply your knowledge of Deployment & CI/CD in a practical scenario."
+          }
+        }
+      ],
+      "projects": [
+        {
+          "name": "Capstone Project",
+          "difficulty": "Advanced",
+          "description": "End-to-end data_analyst system.",
+          "skillsApplied": [
+            "Framework Architecture",
+            "Database Integration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "title": "Interview Prep",
+      "description": "Technical questions and system design.",
+      "estimatedWeeks": 4,
+      "topics": [
+        "LeetCode Practice",
+        "System Design",
+        "Behavioral (STAR)"
+      ]
+    },
+    {
+      "id": "job",
+      "title": "Job Readiness",
+      "description": "Applying and optimizing.",
+      "estimatedWeeks": 2,
+      "topics": [
+        "Resume Optimization",
+        "Mock Interviews"
+      ]
+    }
+  ]
+}

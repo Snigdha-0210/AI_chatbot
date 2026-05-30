@@ -1,0 +1,55 @@
+{
+  "roleId": "sre_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "Monitoring",
+  "topicOverview": "An in-depth deep dive into Monitoring. Mastering this is critical for passing technical interviews for SRE Engineer roles.",
+  "whyItMatters": "Monitoring is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Prometheus",
+    "Grafana"
+  ],
+  "examples": [
+    "Implementing Monitoring in a real-world scenario",
+    "Handling edge cases in Monitoring"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Monitoring.",
+    "Fix the bug in the given Monitoring snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Monitoring to a 5-year-old.",
+    "What are the pros and cons of Monitoring?",
+    "How does Monitoring handle memory management?"
+  ],
+  "miniProjects": [
+    "Monitoring Implementation",
+    "Advanced Monitoring Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Monitoring into a microservice",
+    "Scale Monitoring for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Monitoring Documentation",
+      "url": "https://www.google.com/search?q=Monitoring+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Monitoring Crash Course",
+      "url": "https://youtube.com/results?search_query=Monitoring+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Monitoring Interview Questions",
+      "url": "https://www.google.com/search?q=Monitoring+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Monitoring",
+    "How Amazon asks about Monitoring"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

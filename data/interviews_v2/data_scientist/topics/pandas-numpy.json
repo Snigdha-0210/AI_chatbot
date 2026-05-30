@@ -1,0 +1,58 @@
+{
+  "roleId": "data_scientist",
+  "subjectName": "Data Analysis",
+  "topicName": "Pandas & NumPy",
+  "topicOverview": "An in-depth deep dive into Pandas & NumPy. Mastering this is critical for passing technical interviews for Data Scientist roles.",
+  "whyItMatters": "Pandas & NumPy is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Series",
+    "DataFrames",
+    "Filtering",
+    "Grouping",
+    "Vectorization"
+  ],
+  "examples": [
+    "Implementing Pandas & NumPy in a real-world scenario",
+    "Handling edge cases in Pandas & NumPy"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Pandas & NumPy.",
+    "Fix the bug in the given Pandas & NumPy snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Pandas & NumPy to a 5-year-old.",
+    "What are the pros and cons of Pandas & NumPy?",
+    "How does Pandas & NumPy handle memory management?"
+  ],
+  "miniProjects": [
+    "Data Cleaning Pipeline",
+    "Advanced Pandas & NumPy Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Pandas & NumPy into a microservice",
+    "Scale Pandas & NumPy for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Pandas & NumPy Documentation",
+      "url": "https://www.google.com/search?q=Pandas%20%26%20NumPy+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Pandas & NumPy Crash Course",
+      "url": "https://youtube.com/results?search_query=Pandas%20%26%20NumPy+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Pandas & NumPy Interview Questions",
+      "url": "https://www.google.com/search?q=Pandas%20%26%20NumPy+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Pandas & NumPy",
+    "How Amazon asks about Pandas & NumPy"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "40 Hours"
+}

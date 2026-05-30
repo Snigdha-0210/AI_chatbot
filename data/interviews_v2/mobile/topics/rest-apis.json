@@ -1,0 +1,56 @@
+{
+  "roleId": "mobile",
+  "subjectName": "Intermediate Skills & Backend",
+  "topicName": "REST APIs",
+  "topicOverview": "An in-depth deep dive into REST APIs. Mastering this is critical for passing technical interviews for Mobile App Developer roles.",
+  "whyItMatters": "REST APIs is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "HTTP Package",
+    "JSON Serialization",
+    "Error Handling"
+  ],
+  "examples": [
+    "Implementing REST APIs in a real-world scenario",
+    "Handling edge cases in REST APIs"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating REST APIs.",
+    "Fix the bug in the given REST APIs snippet."
+  ],
+  "interviewQuestions": [
+    "Explain REST APIs to a 5-year-old.",
+    "What are the pros and cons of REST APIs?",
+    "How does REST APIs handle memory management?"
+  ],
+  "miniProjects": [
+    "Weather App (API)",
+    "Advanced REST APIs Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate REST APIs into a microservice",
+    "Scale REST APIs for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "REST APIs Documentation",
+      "url": "https://www.google.com/search?q=REST%20APIs+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "REST APIs Crash Course",
+      "url": "https://youtube.com/results?search_query=REST%20APIs+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "REST APIs Interview Questions",
+      "url": "https://www.google.com/search?q=REST%20APIs+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests REST APIs",
+    "How Amazon asks about REST APIs"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "25 Hours"
+}

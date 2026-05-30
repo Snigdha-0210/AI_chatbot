@@ -1,0 +1,57 @@
+{
+  "roleId": "data_scientist",
+  "subjectName": "Data Analysis",
+  "topicName": "Data Visualization",
+  "topicOverview": "An in-depth deep dive into Data Visualization. Mastering this is critical for passing technical interviews for Data Scientist roles.",
+  "whyItMatters": "Data Visualization is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Matplotlib",
+    "Seaborn",
+    "Plotly",
+    "Dashboard Design"
+  ],
+  "examples": [
+    "Implementing Data Visualization in a real-world scenario",
+    "Handling edge cases in Data Visualization"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Data Visualization.",
+    "Fix the bug in the given Data Visualization snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Data Visualization to a 5-year-old.",
+    "What are the pros and cons of Data Visualization?",
+    "How does Data Visualization handle memory management?"
+  ],
+  "miniProjects": [
+    "Sales Dashboard",
+    "Advanced Data Visualization Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Data Visualization into a microservice",
+    "Scale Data Visualization for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Data Visualization Documentation",
+      "url": "https://www.google.com/search?q=Data%20Visualization+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Data Visualization Crash Course",
+      "url": "https://youtube.com/results?search_query=Data%20Visualization+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Data Visualization Interview Questions",
+      "url": "https://www.google.com/search?q=Data%20Visualization+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Data Visualization",
+    "How Amazon asks about Data Visualization"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "30 Hours"
+}

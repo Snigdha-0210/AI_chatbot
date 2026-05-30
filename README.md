@@ -12,9 +12,9 @@ A production-ready AI SaaS platform designed for college students, featuring a C
 
 ## 🚀 Features
 
-- **Google Sign-In**: Firebase Authentication integrated with user profile synchronization in Firestore.
+- **Passwordless Authentication**: Secure Email OTP login system powered by Nodemailer and Firebase Client SDK.
 - **Interactive Dashboard**: Displays latest ATS scores, AI chat interaction counts, and recent user activity.
-- **AI Career Coach Chat**: ChatGPT-style persistent chat interface with full history, responsive sidebar, and custom routes (`/chat/[id]`).
+- **AI Career Coach Chat**: Gemini-powered persistent chat interface with full history, responsive sidebar, and custom routes (`/chat/[id]`).
 - **ATS Resume Scanner**: PDF parser backend that checks resumes, highlights missing keywords, assesses strengths and weaknesses, and logs scan history.
 - **Resume Bullet Optimizer**: AI-driven tool to rewrite weak resume bullet points into strong, results-focused, and ATS-optimized statements.
 - **Career & Skill Roadmaps**: Generates personalized learning paths with skills, project suggestions, and a structured roadmap/timeline.
@@ -70,13 +70,15 @@ Fill in the following variables:
 
 | Variable | Description / Source |
 |:---|:---|
-| `OPENAI_API_KEY` | [OpenAI API Keys](https://platform.openai.com/api-keys) |
+| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/app/apikey) |
 | `NEXT_PUBLIC_FIREBASE_*` | Firebase Console → Project Settings → Web App Config |
-| `FIREBASE_SERVICE_ACCOUNT_JSON` | Firebase Console → Service Accounts → Generate Private Key (parsed as a single line) |
+| `EMAIL_USER` | Your Gmail address (e.g., `you@gmail.com`) for Nodemailer OTP delivery |
+| `EMAIL_PASSWORD` | 16-Digit Google App Password (2FA must be enabled) |
+| `EMAIL_FROM` | Display name for OTP emails (e.g., `"CampusCopilot" <you@gmail.com>`) |
 
 ### 3. Firebase Configuration
 1. Go to the [Firebase Console](https://console.firebase.google.com/) and create a project.
-2. Enable **Google Sign-In** under **Authentication → Sign-in method**.
+2. Enable **Email/Password Authentication**.
 3. Create a **Firestore Database** and a **Storage Bucket**.
 4. Deploy the rules and indexes locally using Firebase CLI:
    ```bash
@@ -134,11 +136,13 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## 🚀 Deployment
 
-### Deploy on Vercel
-1. Import your GitHub repository to [Vercel](https://vercel.com).
-2. Configure all environment variables matching your `.env.local`.
-3. Put the raw service account JSON string as-is into `FIREBASE_SERVICE_ACCOUNT_JSON`.
-4. Click **Deploy**. Vercel will build the Next.js app automatically.
+### Deploy on Vercel (Recommended)
+This Next.js application is designed to be hosted seamlessly on Vercel without requiring the Firebase Admin SDK.
+
+1. **Option A (GitHub):** Import your GitHub repository to [Vercel](https://vercel.com).
+2. **Option B (Vercel CLI):** Run `npm i -g vercel` then `vercel` in your terminal to deploy directly.
+3. Configure all environment variables matching your `.env.local` inside the Vercel Dashboard (Settings → Environment Variables).
+4. Click **Deploy**. Vercel will build the Next.js app and deploy it to their global edge network.
 5. **Authorized Domains**: Add your production Vercel URL (e.g., `your-app.vercel.app`) in the Firebase Authentication console under authorized domains.
 
 ---

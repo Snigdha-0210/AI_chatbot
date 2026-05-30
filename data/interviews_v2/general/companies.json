@@ -1,0 +1,107 @@
+[
+  {
+    "company": "Google",
+    "overview": "Google is known for hard algorithmic and graph problems.",
+    "interviewPattern": "1 Phone Screen, 4-5 Onsite (3 Tech, 1 System Design, 1 Googlyness)",
+    "rounds": [
+      "Phone Screen",
+      "Coding 1",
+      "Coding 2",
+      "System Design",
+      "Behavioral"
+    ],
+    "frequentlyAskedQuestions": [
+      "Graphs (DFS/BFS)",
+      "Dynamic Programming",
+      "Trees"
+    ],
+    "expectedSkills": [
+      "Advanced DSA",
+      "System Design",
+      "Scalability",
+      "Problem Solving"
+    ],
+    "difficultyLevel": "Very Hard",
+    "preparationStrategy": "Focus heavily on LeetCode Hard problems, especially Graphs and DP. Study the system design primer deeply.",
+    "salaryRange": "$150k - $300k+"
+  },
+  {
+    "company": "Amazon",
+    "overview": "Amazon heavily weights their Leadership Principles (LPs) alongside technical skills.",
+    "interviewPattern": "1 Online Assessment (OA), 4 Onsite (Coding + LPs, System Design)",
+    "rounds": [
+      "OA",
+      "Coding + LP",
+      "Coding + LP",
+      "System Design",
+      "Bar Raiser"
+    ],
+    "frequentlyAskedQuestions": [
+      "Arrays & Strings",
+      "Trees",
+      "Object Oriented Design"
+    ],
+    "expectedSkills": [
+      "Data Structures",
+      "Leadership Principles",
+      "OOD",
+      "System Design"
+    ],
+    "difficultyLevel": "Hard",
+    "preparationStrategy": "Prepare STAR method stories for all 16 Leadership Principles. Practice standard LeetCode Mediums.",
+    "salaryRange": "$130k - $250k+"
+  },
+  {
+    "company": "Microsoft",
+    "overview": "Microsoft focuses on clean code, testing, and practical problem solving.",
+    "interviewPattern": "1 Codility OA, 3-4 Onsite Rounds (Technical + System Design)",
+    "rounds": [
+      "OA",
+      "Technical 1",
+      "Technical 2",
+      "System Design / Hiring Manager"
+    ],
+    "frequentlyAskedQuestions": [
+      "Linked Lists",
+      "Arrays",
+      "String Manipulation",
+      "System Design"
+    ],
+    "expectedSkills": [
+      "Clean Code",
+      "Testing",
+      "System Design",
+      "Communication"
+    ],
+    "difficultyLevel": "Hard",
+    "preparationStrategy": "Focus on writing production-ready code. Practice Strings and Arrays.",
+    "salaryRange": "$120k - $220k+"
+  },
+  {
+    "company": "Meta",
+    "overview": "Meta asks very standard LeetCode questions but expects bug-free code extremely fast.",
+    "interviewPattern": "1 Phone Screen, 4 Onsite (2 Coding, 1 System Design, 1 Behavioral)",
+    "rounds": [
+      "Phone Screen",
+      "Ninja (Coding 1)",
+      "Ninja (Coding 2)",
+      "Pirate (System Design)",
+      "Jedi (Behavioral)"
+    ],
+    "frequentlyAskedQuestions": [
+      "Arrays",
+      "Hash Maps",
+      "Binary Trees",
+      "Two Pointers"
+    ],
+    "expectedSkills": [
+      "Speed",
+      "Accuracy",
+      "System Design",
+      "Product Sense"
+    ],
+    "difficultyLevel": "Very Hard",
+    "preparationStrategy": "Solve top 50 Meta tagged questions on LeetCode. Speed is critical.",
+    "salaryRange": "$160k - $320k+"
+  }
+]

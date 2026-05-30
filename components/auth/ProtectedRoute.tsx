@@ -9,8 +9,17 @@ export function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { user, loading } = useAuth();
   const router = useRouter();
 
+  console.log("ProtectedRoute -> User:", user);
+  console.log("ProtectedRoute -> Loading:", loading);
+
   useEffect(() => {
-    if (!loading && !user) router.replace("/login");
+    if (!loading) {
+      if (!user) {
+        router.replace("/login");
+      } else if (!user.emailVerified) {
+        router.replace("/verify-otp");
+      }
+    }
   }, [user, loading, router]);
 
   if (loading) {
@@ -21,6 +30,6 @@ export function ProtectedRoute({ children }: { children: React.ReactNode }) {
     );
   }
 
-  if (!user) return null;
+  if (!user || !user.emailVerified) return null;
   return <>{children}</>;
 }

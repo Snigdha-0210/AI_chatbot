@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Foundations",
+    "description": "Database fundamentals.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "SQL",
+        "theory": [
+          "Queries",
+          "Joins",
+          "Subqueries"
+        ],
+        "miniProjects": [
+          "SQL Implementation",
+          "Advanced SQL Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain SQL to a 5-year-old.",
+          "What are the pros and cons of SQL?",
+          "How does SQL handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "sql"
+      },
+      {
+        "name": "Database Design",
+        "theory": [
+          "Normalization",
+          "ER Diagrams",
+          "Schema Design"
+        ],
+        "miniProjects": [
+          "Database Design Implementation",
+          "Advanced Database Design Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Database Design to a 5-year-old.",
+          "What are the pros and cons of Database Design?",
+          "How does Database Design handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "database-design"
+      },
+      {
+        "name": "Transactions",
+        "theory": [
+          "ACID Properties",
+          "Isolation Levels"
+        ],
+        "miniProjects": [
+          "Transactions Implementation",
+          "Advanced Transactions Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Transactions to a 5-year-old.",
+          "What are the pros and cons of Transactions?",
+          "How does Transactions handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "transactions"
+      }
+    ]
+  },
+  {
+    "name": "Core Skills",
+    "description": "Advanced optimization.",
+    "whyItMatters": "Core Skills is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Advanced",
+    "resources": [
+      {
+        "title": "Core Skills Documentation",
+        "url": "https://www.google.com/search?q=Core%20Skills+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Core Skills Crash Course",
+        "url": "https://youtube.com/results?search_query=Core%20Skills+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Core Skills Interview Questions",
+        "url": "https://www.google.com/search?q=Core%20Skills+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Core Skills?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Core Skills?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Indexing",
+        "theory": [
+          "B-Trees",
+          "Hash Indexes"
+        ],
+        "miniProjects": [
+          "Indexing Implementation",
+          "Advanced Indexing Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Indexing to a 5-year-old.",
+          "What are the pros and cons of Indexing?",
+          "How does Indexing handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "indexing"
+      },
+      {
+        "name": "Partitioning & Sharding",
+        "theory": [
+          "Horizontal",
+          "Vertical"
+        ],
+        "miniProjects": [
+          "Partitioning & Sharding Implementation",
+          "Advanced Partitioning & Sharding Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Partitioning & Sharding to a 5-year-old.",
+          "What are the pros and cons of Partitioning & Sharding?",
+          "How does Partitioning & Sharding handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "partitioning-sharding"
+      },
+      {
+        "name": "Replication",
+        "theory": [
+          "Master-Slave",
+          "Multi-Master"
+        ],
+        "miniProjects": [
+          "Replication Implementation",
+          "Advanced Replication Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Replication to a 5-year-old.",
+          "What are the pros and cons of Replication?",
+          "How does Replication handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "replication"
+      },
+      {
+        "name": "Stored Procedures",
+        "theory": [
+          "Triggers",
+          "Functions"
+        ],
+        "miniProjects": [
+          "Stored Procedures Implementation",
+          "Advanced Stored Procedures Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Stored Procedures to a 5-year-old.",
+          "What are the pros and cons of Stored Procedures?",
+          "How does Stored Procedures handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "stored-procedures"
+      }
+    ]
+  }
+]

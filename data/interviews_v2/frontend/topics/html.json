@@ -1,0 +1,60 @@
+{
+  "roleId": "frontend",
+  "subjectName": "Foundations",
+  "topicName": "HTML",
+  "topicOverview": "An in-depth deep dive into HTML. Mastering this is critical for passing technical interviews for Frontend Developer roles.",
+  "whyItMatters": "HTML is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "HTML Structure",
+    "Semantic HTML",
+    "Forms",
+    "Tables",
+    "Accessibility",
+    "SEO Basics",
+    "Best Practices"
+  ],
+  "examples": [
+    "Implementing HTML in a real-world scenario",
+    "Handling edge cases in HTML"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating HTML.",
+    "Fix the bug in the given HTML snippet."
+  ],
+  "interviewQuestions": [
+    "Explain HTML to a 5-year-old.",
+    "What are the pros and cons of HTML?",
+    "How does HTML handle memory management?"
+  ],
+  "miniProjects": [
+    "Personal Portfolio Page",
+    "Advanced HTML Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate HTML into a microservice",
+    "Scale HTML for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "HTML Official Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "type": "docs"
+    },
+    {
+      "title": "Full HTML Course",
+      "url": "https://www.youtube.com/watch?v=kUMe1FH4CGY",
+      "type": "video"
+    },
+    {
+      "title": "HTML Practice Labs",
+      "url": "https://www.frontendmentor.io/challenges?types=html",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests HTML",
+    "How Amazon asks about HTML"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "10 Hours"
+}

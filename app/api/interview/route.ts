@@ -1,65 +1,60 @@
 import { NextRequest, NextResponse } from "next/server";
-import { verifyBearerToken } from "@/utils/auth";
-import { COLLECTIONS } from "@/utils/constants";
-import { getAdminDb } from "@/utils/firebase-admin";
-import { saveAiResult } from "@/utils/firestore-server";
-import { generateInterviewQuestions } from "@/lib/openai";
-import type { InterviewContent } from "@/types";
+import fs from "fs";
+import path from "path";
 
 export const runtime = "nodejs";
 
 export async function POST(req: NextRequest) {
   try {
-    const userId = await verifyBearerToken(req.headers.get("authorization"));
-    const { role, difficulty, existing, resultId } = await req.json();
+    const body = await req.json();
+    const roleId = body.roleId as string;
+    const level = body.level as string || "Entry-Level";
 
-    if (!role?.trim()) {
-      return NextResponse.json({ error: "Role is required" }, { status: 400 });
-    }
-    const diff = ["easy", "medium", "hard"].includes(difficulty)
-      ? difficulty
-      : "medium";
-
-    const roleTrimmed = role.trim();
-    const generated = await generateInterviewQuestions(
-      roleTrimmed,
-      diff,
-      existing
-    );
-
-    let content: InterviewContent;
-    let savedId: string;
-
-    if (existing && resultId) {
-      content = {
-        role: roleTrimmed,
-        difficulty: diff,
-        technical: [...(existing.technical ?? []), ...generated.technical],
-        behavioral: [...(existing.behavioral ?? []), ...generated.behavioral],
-      };
-      const ref = getAdminDb().collection(COLLECTIONS.aiResults).doc(resultId);
-      const snap = await ref.get();
-      if (!snap.exists || snap.data()?.userId !== userId) {
-        throw new Error("Result not found");
-      }
-      await ref.update({ content });
-      savedId = resultId;
-    } else {
-      content = {
-        role: roleTrimmed,
-        difficulty: diff,
-        technical: generated.technical,
-        behavioral: generated.behavioral,
-      };
-      const label = `${roleTrimmed} · ${diff}`;
-      savedId = await saveAiResult(userId, "interview", label, content);
+    if (!roleId?.trim()) {
+      return NextResponse.json(
+        { success: false, error: "RoleId is required" },
+        { status: 400 }
+      );
     }
 
-    return NextResponse.json({ resultId: savedId, ...content });
+    const dataDir = path.join(process.cwd(), "data", "interviews");
+    let targetFile = path.join(dataDir, `${roleId}.json`);
+
+    if (!fs.existsSync(targetFile)) {
+      console.warn(`[api/interview] Missing dataset for role: ${roleId}. Falling back to general.json`);
+      targetFile = path.join(dataDir, `general.json`);
+    }
+
+    if (!fs.existsSync(targetFile)) {
+      return NextResponse.json(
+        { success: false, error: "Interview datasets missing from server" },
+        { status: 500 }
+      );
+    }
+
+    const fileContent = fs.readFileSync(targetFile, "utf-8");
+    const dataset = JSON.parse(fileContent);
+
+    // Dynamic Level Filtering
+    // If it's an internship, we can filter out Hard coding questions
+    if (level === "Internship") {
+      dataset.technicalQuestions = dataset.technicalQuestions.filter((q: any) => q.difficulty !== "Hard");
+      dataset.codingQuestions = dataset.codingQuestions.filter((q: any) => q.difficulty !== "Hard");
+    } else if (level === "Senior") {
+      // If senior, filter out Easy
+      dataset.technicalQuestions = dataset.technicalQuestions.filter((q: any) => q.difficulty !== "Easy");
+      dataset.codingQuestions = dataset.codingQuestions.filter((q: any) => q.difficulty !== "Easy");
+    }
+
+    return NextResponse.json({
+      success: true,
+      data: dataset
+    });
   } catch (err) {
     console.error("[api/interview]", err);
-    const msg = err instanceof Error ? err.message : "Failed to generate questions";
-    const status = msg.includes("Authorization") ? 401 : 500;
-    return NextResponse.json({ error: msg }, { status });
+    return NextResponse.json(
+      { success: false, error: "Unexpected error" },
+      { status: 500 }
+    );
   }
 }

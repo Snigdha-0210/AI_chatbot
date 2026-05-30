@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Foundations",
+    "description": "System basics.",
+    "whyItMatters": "Foundations is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Intermediate",
+    "resources": [
+      {
+        "title": "Foundations Documentation",
+        "url": "https://www.google.com/search?q=Foundations+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Foundations Crash Course",
+        "url": "https://youtube.com/results?search_query=Foundations+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Foundations Interview Questions",
+        "url": "https://www.google.com/search?q=Foundations+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Foundations?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Foundations?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Linux",
+        "theory": [
+          "Command Line",
+          "Permissions",
+          "Bash Scripting"
+        ],
+        "miniProjects": [
+          "Linux Implementation",
+          "Advanced Linux Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Linux to a 5-year-old.",
+          "What are the pros and cons of Linux?",
+          "How does Linux handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "linux"
+      },
+      {
+        "name": "Networking",
+        "theory": [
+          "TCP/IP",
+          "DNS",
+          "Load Balancing"
+        ],
+        "miniProjects": [
+          "Networking Implementation",
+          "Advanced Networking Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Networking to a 5-year-old.",
+          "What are the pros and cons of Networking?",
+          "How does Networking handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "networking"
+      },
+      {
+        "name": "Cloud Basics",
+        "theory": [
+          "AWS",
+          "GCP"
+        ],
+        "miniProjects": [
+          "Cloud Basics Implementation",
+          "Advanced Cloud Basics Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Cloud Basics to a 5-year-old.",
+          "What are the pros and cons of Cloud Basics?",
+          "How does Cloud Basics handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "cloud-basics"
+      }
+    ]
+  },
+  {
+    "name": "Core Skills",
+    "description": "Reliability practices.",
+    "whyItMatters": "Core Skills is absolutely fundamental to succeeding in technical interviews. It forms the backbone of how systems scale and operate under pressure.",
+    "difficulty": "Beginner",
+    "resources": [
+      {
+        "title": "Core Skills Documentation",
+        "url": "https://www.google.com/search?q=Core%20Skills+documentation",
+        "type": "docs"
+      },
+      {
+        "title": "Core Skills Crash Course",
+        "url": "https://youtube.com/results?search_query=Core%20Skills+crash+course",
+        "type": "video"
+      },
+      {
+        "title": "Core Skills Interview Questions",
+        "url": "https://www.google.com/search?q=Core%20Skills+interview+questions",
+        "type": "practice"
+      }
+    ],
+    "quizzes": [
+      {
+        "question": "Which of the following is a key characteristic of Core Skills?",
+        "options": [
+          "Scalability",
+          "Syntax errors",
+          "Memory leaks",
+          "Deprecation"
+        ],
+        "answer": "Scalability"
+      },
+      {
+        "question": "When should you NOT use Core Skills?",
+        "options": [
+          "When speed matters",
+          "When data is small",
+          "When deploying to cloud",
+          "Never"
+        ],
+        "answer": "When data is small"
+      }
+    ],
+    "topics": [
+      {
+        "name": "Monitoring",
+        "theory": [
+          "Prometheus",
+          "Grafana"
+        ],
+        "miniProjects": [
+          "Monitoring Implementation",
+          "Advanced Monitoring Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Monitoring to a 5-year-old.",
+          "What are the pros and cons of Monitoring?",
+          "How does Monitoring handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "monitoring"
+      },
+      {
+        "name": "Observability",
+        "theory": [
+          "Logging",
+          "Tracing",
+          "Metrics"
+        ],
+        "miniProjects": [
+          "Observability Implementation",
+          "Advanced Observability Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Observability to a 5-year-old.",
+          "What are the pros and cons of Observability?",
+          "How does Observability handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "observability"
+      },
+      {
+        "name": "Incident Management",
+        "theory": [
+          "Runbooks",
+          "Postmortems"
+        ],
+        "miniProjects": [
+          "Incident Management Implementation",
+          "Advanced Incident Management Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Incident Management to a 5-year-old.",
+          "What are the pros and cons of Incident Management?",
+          "How does Incident Management handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "incident-management"
+      },
+      {
+        "name": "Reliability Engineering",
+        "theory": [
+          "SLIs",
+          "SLOs",
+          "Error Budgets"
+        ],
+        "miniProjects": [
+          "Reliability Engineering Implementation",
+          "Advanced Reliability Engineering Simulator"
+        ],
+        "interviewQuestions": [
+          "Explain Reliability Engineering to a 5-year-old.",
+          "What are the pros and cons of Reliability Engineering?",
+          "How does Reliability Engineering handle memory management?"
+        ],
+        "estimatedHours": 20,
+        "slug": "reliability-engineering"
+      }
+    ]
+  }
+]

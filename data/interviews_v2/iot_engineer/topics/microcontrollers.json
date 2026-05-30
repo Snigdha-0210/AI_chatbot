@@ -1,0 +1,54 @@
+{
+  "roleId": "iot_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Microcontrollers",
+  "topicOverview": "An in-depth deep dive into Microcontrollers. Mastering this is critical for passing technical interviews for IoT Engineer roles.",
+  "whyItMatters": "Microcontrollers is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Architecture"
+  ],
+  "examples": [
+    "Implementing Microcontrollers in a real-world scenario",
+    "Handling edge cases in Microcontrollers"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Microcontrollers.",
+    "Fix the bug in the given Microcontrollers snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Microcontrollers to a 5-year-old.",
+    "What are the pros and cons of Microcontrollers?",
+    "How does Microcontrollers handle memory management?"
+  ],
+  "miniProjects": [
+    "Microcontrollers Implementation",
+    "Advanced Microcontrollers Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Microcontrollers into a microservice",
+    "Scale Microcontrollers for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Microcontrollers Documentation",
+      "url": "https://www.google.com/search?q=Microcontrollers+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Microcontrollers Crash Course",
+      "url": "https://youtube.com/results?search_query=Microcontrollers+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Microcontrollers Interview Questions",
+      "url": "https://www.google.com/search?q=Microcontrollers+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Microcontrollers",
+    "How Amazon asks about Microcontrollers"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

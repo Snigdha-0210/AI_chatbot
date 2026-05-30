@@ -1,0 +1,56 @@
+{
+  "roleId": "sre_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Linux",
+  "topicOverview": "An in-depth deep dive into Linux. Mastering this is critical for passing technical interviews for SRE Engineer roles.",
+  "whyItMatters": "Linux is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Command Line",
+    "Permissions",
+    "Bash Scripting"
+  ],
+  "examples": [
+    "Implementing Linux in a real-world scenario",
+    "Handling edge cases in Linux"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Linux.",
+    "Fix the bug in the given Linux snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Linux to a 5-year-old.",
+    "What are the pros and cons of Linux?",
+    "How does Linux handle memory management?"
+  ],
+  "miniProjects": [
+    "Linux Implementation",
+    "Advanced Linux Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Linux into a microservice",
+    "Scale Linux for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Linux Documentation",
+      "url": "https://www.google.com/search?q=Linux+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Linux Crash Course",
+      "url": "https://youtube.com/results?search_query=Linux+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Linux Interview Questions",
+      "url": "https://www.google.com/search?q=Linux+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Linux",
+    "How Amazon asks about Linux"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

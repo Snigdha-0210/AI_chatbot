@@ -1,0 +1,56 @@
+{
+  "roleId": "embedded_systems",
+  "subjectName": "Core Skills",
+  "topicName": "Device Drivers",
+  "topicOverview": "An in-depth deep dive into Device Drivers. Mastering this is critical for passing technical interviews for Embedded Systems Engineer roles.",
+  "whyItMatters": "Device Drivers is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "I2C",
+    "SPI",
+    "UART"
+  ],
+  "examples": [
+    "Implementing Device Drivers in a real-world scenario",
+    "Handling edge cases in Device Drivers"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Device Drivers.",
+    "Fix the bug in the given Device Drivers snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Device Drivers to a 5-year-old.",
+    "What are the pros and cons of Device Drivers?",
+    "How does Device Drivers handle memory management?"
+  ],
+  "miniProjects": [
+    "Device Drivers Implementation",
+    "Advanced Device Drivers Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Device Drivers into a microservice",
+    "Scale Device Drivers for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Device Drivers Documentation",
+      "url": "https://www.google.com/search?q=Device%20Drivers+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Device Drivers Crash Course",
+      "url": "https://youtube.com/results?search_query=Device%20Drivers+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Device Drivers Interview Questions",
+      "url": "https://www.google.com/search?q=Device%20Drivers+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Device Drivers",
+    "How Amazon asks about Device Drivers"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

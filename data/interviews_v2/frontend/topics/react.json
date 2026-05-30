@@ -1,0 +1,61 @@
+{
+  "roleId": "frontend",
+  "subjectName": "Core Skills",
+  "topicName": "React",
+  "topicOverview": "An in-depth deep dive into React. Mastering this is critical for passing technical interviews for Frontend Developer roles.",
+  "whyItMatters": "React is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Components",
+    "Props",
+    "State",
+    "Hooks",
+    "Routing",
+    "API Calls",
+    "Context API",
+    "Performance Optimization"
+  ],
+  "examples": [
+    "Implementing React in a real-world scenario",
+    "Handling edge cases in React"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating React.",
+    "Fix the bug in the given React snippet."
+  ],
+  "interviewQuestions": [
+    "Explain React to a 5-year-old.",
+    "What are the pros and cons of React?",
+    "How does React handle memory management?"
+  ],
+  "miniProjects": [
+    "Task Management App",
+    "Advanced React Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate React into a microservice",
+    "Scale React for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "React Official Docs",
+      "url": "https://react.dev/",
+      "type": "docs"
+    },
+    {
+      "title": "Full React Course",
+      "url": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+      "type": "video"
+    },
+    {
+      "title": "React Practice Labs",
+      "url": "https://react-tutorial.app/",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests React",
+    "How Amazon asks about React"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "50 Hours"
+}

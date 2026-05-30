@@ -1,0 +1,57 @@
+{
+  "roleId": "deep_learning",
+  "subjectName": "Foundations",
+  "topicName": "Version Control",
+  "topicOverview": "Essential version control for collaborating with engineering teams.",
+  "whyItMatters": "Version Control is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Git Basics",
+    "GitHub Collaboration",
+    "Branching",
+    "Pull Requests"
+  ],
+  "examples": [
+    "Implementing Version Control in a real-world scenario",
+    "Handling edge cases in Version Control"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Version Control.",
+    "Fix the bug in the given Version Control snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Version Control to a 5-year-old.",
+    "What are the pros and cons of Version Control?",
+    "How does Version Control handle memory management?"
+  ],
+  "miniProjects": [
+    "Open Source PR",
+    "Advanced Version Control Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Version Control into a microservice",
+    "Scale Version Control for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Version Control Documentation",
+      "url": "https://www.google.com/search?q=Version%20Control+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Version Control Crash Course",
+      "url": "https://youtube.com/results?search_query=Version%20Control+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Version Control Interview Questions",
+      "url": "https://www.google.com/search?q=Version%20Control+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Version Control",
+    "How Amazon asks about Version Control"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "10 Hours"
+}

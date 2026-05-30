@@ -1,0 +1,55 @@
+{
+  "roleId": "iot_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Sensors",
+  "topicOverview": "An in-depth deep dive into Sensors. Mastering this is critical for passing technical interviews for IoT Engineer roles.",
+  "whyItMatters": "Sensors is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Digital",
+    "Analog"
+  ],
+  "examples": [
+    "Implementing Sensors in a real-world scenario",
+    "Handling edge cases in Sensors"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Sensors.",
+    "Fix the bug in the given Sensors snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Sensors to a 5-year-old.",
+    "What are the pros and cons of Sensors?",
+    "How does Sensors handle memory management?"
+  ],
+  "miniProjects": [
+    "Sensors Implementation",
+    "Advanced Sensors Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Sensors into a microservice",
+    "Scale Sensors for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Sensors Documentation",
+      "url": "https://www.google.com/search?q=Sensors+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Sensors Crash Course",
+      "url": "https://youtube.com/results?search_query=Sensors+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Sensors Interview Questions",
+      "url": "https://www.google.com/search?q=Sensors+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Sensors",
+    "How Amazon asks about Sensors"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

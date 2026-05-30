@@ -1,0 +1,55 @@
+{
+  "roleId": "qa_engineer",
+  "subjectName": "Core Skills",
+  "topicName": "API Testing",
+  "topicOverview": "An in-depth deep dive into API Testing. Mastering this is critical for passing technical interviews for QA Engineer roles.",
+  "whyItMatters": "API Testing is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Postman",
+    "REST Assured"
+  ],
+  "examples": [
+    "Implementing API Testing in a real-world scenario",
+    "Handling edge cases in API Testing"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating API Testing.",
+    "Fix the bug in the given API Testing snippet."
+  ],
+  "interviewQuestions": [
+    "Explain API Testing to a 5-year-old.",
+    "What are the pros and cons of API Testing?",
+    "How does API Testing handle memory management?"
+  ],
+  "miniProjects": [
+    "API Testing Implementation",
+    "Advanced API Testing Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate API Testing into a microservice",
+    "Scale API Testing for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "API Testing Documentation",
+      "url": "https://www.google.com/search?q=API%20Testing+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "API Testing Crash Course",
+      "url": "https://youtube.com/results?search_query=API%20Testing+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "API Testing Interview Questions",
+      "url": "https://www.google.com/search?q=API%20Testing+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests API Testing",
+    "How Amazon asks about API Testing"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}

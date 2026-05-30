@@ -1,0 +1,55 @@
+{
+  "roleId": "qa_engineer",
+  "subjectName": "Foundations",
+  "topicName": "Test Case Design",
+  "topicOverview": "An in-depth deep dive into Test Case Design. Mastering this is critical for passing technical interviews for QA Engineer roles.",
+  "whyItMatters": "Test Case Design is a core foundation of modern engineering. Interviewers use it as a proxy to test your deeper understanding of systems, performance, and best practices.",
+  "concepts": [
+    "Equivalence Partitioning",
+    "Boundary Value Analysis"
+  ],
+  "examples": [
+    "Implementing Test Case Design in a real-world scenario",
+    "Handling edge cases in Test Case Design"
+  ],
+  "practiceQuestions": [
+    "Write a program demonstrating Test Case Design.",
+    "Fix the bug in the given Test Case Design snippet."
+  ],
+  "interviewQuestions": [
+    "Explain Test Case Design to a 5-year-old.",
+    "What are the pros and cons of Test Case Design?",
+    "How does Test Case Design handle memory management?"
+  ],
+  "miniProjects": [
+    "Test Case Design Implementation",
+    "Advanced Test Case Design Simulator"
+  ],
+  "advancedProjects": [
+    "Integrate Test Case Design into a microservice",
+    "Scale Test Case Design for 10k concurrent users"
+  ],
+  "resources": [
+    {
+      "title": "Test Case Design Documentation",
+      "url": "https://www.google.com/search?q=Test%20Case%20Design+documentation",
+      "type": "docs"
+    },
+    {
+      "title": "Test Case Design Crash Course",
+      "url": "https://youtube.com/results?search_query=Test%20Case%20Design+crash+course",
+      "type": "video"
+    },
+    {
+      "title": "Test Case Design Interview Questions",
+      "url": "https://www.google.com/search?q=Test%20Case%20Design+interview+questions",
+      "type": "practice"
+    }
+  ],
+  "companyQuestions": [
+    "How Google tests Test Case Design",
+    "How Amazon asks about Test Case Design"
+  ],
+  "expectedDifficulty": "Intermediate",
+  "estimatedPreparationTime": "20 Hours"
+}
